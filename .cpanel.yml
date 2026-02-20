@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home2/Vitor390/public_html/
+    - export DEPLOYPATH=/home2/vitor390/public_html/
     - /bin/cp -R * $DEPLOYPATH
