@@ -1,7 +1,85 @@
 /* Reset CSS de Eric Meyer - versão reduzida */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,
-b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -11,127 +89,150 @@ b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, c
 }
 
 * {
-    /* Isso corrige o cálculo de largura para que o padding não "empurre" o conteúdo para fora */
-    box-sizing: border-box;
-    /* Definir a fonte padrão em todo o site*/
-    font-family: "Zalando Sans Expanded", sans-serif !important;
-    font-optical-sizing: auto;
-    font-style: normal;
+  /* Isso corrige o cálculo de largura para que o padding não "empurre" o conteúdo para fora */
+  box-sizing: border-box;
+  /* Definir a fonte padrão em todo o site*/
+  font-family: "Zalando Sans Expanded", sans-serif !important;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 /* Definições globais do site */
 body {
-    background-color: #1E1C2F !important; /* Cor escura do fundo */
-    color: #DAD3CD !important;            /* Cor clara dos textos */
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif; /* Ou a fonte que você estiver usando */
+  background-color: #1e1c2f !important;
+  /* Cor escura do fundo */
+  color: #dad3cd !important;
+  /* Cor clara dos textos */
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  /* Ou a fonte que você estiver usando */
 }
 
 /* Garante que títulos e parágrafos sigam a regra se não tiverem cores próprias */
-h1, h2, h3, h4, h5, h6, p, span, li {
-    color: #DAD3CD;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+li {
+  color: #dad3cd;
 }
 
 /* Ajuste opcional para os links não sumirem no fundo escuro */
 a {
-    color: #DAD3CD;
-    text-decoration: none;
-    transition: 0.1s;
+  color: #dad3cd;
+  text-decoration: none;
+  transition: 0.1s;
 }
 
 /* Mantendo sua regra de hover que definimos antes */
 a:hover {
-    color: #C83232 !important;
+  color: #c83232 !important;
 }
 
 .container {
-    /* Define a largura máxima que o conteúdo pode ter */
-    max-width: 1200px; 
-    
-    /* Centraliza a caixa no meio da tela */
-    margin-left: auto;
-    margin-right: auto;
-    
-    /* Margem de segurança para telas de celular (respiro lateral) */
-    padding-left: 20px;
-    padding-right: 20px;
-    
-    /* Garante que o container se comporte bem com o flexbox */
-    width: 100%;
+  /* Define a largura máxima que o conteúdo pode ter */
+  max-width: 1200px;
+
+  /* Centraliza a caixa no meio da tela */
+  margin-left: auto;
+  margin-right: auto;
+
+  /* Margem de segurança para telas de celular (respiro lateral) */
+  padding-left: 20px;
+  padding-right: 20px;
+
+  /* Garante que o container se comporte bem com o flexbox */
+  width: 100%;
 }
 
 header {
-    /*  Fixa o menu no topo */
-    position: fixed;
-    top: 0;
-    left: 0;
-    
-    /* Faz ocupar a largura inteira */
-    width: 100%;
-    
-    /* Estética (cores e altura) */
-    background-color: #2D1E36;
-    color: #DAD3CD;
-    padding: 20px 40px;
-    z-index: 1000; /* Garante que o menu fique por cima de tudo */
+  /*  Fixa o menu no topo */
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  /* Faz ocupar a largura inteira */
+  width: 100%;
+
+  /* Estética (cores e altura) */
+  background-color: #2d1e36;
+  color: #dad3cd;
+  padding: 20px 40px;
+  z-index: 1000;
+  /* Garante que o menu fique por cima de tudo */
 }
 
 nav {
-    display: flex; /* Coloca logo e links lado a lado */
-    justify-content: space-between; /* Empurra um para cada ponta */
-    align-items: center; /* Centraliza verticalmente */
+  display: flex;
+  /* Coloca logo e links lado a lado */
+  justify-content: space-between;
+  /* Empurra um para cada ponta */
+  align-items: center;
+  /* Centraliza verticalmente */
 }
 
 nav ul {
-    display: flex; /* Coloca os itens do menu em linha */
-    list-style: none;
+  display: flex;
+  /* Coloca os itens do menu em linha */
+  list-style: none;
 }
 
 nav ul li {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 
 nav ul li a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 main {
-    /* Como o menu está fixo, ele "flutua" sobre o site. Precisamos dar um espaço no topo do conteúdo principal. */
-    margin-top: 70px;
-    padding: 40px;
+  /* Como o menu está fixo, ele "flutua" sobre o site. Precisamos dar um espaço no topo do conteúdo principal. */
+  margin-top: 70px;
+  padding: 40px;
 }
 
 .logo img {
-    width: 120px;   /* Define o tamanho */
-    display: block; /* Remove um espaço vazio que imagens costumam criar embaixo */
-    transition: transform 0.1s ease; /* Efeito suave ao passar o mouse */
+  width: 120px;
+  /* Define o tamanho */
+  display: block;
+  /* Remove um espaço vazio que imagens costumam criar embaixo */
+  transition: transform 0.1s ease;
+  /* Efeito suave ao passar o mouse */
 }
 
 .logo img:hover {
-    transform: scale(1.05); /* O logo cresce levemente ao passar o mouse */
+  transform: scale(1.05);
+  /* O logo cresce levemente ao passar o mouse */
 }
 
 a:hover {
-    color: #C83232 !important; 
+  color: #c83232 !important;
 }
 
 /* Códigos para o footer */
 .main-footer {
-    width: 100%;
-    background-color: #2D1E36;
-    color: #DAD3CD;
-    display: flex;
-    justify-content: center; /* Centraliza o container interno na tela */
+  width: 100%;
+  background-color: #2d1e36;
+  color: #dad3cd;
+  display: flex;
+  justify-content: center;
+  /* Centraliza o container interno na tela */
 }
 
 .footer-container {
-    width: 100%;
-    max-width: 1200px; /* Ou a largura que você usa no seu header */
-    padding: 20px;   /* Respiro lateral para não colar no canto da tela em si */
-    
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  /* Ou a largura que você usa no seu header */
+  padding: 20px;
+  /* Respiro lateral para não colar no canto da tela em si */
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
