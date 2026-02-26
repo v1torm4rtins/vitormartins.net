@@ -59,6 +59,7 @@ input[type="checkbox"]:checked~nav {
   font-size: 18px;
 }
 
+
 @media screen and (min-width:768px) {
   header {
     padding: 40px 80px;
@@ -100,6 +101,7 @@ input[type="checkbox"]:checked~nav {
   }
 }
 
+
 @media screen and (min-width:1024px) {
   header {
     padding: 40px 120px;
@@ -117,11 +119,5 @@ input[type="checkbox"]:checked~nav {
 
   .img-mobile {
     display: none;
-  }
-}
-
-@media screen and (min-width:1920px) {
-  header {
-    padding: 40px 160px;
   }
 }

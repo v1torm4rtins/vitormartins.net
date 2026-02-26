@@ -1,0 +1,26 @@
+.hero-img {
+    height: 500px;
+    width: 100%;
+    background: url(../img/hero-bg-smartphone-2x.jpg) no-repeat center center/cover;
+}
+
+.hero h2 {
+    padding: 40px;
+    text-align: center;
+}
+
+
+@media screen and (min-width:768px) {
+    .hero-img {
+        height: 600px;
+        background: url(../img/hero-bg-tablet-2x.jpg) no-repeat center center/cover;
+    }
+}
+
+
+@media screen and (min-width:1024px) {
+    .hero-img {
+        height: 700px;
+        background: url(../img/hero-bg-desktop.jpg) no-repeat center center/cover;
+    }
+}
