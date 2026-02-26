@@ -1,77 +1,71 @@
 <!doctype html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vitor Martins</title>
-    <link rel="stylesheet" href="style.css" />
-    <link
-      rel="icon"
-      type="image/png"
-      href="images/favicon-red-vitor-martins.png"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <header>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vitor Martins</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="img/favicon-red-vitor-martins.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <a class="logo" href="index.html" title="voltar para a página inicial">
+      <img src="img/logo-white-vitor-martins.png" alt="Logotipo Vitor Martins" />
+    </a>
+    <div>
+      <img class="burger" src="img/burger-white-menu.png" alt="menu">
+      <nav>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="habilidades.html">Projetos</a></li>
+          <li><a href="habilidades.html">Habilidades</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="sobre" class="banner">
       <div class="container">
-        <nav>
-          <div class="logo">
-            <a href="/">
-              <img
-                src="images/logo-white-vitor-martins.png"
-                alt="Logotipo Vitor Martins"
-              />
-            </a>
-          </div>
-          <ul>
-            <li><a href="/">Início</a></li>
-            <li><a href="#">Projetos</a></li>
-            <li><a href="#">Habilidades</a></li>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Contato</a></li>
-          </ul>
-        </nav>
+        <h2>Olá, eu sou Vitor Martins</h2>
+        <p>Sou front-end e transformo ideias em realidade digital.</p>
       </div>
-    </header>
+    </section>
 
-    <main>
-      <section id="sobre" class="banner">
-        <div class="container">
-          <h2>Olá, eu sou Vitor Martins</h2>
-          <p>Sou front-end e transformo ideias em realidade digital.</p>
-        </div>
-      </section>
-
-      <section id="projetos">
-        <div class="container">
-          <h2>Meus Projetos</h2>
-          <article class="projeto-card">
-            <h3>Nome do Projeto 1</h3>
-            <p>Breve descrição do que você fez e tecnologias usadas.</p>
-            <a href="#">Ver detalhes</a>
-          </article>
-        </div>
-      </section>
-    </main>
-
-    <footer class="main-footer">
-      <div class="footer-container">
-        <p>
-          &copy; <span id="ano-atual"></span> - Desenvolvido por Vitor Martins
-        </p>
-        <div class="redes-sociais">
-          <a href="#">LinkedIn</a> |
-          <a href="#">GitHub</a>
-        </div>
+    <section id="projetos">
+      <div class="container">
+        <h2>Meus Projetos</h2>
+        <article class="projeto-card">
+          <h3>Nome do Projeto 1</h3>
+          <p>Breve descrição do que você fez e tecnologias usadas.</p>
+          <a href="#">Ver detalhes</a>
+        </article>
       </div>
-    </footer>
+    </section>
+  </main>
 
-    <script src="script.js"></script>
-  </body>
+  <footer class="main-footer">
+    <div class="footer-container">
+      <p>
+        &copy; <span id="ano-atual"></span> - Desenvolvido por Vitor Martins
+      </p>
+      <div class="redes-sociais">
+        <a href="#">LinkedIn</a> |
+        <a href="#">GitHub</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+
 </html>
