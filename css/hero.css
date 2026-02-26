@@ -1,0 +1,30 @@
+.hero-img {
+    height: 500px;
+    width: 100%;
+    background: url(../img/hero-bg-smartphone-2x.jpg) no-repeat;
+    background-size: cover;
+}
+
+@media screen and (min-width:768px) {
+    .hero-img {
+        height: 720px;
+        background: url(../img/hero-bg-tablet-2x.jpg) no-repeat;
+        background-size: cover;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .hero-img {
+        height: 720px;
+        background: url(../img/hero-bg-notebook.jpg) no-repeat;
+        background-size: cover;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .hero-img {
+        height: 720px;
+        background: url(../img/hero-bg-desktop.jpg) no-repeat;
+        background-size: cover;
+    }
+}
