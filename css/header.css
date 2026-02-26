@@ -1,0 +1,23 @@
+header {
+  background-color: var(--background-primary-color);
+  padding: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.logo {
+  display: inline-block;
+  width: 200px;
+  height: 51px;
+}
+
+.burger {
+  width: 35px;
+  height: 35px;
+}
+
+nav {
+  display: none;
+}
