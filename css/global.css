@@ -91,7 +91,7 @@ video {
   --secondary-color: #501A5E;
 
   --background-primary-color: #2D1E36;
-  --backgruond-secondary-color: #1E1C2F;
+  --background-secondary-color: #1E1C2F;
   --background-tertiary-color: #DAD3CD;
 
   --text-primary-color: #DAD3CD;
@@ -102,6 +102,6 @@ video {
   --menu-text-weight: 500;
 }
 
-* {
+body {
   font-family: "Zalando Sans Expanded", sans-serif !important;
 }
