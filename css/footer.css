@@ -4,15 +4,13 @@
   color: #dad3cd;
   display: flex;
   justify-content: center;
-  /* Centraliza o container interno na tela */
+
 }
 
 .footer-container {
   width: 100%;
   max-width: 1200px;
-  /* Ou a largura que você usa no seu header */
   padding: 20px;
-  /* Respiro lateral para não colar no canto da tela em si */
 
   display: flex;
   justify-content: space-between;
