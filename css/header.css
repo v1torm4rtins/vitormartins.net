@@ -1,6 +1,7 @@
 header {
-  background-color: var(--background-primary-color);
+  background-color: var(--dark-purple-color);
   padding: 40px;
+  border: 6px solid var(--black-color);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -22,13 +23,17 @@ header {
   display: none;
 }
 
+.burger-clicker {
+  cursor: pointer;
+}
+
 .burger {
   width: 35px;
   height: 35px;
 }
 
 .burger a:hover {
-  color: var(--primary-color)
+  color: var(--red-color);
 }
 
 nav {
@@ -39,10 +44,11 @@ input[type="checkbox"]:checked~nav {
   display: block;
   position: absolute;
   top: 100%;
-  left: 0;
+  left: -6px;
   width: 100%;
-  background: var(--background-secondary-color);
-  padding: 20px 60px;
+  background: var(--dark-purple-color);
+  border: 6px solid var(--black-color);
+  padding: 20px 0;
 }
 
 .list-links {
@@ -50,11 +56,11 @@ input[type="checkbox"]:checked~nav {
 }
 
 .list-links li {
-  margin: 20px 0;
+  margin: 16px 40px;
 }
 
 .list-links li a {
-  color: var(--text-primary-color);
+  color: var(--white-color);
   text-decoration: none;
   font-weight: var(--menu-text-weight);
 }
@@ -91,13 +97,13 @@ input[type="checkbox"]:checked~nav {
   }
 
   .botao-contato {
-    background-color: var(--secondary-color);
+    background-color: var(--light-purple-color);
     padding: 16px 24px;
-    color: var(--text-primary-color) !important;
+    color: var(--white-color) !important;
   }
 
   .botao-contato:hover {
-    background-color: var(--primary-color);
+    background-color: var(--red-color);
   }
 }
 
