@@ -1,3 +1,16 @@
+/* Faz o body ocupar no mínimo a altura da tela inteira */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Faz o conteúdo principal (main) crescer e empurrar o footer para baixo */
+main {
+    flex: 1;
+}
+
 .main-footer {
   width: 100%;
   background-color: var(--dark-purple-color);

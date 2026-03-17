@@ -5,63 +5,32 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Vitor Martins</title>
+
+  <link rel="preload" href="fonts/ZalandoSansExpanded-Bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/ZalandoSansExpanded-Medium.woff2" as="font" type="font/woff2" crossorigin>
+
   <link rel="stylesheet" href="css/style.css" />
   <link rel="icon" href="img/favicon-red-vitor-martins.png" type="image/png">
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap"
-    rel="stylesheet" />
 </head>
 
-<body>
-  <header>
-    <a class="logo" href="index.html" title="voltar para a página inicial">
-      <img class="img-mobile" src="img/logo-icon-red-vitor-martins.png"
-        alt="Logotipo Vitor Martins versão apenas ícone" />
-      <img class="img-desktop" src="img/logo-white-vitor-martins.png"
-        alt="Logotipo Vitor Martins versão completa clara">
-    </a>
-    <div class="burger">
-      <label for="menu" class="burger-clicker">
-        <img src="img/burger-white-menu.png" alt="menu">
-      </label>
-      <input type="checkbox" id="menu" hidden>
-      <nav>
-        <ul class="list-links">
-          <li><a href="index.html">Início</a></li>
-          <li><a href="habilidades.html">Projetos</a></li>
-          <li><a href="habilidades.html">Habilidades</a></li>
-          <li><a href="sobre.html">Sobre</a></li>
-          <li><a href="contato.html" class="botao-contato">Contato</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
+<body class="pg-inicio">
+  <div id="header-placeholder"></div>
   <main>
     <section class="hero">
-      <div class="hero-img"></div>
+      <div class="hero-img">
+        <h1 class="">Desenvolvimento Front-end com foco em Design e Performance.</h1>
+        <p class="white-text">Combinando 6 anos de experiência em direção de arte com desenvolvimento web para criar
+          interfaces funcionais e otimizadas.</p>
+        <a href="contato.html" class="cta-button">Contato</a>
+      </div>
       <h2>Ut eget sem augue. Aenean vulputate tristique neque sit amet pharetra. Nullam placerat at lectus dignissim.
       </h2>
     </section>
   </main>
 
-  <div></div>
+  <div id="footer-placeholder"></div>
 
-  <footer class="main-footer">
-    <div class="footer-container">
-      <p>
-        &copy; <span id="ano-atual"></span> - Desenvolvido por Vitor Martins
-      </p>
-      <div class="redes-sociais">
-        <a href="#">LinkedIn</a> |
-        <a href="#">GitHub</a>
-      </div>
-    </div>
-  </footer>
-
-  <script src="js/script.js"></script>
+  <script src="js/script.js" defer></script>
 </body>
 
 </html>
