@@ -2,6 +2,12 @@
     height: 500px;
     width: 100%;
     background: url(../img/hero-bg-smartphone-2x.jpg) no-repeat center center/cover;
+    padding: 40px;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .hero h2 {

@@ -1,3 +1,12 @@
+/* Quando o body for "pg-inicio", pinte o link "nav-inicio" e assim por diante */
+.pg-inicio .nav-inicio,
+.pg-projetos .nav-projetos,
+.pg-habilidades .nav-habilidades,
+.pg-sobre .nav-sobre,
+.pg-contato .nav-contato {
+  border-bottom: 3px solid var(--red-color);
+}
+
 header {
   background-color: var(--dark-purple-color);
   padding: 40px;
@@ -43,11 +52,14 @@ nav {
 input[type="checkbox"]:checked~nav {
   display: block;
   position: absolute;
-  top: 100%;
+  /* Joga o menu 6px para a esquerda para cobrir a borda do pai ou alinhar */
   left: -6px;
-  width: 100%;
+  /* Soma a largura total + as duas bordas de 6px (12px) */
+  width: calc(100% + 12px);
+  top: 100%;
   background: var(--dark-purple-color);
   border: 6px solid var(--black-color);
+  z-index: 10;
   padding: 20px 0;
 }
 
@@ -62,7 +74,7 @@ input[type="checkbox"]:checked~nav {
 .list-links li a {
   color: var(--white-color);
   text-decoration: none;
-  font-weight: var(--menu-text-weight);
+  font-weight: var(--text-weight);
 }
 
 
