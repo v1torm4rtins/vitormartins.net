@@ -87,15 +87,12 @@ video {
 }
 
 :root {
-  --primary-color: #C83232;
-  --secondary-color: #501A5E;
-
-  --background-primary-color: #2D1E36;
-  --background-secondary-color: #1E1C2F;
-  --background-tertiary-color: #DAD3CD;
-
-  --text-primary-color: #DAD3CD;
-  --text-secondary-color: #1E1C2F;
+  --white-color: #DAD3CD;
+  --black-color: #1E1C2F;
+  --light-purple-color: #501A5E;
+  --dark-purple-color: #2D1E36;
+  --red-color: #C83232;
+  --grey-color: #5B5B68;
 
   --title-weight: 700;
   --menu-text-weight: 500;
@@ -131,17 +128,29 @@ h3,
 h4 {
   font-weight: var(--title-weight);
   line-height: 1.2;
+  color: var(--black-color);
 }
 
-p,
-a {
+p {
+  color: var(--grey-color);
   font-size: var(--text-font-size);
   line-height: 1.6;
 }
 
+a {
+  color: var(--grey-color);
+  font-size: var(--text-font-size);
+  line-height: 1.6;
+
+}
+
+a:hover {
+  color: var(--red-color)
+}
+
 body {
   font-family: "Zalando Sans Expanded", sans-serif !important;
-  color: var(--text-secondary-color);
+  color: var(--grey-color);
 }
 
 .container {
