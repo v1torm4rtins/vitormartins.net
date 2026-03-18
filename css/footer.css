@@ -13,7 +13,11 @@ main {
 
 .main-footer {
   width: 100%;
-  background-color: var(--dark-purple-color);
+  background: var(--black-color);
+  border-right: 4px solid;
+  border-left: 4px solid;
+  border-bottom: 4px solid;
+  border-color: var(--black-color);
 }
 
 .main-footer .container {
