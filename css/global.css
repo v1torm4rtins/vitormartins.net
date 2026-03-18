@@ -114,6 +114,7 @@ video {
 
 main {
   padding-top: 151px;
+  background-color: var(--dark-purple-color);
 }
 
 /* Margem global do site*/
@@ -127,7 +128,19 @@ main {
 /* Sections sempre 100% para aceitar fundos */
 section {
   width: 100%;
-  margin-bottom: 88px;
+  padding: 80px 0;
+  border-right: 4px solid;
+  border-left: 4px solid;
+  border-bottom: 4px solid;
+  border-color: var(--black-color);
+}
+
+.dark-section {
+  background: var(--dark-purple-color);
+}
+
+.light-section {
+  background: var(--white-color);
 }
 
 h1 {
@@ -175,6 +188,14 @@ a:hover {
   color: var(--red-color)
 }
 
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  /* Isso diz: "use a mesma fonte do pai" */
+}
+
 body {
   font-family: "Zalando Sans Expanded", Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -201,12 +222,9 @@ body.loaded {
   color: var(--white-color);
 }
 
-button,
-input,
-select,
-textarea {
-  font-family: inherit;
-  /* Isso diz: "use a mesma fonte do pai" */
+.page-title {
+  padding: 160px 0;
+  background: var(--black-color);
 }
 
 .cta-button,

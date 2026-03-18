@@ -14,12 +14,21 @@
     gap: 20px;
 }
 
+section.hero {
+    border-right: 4px solid;
+    border-left: 4px solid;
+    border-bottom: 4px solid;
+    border-color: var(--black-color);
+}
+
+
 @media screen and (min-width:768px) {
     .hero {
         min-height: 600px;
         background-image: url(../img/hero-bg-tablet-2x.jpg);
     }
 }
+
 
 @media screen and (min-width:1024px) {
     .hero {
