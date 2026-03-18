@@ -1,30 +1,25 @@
 /* Faz o body ocupar no mínimo a altura da tela inteira */
 body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
 }
 
 /* Faz o conteúdo principal (main) crescer e empurrar o footer para baixo */
 main {
-    flex: 1;
+  flex: 1;
 }
 
 .main-footer {
   width: 100%;
   background-color: var(--dark-purple-color);
-  display: flex;
-  justify-content: center;
-
 }
 
-.footer-container {
-  width: 100%;
-  max-width: 1200px;
-  padding: 20px;
-
+.main-footer .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
