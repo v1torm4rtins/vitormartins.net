@@ -112,6 +112,24 @@ video {
   --text-font-size: clamp(0.95rem, 0.85rem + 0.5vw, 1.15rem);
 }
 
+main {
+  padding-top: 151px;
+}
+
+/* Margem global do site*/
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+/* Sections sempre 100% para aceitar fundos */
+section {
+  width: 100%;
+  margin-bottom: 88px;
+}
+
 h1 {
   font-size: var(--h1-font-size);
 }
@@ -175,10 +193,6 @@ body.loaded {
   opacity: 1;
 }
 
-.container {
-  padding: 40px;
-}
-
 .black-text {
   color: var(--black-color);
 }
@@ -197,16 +211,17 @@ textarea {
 
 .cta-button,
 button {
+  border: 4px solid var(--black-color);
+  box-shadow: 10px 10px 0 0 var(--black-color);
   display: inline-block;
   padding: 16px 24px;
-  border: 0;
   font-size: var(--text-font-size);
   font-weight: var(--title-weight);
   color: var(--white-color);
-  background: var(--red-color);
+  background: var(--light-purple-color);
 }
 
 .cta-button:hover {
-  background: var(--light-purple-color);
+  border: 4px solid var(--red-color);
   color: var(--white-color);
 }
