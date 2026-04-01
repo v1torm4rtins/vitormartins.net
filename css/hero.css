@@ -1,8 +1,8 @@
 .hero {
     height: 500px;
-    background: url(../img/hero-bg-smartphone-2x.jpg) no-repeat center center/cover;
+    /* background: url(../img/hero-bg-smartphone-2x.jpg) no-repeat center center/cover; */
+    background: var(--black-color);
     display: flex;
-    /* Para garantir que o container ocupe a altura toda */
     align-items: center;
 }
 
@@ -25,7 +25,8 @@ section.hero {
 @media screen and (min-width:768px) {
     .hero {
         min-height: 600px;
-        background-image: url(../img/hero-bg-tablet-2x.jpg);
+        /* background-image: url(../img/hero-bg-tablet-2x.jpg); */
+        background: var(--black-color);
     }
 }
 
@@ -33,6 +34,7 @@ section.hero {
 @media screen and (min-width:1024px) {
     .hero {
         min-height: 700px;
-        background-image: url(../img/hero-bg-desktop.jpg);
+        /* background-image: url(../img/hero-bg-desktop.jpg); */
+        background: var(--black-color);
     }
 }

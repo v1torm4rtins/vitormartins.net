@@ -20,7 +20,6 @@ div#header-placeholder {
 .main-header {
   background-color: var(--dark-purple-color);
   border: 4px solid var(--black-color);
-  box-shadow: 10px 10px 0 0 var(--black-color);
   position: relative;
   width: 100%;
 }
@@ -30,8 +29,8 @@ div#header-placeholder {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 nav {
@@ -146,7 +145,7 @@ input[type="checkbox"]:checked~nav {
     border: 4px solid var(--light-purple-color);
     box-shadow: 10px 10px 0 0 var(--black-color);
     background: var(--light-purple-color);
-    padding: 16px 24px;
+    padding: 10px 20px;
     color: var(--white-color) !important;
     font-weight: var(--title-weight);
   }
