@@ -123,13 +123,13 @@ main {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 30px;
+  padding: 0 40px;
 }
 
 /* Sections sempre 100% para aceitar fundos */
 section {
   width: 100%;
-  padding: 140px 0;
+  padding: 70px 0;
   border-right: 4px solid;
   border-left: 4px solid;
   border-bottom: 4px solid;
@@ -254,13 +254,13 @@ body.loaded {
 
 .red-line-spacing {
   border: 0;
-  width: 10%;
+  width: 16%;
   border-top: 4px solid var(--red-color);
   margin: 40px auto;
 }
 
 .red-line-lateral {
-  padding-left: 40px;
+  padding-left: 24px;
   border-left: 4px solid var(--red-color)
 }
 
@@ -298,7 +298,6 @@ button {
   background-image: url('/svg/vm-pattern.svg');
   background-repeat: repeat;
   background-size: 340px;
-  z-index: 1;
   pointer-events: none;
 }
 
@@ -337,8 +336,27 @@ button {
   transform: translateX(-50%);
 }
 
-/* Garante que o conteúdo fique sempre à frente */
-.vm-pattern .container {
-  position: relative;
-  z-index: 2;
+
+@media screen and (min-width:768px) {
+
+}
+
+
+@media screen and (min-width:1024px) {
+  .red-line-lateral {
+  padding-left: 40px;
+}
+
+section {
+  padding: 140px 0;
+}
+
+.container {
+  padding: 0 60px;
+}
+}
+
+
+@media screen and (min-width:1440px) {
+  
 }

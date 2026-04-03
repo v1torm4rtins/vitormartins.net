@@ -1,34 +1,40 @@
 /* --- SEÇÃO SOFTWARES --- */
+.software-icon:hover {
+    fill: var(--red-color);
+}
+
+
 .software-section {
     display: flex;
+    flex-direction: column;
+    gap: 10px;
     align-items: center;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 60px;
 }
 
 .software-column-text {
-    width: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .software-column-skills {
-    width: 60%;
+    width: 100%;
 }
 
 .software-group-skills {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.software-item {
-    flex: 0 1 calc(50% - 20px);
-    min-width: 250px;
+    flex-direction: column;
+    align-items: stretch;
 }
 
 .software-icon {
-    width: 60px;
+    width: 50px;
     fill: var(--light-purple-color);
+}
+
+.software-item {
+    margin-bottom: 20px;
 }
 
 .software-title {
@@ -37,11 +43,7 @@
     align-items: center;
     justify-content: flex-start;
     gap: 20px;
-}
-
-.software-icon:hover {
-    fill: var(--red-color);
-    transform: scale(1.02);
+    padding: 18px 0 6px;
 }
 
 .software-skill-bar {
@@ -59,3 +61,124 @@
     transition: width 1.5s cubic-bezier(0.1, 0.5, 0.5, 1);
 }
 
+.software-cta {
+    text-align: left;
+    margin-top: 40px;
+    padding: 0 36px;
+}
+
+
+
+@media screen and (min-width:768px) {
+
+    /* --- SEÇÃO SOFTWARES --- */
+    .software-group-skills {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .software-item {
+        flex: 0 1 calc(50% - 20px);
+        min-width: 250px;
+    }
+
+    .software-icon {
+        width: 60px;
+    }
+
+    .software-title {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 20px;
+    }
+
+    .software-skill-bar {
+        width: 100%;
+        height: 4px;
+        background-color: #dad3cd1a;
+        margin-top: 8px;
+        overflow: hidden;
+    }
+
+    .software-skill-level {
+        height: 100%;
+        width: 0;
+        background-color: var(--white-color);
+        transition: width 1.5s cubic-bezier(0.1, 0.5, 0.5, 1);
+    }
+
+    .software-cta {
+        text-align: center;
+
+    }
+
+
+
+    @media screen and (min-width:1024px) {
+
+        /* --- SEÇÃO SOFTWARES --- */
+        .software-section {
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            justify-content: space-between;
+            gap: 60px;
+        }
+
+        .software-column-text {
+            width: 40%;
+        }
+
+        .software-column-skills {
+            width: 60%;
+        }
+
+        .software-group-skills {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .software-item {
+            flex: 0 1 calc(50% - 20px);
+            min-width: 250px;
+        }
+
+        .software-icon {
+            width: 60px;
+        }
+
+        .software-title {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-start;
+            gap: 20px;
+        }
+
+        .software-skill-bar {
+            width: 100%;
+            height: 4px;
+            background-color: #dad3cd1a;
+            margin-top: 8px;
+            overflow: hidden;
+        }
+
+        .software-skill-level {
+            height: 100%;
+            width: 0;
+            background-color: var(--white-color);
+            transition: width 1.5s cubic-bezier(0.1, 0.5, 0.5, 1);
+        }
+
+        .software-cta {
+            margin-top: 60px;
+        }
+
+    }
+
+
+    /* @media screen and (min-width:1440px) {} */
