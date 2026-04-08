@@ -108,12 +108,13 @@ video {
   --h3-font-size: clamp(1.4rem, 1.1rem + 2vw, 1.8rem);
   --h4-font-size: clamp(1.2rem, 1rem + 1.5vw, 1.4rem);
 
+  --text-font-size: clamp(1.1rem, 1rem + 0.5vw, 1.25rem);
   --button-font-size: clamp(1rem, 0.9rem + 0.4vw, 1.1rem);
-  --text-font-size: clamp(0.95rem, 0.85rem + 0.5vw, 1.15rem);
 }
 
+
 main {
-  padding-top: 151px;
+  padding-top: 130px;
   background-color: var(--dark-purple-color);
 }
 
@@ -122,13 +123,13 @@ main {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 30px;
+  padding: 0 40px;
 }
 
 /* Sections sempre 100% para aceitar fundos */
 section {
   width: 100%;
-  padding: 80px 0;
+  padding: 70px 0;
   border-right: 4px solid;
   border-left: 4px solid;
   border-bottom: 4px solid;
@@ -136,11 +137,16 @@ section {
 }
 
 .dark-section {
-  background: var(--dark-purple-color);
+  background: var(--black-color);
 }
 
 .light-section {
   background: var(--white-color);
+}
+
+.gray-section {
+  background: var(--grey-color);
+
 }
 
 h1 {
@@ -193,14 +199,14 @@ input,
 select,
 textarea {
   font-family: inherit;
-  /* Isso diz: "use a mesma fonte do pai" */
+  /* Use a mesma fonte do pai */
 }
 
 body {
   font-family: "Zalando Sans Expanded", Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
 
-  /* Estrutura para o Footer ficar sempre no fim */
+  /* Estrutura para o footer ficar sempre no fim */
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -227,12 +233,43 @@ body.loaded {
   background: var(--black-color);
 }
 
+.center-content {
+  text-align: center;
+}
+
+
+/* --- ESPAÇAMENTOS PARA ITENS --- */
+.large-bottom-margin {
+  margin-bottom: 70px
+}
+
+.medium-bottom-margin {
+  margin-bottom: 50px
+}
+
+.small-bottom-margin {
+  margin-bottom: 30px
+}
+
+
+.red-line-spacing {
+  border: 0;
+  width: 16%;
+  border-top: 4px solid var(--red-color);
+  margin: 40px auto;
+}
+
+.red-line-lateral {
+  padding-left: 24px;
+  border-left: 4px solid var(--red-color)
+}
+
 .cta-button,
 button {
   border: 4px solid var(--black-color);
   box-shadow: 10px 10px 0 0 var(--black-color);
   display: inline-block;
-  padding: 16px 24px;
+  padding: 10px 20px;
   font-size: var(--text-font-size);
   font-weight: var(--title-weight);
   color: var(--white-color);
@@ -240,6 +277,86 @@ button {
 }
 
 .cta-button:hover {
-  border: 4px solid var(--red-color);
+  background: var(--red-color);
   color: var(--white-color);
+}
+
+
+
+/* --- CONFIGURAÇÃO DOS PATTERN --- */
+.vm-pattern {
+  position: relative;
+  overflow: hidden;
+}
+
+.vm-pattern::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-image: url('/svg/vm-pattern.svg');
+  background-repeat: repeat;
+  background-size: 340px;
+  pointer-events: none;
+}
+
+.vm-pattern-light::before {
+  opacity: 0.02;
+}
+
+.vm-pattern-dark::before {
+  filter: brightness(0);
+  /* Transforma o branco em preto/escuro */
+  opacity: 0.02;
+}
+
+/* Ocupa a tela inteira */
+.pattern-full::before {
+  width: 100%;
+}
+
+/* Ocupa só a metade esquerda */
+.pattern-left-50::before {
+  width: 50%;
+}
+
+/* Ocupa só a metade direita */
+.pattern-right-50::before {
+  width: 50%;
+  right: 0;
+  left: auto;
+}
+
+/* Ocupa apenas o meio */
+.pattern-center::before {
+  width: 60%;
+  left: 50%;
+  /* Ou o tamanho que preferir para o centro */
+  transform: translateX(-50%);
+}
+
+
+@media screen and (min-width:768px) {
+
+}
+
+
+@media screen and (min-width:1024px) {
+  .red-line-lateral {
+  padding-left: 40px;
+}
+
+section {
+  padding: 140px 0;
+}
+
+.container {
+  padding: 0 60px;
+}
+}
+
+
+@media screen and (min-width:1440px) {
+  
 }

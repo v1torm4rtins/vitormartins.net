@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contato | Vitor Martins</title>
+    <title>Design | Vitor Martins</title>
 
     <link rel="preload" href="fonts/ZalandoSansExpanded-Bold.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="fonts/ZalandoSansExpanded-Medium.woff2" as="font" type="font/woff2" crossorigin>
@@ -18,23 +18,29 @@
     <link rel="icon" href="img/favicon-red-vitor-martins.png" type="image/png">
 </head>
 
-<body class="pg-contato">
+<body class="pg-design">
     <div id="header-placeholder"></div>
 
     <main>
         <section class="page-title">
             <div class="container">
-                <h1>Contato</h1>
+                <h1>Design</h1>
             </div>
         </section>
 
-        <section class="">
+        <section class="lista-portfolio">
             <div class="container">
-                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
-                <p>Magni reiciendis corporis eveniet quis, voluptate suscipit quo odio eius reprehenderit possimus fugit
-                    error facilis saepe deserunt maxime. Soluta quasi quae dolores. Odit dolore incidunt totam.
-                    Recusandae provident, voluptatibus reiciendis enim ipsam impedit unde laboriosam accusantium. Quae
-                    obcaecati beatae totam, optio corrupti voluptatum eos.</p>
+                <div class="filtros-container">
+                    <button class="btn-filtro active" data-filter="all">Todos</button>
+                    <button class="btn-filtro" data-filter="videos">Vídeos</button>
+                    <button class="btn-filtro" data-filter="estaticos">Estáticos</button>
+                    <button class="btn-filtro" data-filter="logotipos">Logotipos</button>
+                    <button class="btn-filtro" data-filter="papelarias">Papelarias</button>
+                    <button class="btn-filtro" data-filter="ebooks">Ebooks</button>
+                </div>
+
+                <div id="lista-projetos-design" class="grid-portfolio">
+                </div>
             </div>
         </section>
     </main>
@@ -42,6 +48,7 @@
     <div id="footer-placeholder"></div>
 
     <script type="module" src="js/main.js"></script>
+    <script type="module" src="js/portfolio.js"></script>
 </body>
 
 </html>
