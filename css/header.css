@@ -6,8 +6,8 @@ div#header-placeholder {
 
 /* Quando o body for "pg-inicio", pinte o link "nav-inicio" e assim por diante */
 .pg-inicio .nav-inicio,
-.pg-projetos .nav-projetos,
-.pg-habilidades .nav-habilidades,
+.pg-front-end .nav-front-end,
+.pg-design .nav-design,
 .pg-sobre-mim .nav-sobre-mim {
   padding-top: 4px;
   padding-bottom: 4px;
@@ -97,6 +97,7 @@ input[type="checkbox"]:checked~nav {
   border: 4px solid var(--black-color);
   box-shadow: 10px 10px 0 0 var(--black-color);
   display: inline-block;
+  font-weight: 700;
 }
 
 .botao-contato {
@@ -137,8 +138,7 @@ input[type="checkbox"]:checked~nav {
   }
 
   .botao-contato:hover {
-    border: 4px solid var(--red-color) !important;
-    color: var(--white-color);
+    background: var(--red-color);
   }
 
   .botao-contato {

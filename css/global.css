@@ -108,8 +108,8 @@ video {
   --h3-font-size: clamp(1.4rem, 1.1rem + 2vw, 1.8rem);
   --h4-font-size: clamp(1.2rem, 1rem + 1.5vw, 1.4rem);
 
+  --text-font-size: clamp(1.1rem, 1rem + 0.5vw, 1.25rem);
   --button-font-size: clamp(1rem, 0.9rem + 0.4vw, 1.1rem);
-  --text-font-size: clamp(0.95rem, 0.85rem + 0.5vw, 1.15rem);
 }
 
 
@@ -277,7 +277,7 @@ button {
 }
 
 .cta-button:hover {
-  border: 4px solid var(--red-color);
+  background: var(--red-color);
   color: var(--white-color);
 }
 
