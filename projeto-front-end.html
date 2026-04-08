@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto Design | Vitor Martins</title>
+    <title>Projeto Front-end | Vitor Martins</title>
 
     <link rel="preload" href="fonts/ZalandoSansExpanded-Bold.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="fonts/ZalandoSansExpanded-Medium.woff2" as="font" type="font/woff2" crossorigin>
@@ -27,29 +27,20 @@
             </div>
         </section>
 
-        <section class="visualizacao-projeto">
+        <section class="visualizacao-projeto gray-section">
             <div class="container">
                 <div class="info-projeto-topo">
                     <h4 class="tec-title">Tecnologias utilizadas</h4>
                     <div id="projeto-tecs" class="icones-tecnologias"></div>
                 </div>
-
-                <div class="wrapper-carrossel">
-                    <button class="nav-carrossel prev" id="prev-btn">
-                        <img src="svg/arrow-left.svg" alt="Anterior">
-                    </button>
-                    
-                    <div class="moldura-pc carrossel">
-                        <div id="container-carrossel" class="carrossel-interno">
-                            </div>
+                <div class="moldura-pc">
+                    <div id="container-imagem-scroll" class="scroll-interno">
                     </div>
-
-                    <button class="nav-carrossel next" id="next-btn">
-                        <img src="svg/arrow-right.svg" alt="Próximo">
-                    </button>
                 </div>
-
+                <div class="acoes-projeto">
+                    <a id="btn-link-projeto" href="#" class="btn-cta" target="_blank">Ver o site online</a>
                 </div>
+            </div>
         </section>
 
         <section class="descricao-detalhada light-section">
@@ -64,4 +55,5 @@
     <script type="module" src="js/main.js"></script>
     <script src="js/projeto-detalhes.js"></script>
 </body>
+
 </html>

@@ -100,10 +100,19 @@ input[type="checkbox"]:checked~nav {
   font-weight: 700;
 }
 
+.list-links li a.botao-contato:hover {
+  transform: translate(-4px, -4px);
+  box-shadow: 14px 14px 0 0 var(--black-color);
+}
+
 .botao-contato {
   background: var(--light-purple-color);
   padding: 10px 16px;
   color: var(--white-color) !important;
+}
+
+.botao-contato:hover {
+  background: var(--red-color);
 }
 
 
@@ -135,10 +144,6 @@ input[type="checkbox"]:checked~nav {
 
   .burger ul li {
     margin: 0 14px;
-  }
-
-  .botao-contato:hover {
-    background: var(--red-color);
   }
 
   .botao-contato {

@@ -278,8 +278,10 @@ button {
 }
 
 .cta-button:hover {
+ 
   background: var(--red-color);
   color: var(--white-color);
+
 }
 
 
