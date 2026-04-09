@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="css/header.css" />
   <link rel="stylesheet" href="css/hero.css" />
   <link rel="stylesheet" href="css/inicio.css" />
+  <link rel="stylesheet" href="css/portfolio.css" />
   <link rel="stylesheet" href="css/footer.css" />
 
   <link rel="icon" href="img/favicon-red-vitor-martins.png" type="image/png">
@@ -32,29 +33,53 @@
       </div>
     </section>
 
-    <section class="gray-section">
-      <div class="container center-content">
-        <h2>Ut eget sem augue. Aenean vulputate tristique neque sit amet pharetra.
-        </h2>
-        <div class="red-line-spacing"></div>
-        <div>
+    <section class="gray-section vm-pattern vm-pattern-dark pattern-full">
+  <div class="container-referencia center-content">
+    <h2 class="title-section">Sites desenvolvidos com Front-end</h2>
+    <div class="red-line-spacing"></div>
 
-        </div>
-        <a href="front-end.html" class="cta-button">Ver todos os projetos em Front-end</a>
+    <div class="wrapper-carrossel-home">
+      <button class="nav-home prev" onclick="moveCarrossel('carrossel-fe', -1)">
+        <img src="svg/arrow-left.svg" alt="Anterior">
+      </button>
+      
+      <div class="track-mask">
+        <div id="carrossel-fe" class="track-carrossel">
+          </div>
       </div>
-    </section>
 
-    <section>
-      <div class="container center-content">
-        <h2>Ut eget sem augue. Aenean vulputate tristique neque sit amet pharetra.
-        </h2>
-        <div class="red-line-spacing"></div>
-        <div>
+      <button class="nav-home next" onclick="moveCarrossel('carrossel-fe', 1)">
+        <img src="svg/arrow-right.svg" alt="Próximo">
+      </button>
+    </div>
 
-        </div>
-        <a href="design.html" class="cta-button">Ver todos os projetos em Design</a>
+    <a href="front-end.html" class="cta-button">Ver todos os projetos em Front-end</a>
+  </div>
+</section>
+
+<section class="vm-pattern vm-pattern-light pattern-full" style="background-color: var(--dark-purple-color);">
+  <div class="container-referencia center-content">
+    <h2 class="title-section">Artes produzidas com Design</h2>
+    <div class="red-line-spacing"></div>
+
+    <div class="wrapper-carrossel-home">
+      <button class="nav-home prev" onclick="moveCarrossel('carrossel-dg', -1)">
+        <img src="svg/arrow-left.svg" alt="Anterior">
+      </button>
+      
+      <div class="track-mask">
+        <div id="carrossel-dg" class="track-carrossel">
+          </div>
       </div>
-    </section>
+
+      <button class="nav-home next" onclick="moveCarrossel('carrossel-dg', 1)">
+        <img src="svg/arrow-right.svg" alt="Próximo">
+      </button>
+    </div>
+
+    <a href="design.html" class="cta-button">Ver todos os projetos em Design</a>
+  </div>
+</section>
 
     <section class="dark-section vm-pattern vm-pattern-light pattern-left-50">
       <div class="container software-section">
@@ -178,6 +203,7 @@
   <div id="footer-placeholder"></div>
 
   <script type="module" src="js/main.js"></script>
+  <script type="module" src="js/home-carrossel.js"></script>
 </body>
 
 </html>

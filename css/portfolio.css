@@ -1,3 +1,104 @@
+/* --- CARROSSEL COM PORTFÓLIO DA HOME --- */
+.container-referencia {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 60px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.wrapper-carrossel-home {
+    position: relative;
+    width: 100%;
+    margin: 60px 0;
+    display: flex;
+    align-items: center;
+}
+
+.track-mask {
+    width: 100%;
+    overflow: visible;
+}
+
+.track-carrossel {
+    display: flex;
+    gap: 30px;
+    transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.card-projeto-home {
+    min-width: calc((100% - 40px) / 2);
+    max-width: calc((100% - 40px) / 2);
+    opacity: 0.2;
+    filter: blur(4px);
+    transition: 0s ease;
+}
+
+.card-projeto-home.active {
+    opacity: 1;
+    filter: blur(0);
+}
+
+.card-projeto-home img {
+    width: 100%;
+    height: auto;
+    border: 4px solid var(--black-color);
+    background: var(--white-color);
+    display: block;
+    transition: 0s;
+}
+
+.card-projeto-home h3 {
+    margin-top: 30px;
+    font-family: 'Zalando Sans Expanded', sans-serif;
+    color: var(--white-color);
+    text-align: left;
+}
+
+/* Setas - Mesma lógica da página individual que deu certo */
+.nav-home {
+    position: absolute;
+    z-index: 100;
+    background: var(--light-purple-color);
+    border: 4px solid var(--black-color);
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 10px 10px 0 0 var(--black-color);
+}
+
+.nav-home:hover {
+    background: var(--red-color);
+}
+
+.nav-home.prev {
+    left: -80px;
+}
+
+.nav-home.next {
+    right: -80px;
+}
+
+/* Ajuste para telas menores */
+@media (max-width: 1350px) {
+    .nav-home.prev {
+        left: -20px;
+    }
+
+    .nav-home.next {
+        right: -20px;
+    }
+}
+
+
+
+
+
+
+/* --- PÁGINA PORTFÓLIO (FRONT-END E DESIGN) --- */
 .grid-portfolio {
     display: grid !important;
     grid-template-columns: repeat(2, 1fr) !important;
