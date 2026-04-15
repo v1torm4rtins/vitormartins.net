@@ -72,6 +72,8 @@
 
 .nav-home:hover {
     background: var(--red-color);
+    transform: translate(-2px, -2px);
+    box-shadow: 12px 12px 0 0 var(--black-color);
 }
 
 .nav-home.prev {
@@ -93,6 +95,73 @@
     }
 }
 
+.track-mask {
+    width: 100%;
+    overflow: visible;
+    cursor: grab;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.track-mask:active {
+    cursor: grabbing;
+}
+
+/* Força o navegador a não criar aquele 'ghost image' */
+.track-carrossel img,
+.track-carrossel a {
+    user-drag: none;
+    -webkit-user-drag: none;
+    pointer-events: auto;
+}
+
+/* Quando estiver arrastando, força o cursor grabbing em TUDO dentro da máscara */
+.track-mask.is-dragging,
+.track-mask.is-dragging * {
+    cursor: grabbing !important;
+}
+
+/* Cursor padrão da área */
+.track-mask {
+    cursor: grab;
+}
+
+/* O link continua com pointer, mas só quando NÃO estivermos arrastando */
+.card-projeto-home a {
+    cursor: pointer;
+}
+
+/* Quando estiver arrastando, força o cursor grabbing em TUDO dentro da máscara */
+.track-mask.is-dragging,
+.track-mask.is-dragging * {
+    cursor: grabbing !important;
+}
+
+/* Classe disparada pelo JS para destacar a seta ao passar o mouse nos cards laterais */
+.nav-home.highlight-red {
+    background-color: var(--red-color) !important;
+}
+
+/* Cursor pointer apenas nos links e nos cards inativos */
+.card-projeto-home {
+    cursor: pointer;
+}
+
+.carrossel-left-arrow {
+    fill: var(--white-color);
+}
+
+/* Faz a imagem preta da seta virar #dad3cd */
+.nav-home img {
+    filter: invert(96%) sepia(5%) saturate(225%) hue-rotate(323deg) brightness(91%) contrast(89%);
+}
+
+/* Quando a seta estiver desativada (limites do carrossel) */
+.nav-home.disabled {
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+}
 
 
 
@@ -124,9 +193,11 @@ button.btn-filtro {
 
 button.btn-filtro.active {
     border-bottom: 4px solid var(--red-color);
+    transform: translate(0, -5px);
 }
 
 button.btn-filtro:hover {
+    transform: translate(0, -5px);
     color: var(--red-color);
 }
 
