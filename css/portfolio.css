@@ -1,0 +1,259 @@
+/* --- CARROSSEL COM PORTFÓLIO DA HOME --- */
+.container-referencia {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 60px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.wrapper-carrossel-home {
+    position: relative;
+    width: 100%;
+    margin: 60px 0;
+    display: flex;
+    align-items: center;
+}
+
+.track-mask {
+    width: 100%;
+    overflow: visible;
+}
+
+.track-carrossel {
+    display: flex;
+    gap: 30px;
+    transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.card-projeto-home {
+    min-width: calc((100% - 40px) / 2);
+    max-width: calc((100% - 40px) / 2);
+    opacity: 0.2;
+    filter: blur(4px);
+    transition: 0s ease;
+}
+
+.card-projeto-home.active {
+    opacity: 1;
+    filter: blur(0);
+}
+
+.card-projeto-home img {
+    width: 100%;
+    height: auto;
+    border: 4px solid var(--black-color);
+    background: var(--white-color);
+    display: block;
+    transition: 0s;
+}
+
+.card-projeto-home h3 {
+    margin-top: 30px;
+    font-family: 'Zalando Sans Expanded', sans-serif;
+    color: var(--white-color);
+    text-align: left;
+}
+
+/* Setas - Mesma lógica da página individual que deu certo */
+.nav-home {
+    position: absolute;
+    z-index: 100;
+    background: var(--light-purple-color);
+    border: 4px solid var(--black-color);
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 10px 10px 0 0 var(--black-color);
+}
+
+.nav-home:hover {
+    background: var(--red-color);
+    transform: translate(-2px, -2px);
+    box-shadow: 12px 12px 0 0 var(--black-color);
+}
+
+.nav-home.prev {
+    left: -80px;
+}
+
+.nav-home.next {
+    right: -80px;
+}
+
+/* Ajuste para telas menores */
+@media (max-width: 1350px) {
+    .nav-home.prev {
+        left: -20px;
+    }
+
+    .nav-home.next {
+        right: -20px;
+    }
+}
+
+.track-mask {
+    width: 100%;
+    overflow: visible;
+    cursor: grab;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.track-mask:active {
+    cursor: grabbing;
+}
+
+/* Força o navegador a não criar aquele 'ghost image' */
+.track-carrossel img,
+.track-carrossel a {
+    user-drag: none;
+    -webkit-user-drag: none;
+    pointer-events: auto;
+}
+
+/* Quando estiver arrastando, força o cursor grabbing em TUDO dentro da máscara */
+.track-mask.is-dragging,
+.track-mask.is-dragging * {
+    cursor: grabbing !important;
+}
+
+/* Cursor padrão da área */
+.track-mask {
+    cursor: grab;
+}
+
+/* O link continua com pointer, mas só quando NÃO estivermos arrastando */
+.card-projeto-home a {
+    cursor: pointer;
+}
+
+/* Quando estiver arrastando, força o cursor grabbing em TUDO dentro da máscara */
+.track-mask.is-dragging,
+.track-mask.is-dragging * {
+    cursor: grabbing !important;
+}
+
+/* Classe disparada pelo JS para destacar a seta ao passar o mouse nos cards laterais */
+.nav-home.highlight-red {
+    background-color: var(--red-color) !important;
+}
+
+/* Cursor pointer apenas nos links e nos cards inativos */
+.card-projeto-home {
+    cursor: pointer;
+}
+
+.carrossel-left-arrow {
+    fill: var(--white-color);
+}
+
+/* Faz a imagem preta da seta virar #dad3cd */
+.nav-home img {
+    filter: invert(96%) sepia(5%) saturate(225%) hue-rotate(323deg) brightness(91%) contrast(89%);
+}
+
+/* Quando a seta estiver desativada (limites do carrossel) */
+.nav-home.disabled {
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+}
+
+
+
+
+
+/* --- PÁGINA PORTFÓLIO (FRONT-END E DESIGN) --- */
+.grid-portfolio {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 30px;
+    padding: 30px 0;
+    width: 100%;
+}
+
+.filtros-container {
+    display: flex;
+    flex-direction: row;
+}
+
+button.btn-filtro {
+    background: #0000 !important;
+    padding: 16px 26px;
+    border-bottom: 4px solid rgb(218 211 205 / 10%);
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    box-shadow: 0 0 0 !important;
+}
+
+button.btn-filtro.active {
+    border-bottom: 4px solid var(--red-color);
+    transform: translate(0, -5px);
+}
+
+button.btn-filtro:hover {
+    transform: translate(0, -5px);
+    color: var(--red-color);
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    border: 4px solid var(--black-color);
+    background: var(--dark-purple-color);
+    box-shadow: 34px 34px 0 0 var(--black-color);
+    transition: transform 0s ease;
+}
+
+.card-content:hover {
+    transform: translate(-6px, -6px);
+    box-shadow: 40px 40px 0 0 var(--black-color);
+    border: 4px solid var(--red-color);
+}
+
+.thumb-wrapper {
+    width: 100%;
+    aspect-ratio: 1 / 1 !important;
+    overflow: hidden;
+    padding: 30px;
+    background-color: var(--white-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.thumb-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border: 4px solid var(--black-color);
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+
+.card-text {
+    padding: 0 30px 30px;
+    background: var(--white-color);
+}
+
+.card-text h3 {
+    margin: 0;
+    font-size: var(--h3-font-size);
+    color: var(--black-color);
+    text-transform: none;
+}
+
+
+@media (max-width: 768px) {
+    .grid-portfolio {
+        grid-template-columns: 1fr !important;
+        gap: 25px;
+    }
+}

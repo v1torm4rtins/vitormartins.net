@@ -266,6 +266,7 @@ body.loaded {
 
 .cta-button,
 button {
+  cursor: pointer;
   border: 4px solid var(--black-color);
   box-shadow: 10px 10px 0 0 var(--black-color);
   display: inline-block;
@@ -277,8 +278,10 @@ button {
 }
 
 .cta-button:hover {
+ 
   background: var(--red-color);
   color: var(--white-color);
+
 }
 
 
@@ -337,26 +340,24 @@ button {
 }
 
 
-@media screen and (min-width:768px) {
-
-}
+@media screen and (min-width:768px) {}
 
 
 @media screen and (min-width:1024px) {
   .red-line-lateral {
-  padding-left: 40px;
-}
+    padding-left: 40px;
+  }
 
-section {
-  padding: 140px 0;
-}
+  section {
+    padding: 140px 0;
+  }
 
-.container {
-  padding: 0 60px;
-}
+  .container {
+    padding: 0 60px;
+  }
 }
 
 
 @media screen and (min-width:1440px) {
-  
+
 }

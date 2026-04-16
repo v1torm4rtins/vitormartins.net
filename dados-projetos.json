@@ -1,27 +1,111 @@
 [
   {
-    "id": "site-vitor-martins",
+    "id": "fe-site-teste-um",
     "tipo": "front-end",
-    "categoria": "portfolios",
-    "titulo": "Portfolio Vitor Martins",
+    "categoria": ["sites", "portfolios"],
+    "titulo": "Site Teste Um",
     "descricao": "Desenvolvimento do meu portfolio pessoal focado em performance e design minimalista.",
-    "tecnologias": ["html", "css", "javascript"],
+    "tecnologias": ["html5", "css3", "javascript"],
     "thumb": "img/portfolio/front-end/thumb-frontend-model.png",
     "imagemFull": "img/portfolio/front-end/site-full-model.png",
     "linkOnline": "https://vitormartins.net",
     "formato": "scroll"
   },
   {
-    "id": "id-projeto-design",
+    "id": "fe-site-teste-dois",
+    "tipo": "front-end",
+    "categoria": ["onepages", "blogs"],
+    "titulo": "Site Teste Dois",
+    "descricao": "Desenvolvimento do meu portfolio pessoal focado em performance e design minimalista.",
+    "tecnologias": ["html5", "css3", "javascript"],
+    "thumb": "img/portfolio/front-end/thumb-frontend-model.png",
+    "imagemFull": "img/portfolio/front-end/site-full-model.png",
+    "linkOnline": "https://vitormartins.net",
+    "formato": "scroll"
+  },
+  {
+    "id": "fe-site-teste-tres",
+    "tipo": "front-end",
+    "categoria": ["sites", "blogs"],
+    "titulo": "Site Teste Três",
+    "descricao": "Desenvolvimento do meu portfolio pessoal focado em performance e design minimalista.",
+    "tecnologias": ["html5", "css3", "javascript"],
+    "thumb": "img/portfolio/front-end/thumb-frontend-model.png",
+    "imagemFull": "img/portfolio/front-end/site-full-model.png",
+    "linkOnline": "https://vitormartins.net",
+    "formato": "scroll"
+  },
+  {
+    "id": "fe-site-teste-quatro",
+    "tipo": "front-end",
+    "categoria": ["onepages", "portfolios"],
+    "titulo": "Site Teste Quatro",
+    "descricao": "Desenvolvimento do meu portfolio pessoal focado em performance e design minimalista.",
+    "tecnologias": ["html5", "css3", "javascript"],
+    "thumb": "img/portfolio/front-end/thumb-frontend-model.png",
+    "imagemFull": "img/portfolio/front-end/site-full-model.png",
+    "linkOnline": "https://vitormartins.net",
+    "formato": "scroll"
+  },
+
+
+
+
+
+
+  {
+    "id": "dg-arte-teste-um",
     "tipo": "design",
-    "categoria": "logotipos",
-    "titulo": "Identidade Visual Café",
+    "categoria": ["videos", "estaticos"],
+    "titulo": "Arte Teste Um",
     "descricao": "Criação de logotipo e conceito visual para cafeteria artesanal.",
     "tecnologias": ["illustrator", "photoshop"],
     "thumb": "img/portfolio/design/thumb-design-model.png",
     "imagensGaleria": [
-      "img/portfolio/design/cafe-01.jpg",
-      "img/portfolio/design/cafe-02.jpg"
+      "img/portfolio/design/arte-carrossel-model.png",
+      "img/portfolio/design/arte-carrossel-model.png"
+    ],
+    "formato": "carrossel"
+  },
+  {
+    "id": "dg-arte-teste-dois",
+    "tipo": "design",
+    "categoria": ["logotipos", "papelarias"],
+    "titulo": "Arte Teste Dois",
+    "descricao": "Criação de logotipo e conceito visual para cafeteria artesanal.",
+    "tecnologias": ["premiere", "after-effects"],
+    "thumb": "img/portfolio/design/thumb-design-model.png",
+    "imagensGaleria": [
+      "img/portfolio/design/arte-carrossel-model.png",
+      "img/portfolio/design/arte-carrossel-model.png"
+    ],
+    "formato": "carrossel"
+  },
+  {
+    "id": "id-arte-teste-tres",
+    "tipo": "design",
+    "categoria": ["ebooks", "videos"],
+    "titulo": "Arte Teste Três",
+    "descricao": "Criação de logotipo e conceito visual para cafeteria artesanal.",
+    "tecnologias": ["illustrator", "photoshop"],
+    "thumb": "img/portfolio/design/thumb-design-model.png",
+    "imagensGaleria": [
+      "img/portfolio/design/arte-carrossel-model.png",
+      "img/portfolio/design/arte-carrossel-model.png"
+    ],
+    "formato": "carrossel"
+  },
+  {
+    "id": "id-arte-teste-quatro",
+    "tipo": "design",
+    "categoria": ["estaticos", "logotipos"],
+    "titulo": "Arte Teste Quatro",
+    "descricao": "Criação de logotipo e conceito visual para cafeteria artesanal.",
+    "tecnologias": ["premiere", "after-effects"],
+    "thumb": "img/portfolio/design/thumb-design-model.png",
+    "imagensGaleria": [
+      "img/portfolio/design/arte-carrossel-model.png",
+      "img/portfolio/design/arte-carrossel-model.png"
     ],
     "formato": "carrossel"
   }
