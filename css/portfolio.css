@@ -10,7 +10,7 @@
 .wrapper-carrossel-home {
     position: relative;
     width: 100%;
-    margin: 60px 0;
+    margin: 60px 0 100px;
     display: flex;
     align-items: center;
 }
@@ -30,7 +30,7 @@
     min-width: calc((100% - 40px) / 2);
     max-width: calc((100% - 40px) / 2);
     opacity: 0.2;
-    filter: blur(4px);
+    filter: blur(12px);
     transition: 0s ease;
 }
 

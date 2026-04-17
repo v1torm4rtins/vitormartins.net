@@ -278,12 +278,17 @@ button {
 }
 
 .cta-button:hover {
- 
+
   background: var(--red-color);
   color: var(--white-color);
-
+  transform: translate(-4px, -4px);
+  box-shadow: 14px 14px 0 0 var(--black-color);
 }
 
+h2.title-section:hover,
+.red-line-lateral:hover {
+  transform: translate(0, -4px);
+}
 
 
 /* --- CONFIGURAÇÃO DOS PATTERN --- */
@@ -358,6 +363,4 @@ button {
 }
 
 
-@media screen and (min-width:1440px) {
-
-}
+@media screen and (min-width:1440px) {}
