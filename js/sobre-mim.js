@@ -1,19 +1,21 @@
 document.addEventListener('DOMContentLoaded', () => {
 
     // 1. LÓGICA DO ACCORDION (FECHAR TODOS OS OUTROS AO ABRIR UM)
-    const headers = document.querySelectorAll('.accordion-header');
+    // Selecionamos tanto o .accordion-header quanto o .accordion-card (gatilhos)
+    const gatilhos = document.querySelectorAll('.accordion-header, .accordion-card');
 
-    headers.forEach(header => {
-        header.addEventListener('click', () => {
-            const currentItem = header.parentElement;
+    gatilhos.forEach(gatilho => {
+        gatilho.addEventListener('click', () => {
+            // Encontra o pai correto (seja ele de skill ou de experiência)
+            const currentItem = gatilho.closest('.accordion-item, .accordion-simple-item');
             const isOpen = currentItem.classList.contains('active');
 
-            // Primeiro: Fecha todos os itens da página (de ambas as colunas)
-            document.querySelectorAll('.accordion-item').forEach(item => {
+            // Primeiro: Fecha absolutamente todos os itens da página
+            document.querySelectorAll('.accordion-item, .accordion-simple-item').forEach(item => {
                 item.classList.remove('active');
             });
 
-            // Segundo: Se o item que você clicou não estava aberto, ele abre agora
+            // Segundo: Se o item clicado não estava aberto, abre ele
             if (!isOpen) {
                 currentItem.classList.add('active');
             }
@@ -26,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (porcentagem) {
             setTimeout(() => {
                 barra.style.width = porcentagem;
-            }, 500); // Meio segundo de delay só para o usuário ver o movimento
+            }, 500);
         }
     });
 
