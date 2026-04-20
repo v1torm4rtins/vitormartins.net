@@ -1,17 +1,9 @@
 .hero {
     height: 500px;
-    /* background: url(../img/hero-bg-smartphone-2x.jpg) no-repeat center center/cover; */
-    background: var(--black-color);
+    background: url(/img/hero-circles-bg.png) fixed;
+    background-color: var(--black-color);
     display: flex;
     align-items: center;
-}
-
-.hero-img {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 20px;
 }
 
 section.hero {
@@ -21,12 +13,36 @@ section.hero {
     border-color: var(--black-color);
 }
 
+.hero-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.hero-character {
+    height: 500px;
+}
+
+.hero-character-img:hover {
+    transform: scale(1.02);
+}
+
+.h1-title:hover {
+    transform: translate(0, -4px);
+}
 
 @media screen and (min-width:768px) {
     .hero {
         min-height: 600px;
-        /* background-image: url(../img/hero-bg-tablet-2x.jpg); */
-        background: var(--black-color);
     }
 }
 
@@ -34,7 +50,5 @@ section.hero {
 @media screen and (min-width:1024px) {
     .hero {
         min-height: 700px;
-        /* background-image: url(../img/hero-bg-desktop.jpg); */
-        background: var(--black-color);
     }
 }

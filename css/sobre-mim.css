@@ -1,3 +1,26 @@
+/* --- BIO SECTION --- */
+.bio-wrap {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bio-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+img.bio-character {
+    height: 660px;
+}
+
+img.bio-character:hover {
+    transform: scale(1.03);
+}
+
+/* --- ACCORDEONS --- */
 .accordion-group {
     display: flex;
     align-items: flex-start;
@@ -20,14 +43,14 @@
 
 .accordion-item {
     background: var(--white-color);
-    border: 4px solid var(--black-color);
+    border: 6px solid var(--black-color);
     box-shadow: 34px 34px 0 0 var(--black-color);
     display: flex;
     flex-direction: column;
 }
 
 .accordion-item:hover {
-    border: 4px solid var(--red-color);
+    border: 6px solid var(--red-color);
     transform: translate(-4px, -4px);
     box-shadow: 38px 38px 0 0 var(--black-color);
 }
@@ -70,10 +93,10 @@
 
 .software-skill-bar {
     width: calc(100% - 80px);
-    height: 14px;
+    height: 18px;
     background-color: var(--white-color);
     margin: 0 auto 40px auto;
-    border: 4px solid var(--black-color);
+    border: 6px solid var(--black-color);
     overflow: hidden;
 }
 

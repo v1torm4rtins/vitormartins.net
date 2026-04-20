@@ -33,7 +33,7 @@
     width: 100%;
     height: 72vh;
     min-height: 500px;
-    border: 4px solid var(--black-color);
+    border: 6px solid var(--black-color);
     background: var(--white-color);
     box-shadow: 30px 30px 0 0 var(--black-color);
     margin: 60px auto;
@@ -62,7 +62,7 @@
 
 .grid-galeria img {
     width: 100%;
-    border: 4px solid var(--black-color);
+    border: 6px solid var(--black-color);
     box-shadow: 20px 20px 0 0 var(--black-color);
 }
 
@@ -75,7 +75,7 @@
     padding: 20px 30px;
     background: var(--light-purple-color);
     color: var(--white-color);
-    border: 4px solid var(--black-color);
+    border: 6px solid var(--black-color);
     box-shadow: 16px 16px 0 0 var(--black-color);
     font-weight: 800;
     text-decoration: none;
@@ -92,7 +92,7 @@
 .info-projeto-topo {
     display: flex;
     align-items: center;
-    border-bottom: 4px solid #dad3cd1a;
+    border-bottom: 6px solid #dad3cd1a;
     justify-content: space-between;
 }
 
@@ -143,7 +143,7 @@
     top: 50%;
     transform: translateY(-50%);
     background: var(--light-purple-color);
-    border: 4px solid var(--black-color);
+    border: 6px solid var(--black-color);
     padding: 16px 22px 16px 18px;
     width: 60px;
     cursor: pointer;
@@ -162,7 +162,7 @@
 .nav-carrossel:hover {
     background: var(--red-color);
     transform: translateY(-50%) scale(1);
-    border: 4px solid var(--black-color);
+    border: 6px solid var(--black-color);
 }
 
 .nav-carrossel.prev {

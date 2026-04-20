@@ -1,3 +1,42 @@
+/* --- SEÇÃO DE CTA UNIVERSAL (ACIMA DO FOOTER) --- */
+
+.cta {
+  background: url(/img/cta-circles-bg.png) fixed;
+  background-color: var(--light-purple-color);
+  z-index: 1;
+}
+
+.cta-wrap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
+}
+
+.cta-l-column {
+  min-width: 45%;
+}
+
+.cta-r-column {
+  min-width: 45%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 30px;
+  padding: 60px;
+  background: var(--white-color);
+  border: 6px solid var(--black-color);
+  box-shadow: 34px 34px 0 0 var(--black-color);
+}
+
+.cta-img-notebook {
+  height: 550px;
+}
+
+.cta-img-notebook:hover {
+  transform: scale(1.02);
+}
+
 /* Faz o body ocupar no mínimo a altura da tela inteira */
 body {
   display: flex;
@@ -10,8 +49,6 @@ body {
 main {
   flex: 1;
 }
-
-.cta-footer {}
 
 .main-footer {
   width: 100%;
