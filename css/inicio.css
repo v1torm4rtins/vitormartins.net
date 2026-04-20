@@ -1,8 +1,8 @@
 /* --- SEÇÃO SOFTWARES --- */
 .software-icon:hover {
     fill: var(--red-color);
+    transform: translate(0, -6px);
 }
-
 
 .software-section {
     display: flex;
@@ -48,7 +48,8 @@
 
 .software-skill-bar {
     width: 100%;
-    height: 4px;
+    height: 18px;
+    border: 6px solid var(--dark-purple-color);
     background-color: #dad3cd1a;
     margin-top: 8px;
     overflow: hidden;
@@ -68,6 +69,55 @@
 }
 
 
+
+
+
+/* -- SEÇÃO CARREIRA --- */
+.career-card {
+    display: flex;
+    align-items: center;
+    background: var(--white-color);
+    box-shadow: 34px 34px 0 0 var(--black-color);
+    border: 6px solid var(--black-color);
+    padding: 40px;
+    margin-bottom: 20px;
+}
+
+.career-card:hover {
+    border: 6px solid var(--red-color);
+}
+
+.career-age {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.career-text {
+    text-align: left;
+    margin-left: 40px;
+    padding-left: 40px;
+    border-left: 6px solid #00000020;
+}
+
+.age-number {
+    color: var(--light-purple-color);
+    font-weight: 700;
+    font-size: 50px;
+    margin-top: -10px;
+}
+
+.age-lable {
+    color: var(--light-purple-color);
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: -10px;
+}
+
+
+
+/* ===== RESPONSIVO ===== */
 
 @media screen and (min-width:768px) {
 
@@ -95,14 +145,6 @@
         gap: 20px;
     }
 
-    .software-skill-bar {
-        width: 100%;
-        height: 4px;
-        background-color: #dad3cd1a;
-        margin-top: 8px;
-        overflow: hidden;
-    }
-
     .software-skill-level {
         height: 100%;
         width: 0;
@@ -115,68 +157,60 @@
 
     }
 
+}
 
 
-    @media screen and (min-width:1024px) {
+@media screen and (min-width:1024px) {
 
-        /* --- SEÇÃO SOFTWARES --- */
-        .software-section {
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: space-between;
-            gap: 60px;
-        }
-
-        .software-column-text {
-            width: 40%;
-        }
-
-        .software-column-skills {
-            width: 60%;
-        }
-
-        .software-group-skills {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-        }
-
-        .software-item {
-            flex: 0 1 calc(50% - 20px);
-            min-width: 250px;
-        }
-
-        .software-icon {
-            width: 60px;
-        }
-
-        .software-title {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: flex-start;
-            gap: 20px;
-        }
-
-        .software-skill-bar {
-            width: 100%;
-            height: 4px;
-            background-color: #dad3cd1a;
-            margin-top: 8px;
-            overflow: hidden;
-        }
-
-        .software-skill-level {
-            height: 100%;
-            width: 0;
-            background-color: var(--white-color);
-            transition: width 1.5s cubic-bezier(0.1, 0.5, 0.5, 1);
-        }
-
-        .software-cta {
-            margin-top: 60px;
-        }
-
+    /* --- SEÇÃO SOFTWARES --- */
+    .software-section {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 60px;
     }
+
+    .software-column-text {
+        width: 40%;
+    }
+
+    .software-column-skills {
+        width: 60%;
+    }
+
+    .software-group-skills {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .software-item {
+        flex: 0 1 calc(50% - 20px);
+        min-width: 250px;
+    }
+
+    .software-icon {
+        width: 60px;
+    }
+
+    .software-title {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 20px;
+    }
+
+    .software-skill-level {
+        height: 100%;
+        width: 0;
+        background-color: var(--white-color);
+        transition: width 1.5s cubic-bezier(0.1, 0.5, 0.5, 1);
+    }
+
+    .software-cta {
+        margin-top: 60px;
+    }
+
 }
