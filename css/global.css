@@ -356,9 +356,27 @@ h2.title-section:hover,
 
 
 
+/* --- SEÇÃO DE CTA UNIVERSAL (NO FOOTER) --- */
+.cta-backpack {
+  display: flex;
+  flex-direction: row;
+}
+
+.cta-l-column {
+  min-width: 50%;
+}
+
+.cta-r-column {
+  min-width: 50%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 30px;
+}
 
 
 
+/* --- TEXTURA DE FUNDO (LABIRINTO) --- */
 .maze-bg {
   position: relative;
   overflow: hidden;
@@ -396,6 +414,7 @@ h2.title-section:hover,
 
 
 
+/* ===== RESPONSIVO ===== */
 @media screen and (min-width:768px) {}
 
 

@@ -84,6 +84,11 @@
     right: -80px;
 }
 
+.home-section-carrossel {
+    overflow-x: hidden;
+    position: relative;
+}
+
 /* Ajuste para telas menores */
 @media (max-width: 1350px) {
     .nav-home.prev {

@@ -34,6 +34,7 @@
 
 .accordion-header {
     padding: 40px;
+    gap: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -184,9 +185,8 @@
 }
 
 .content-simple-inner {
-    padding: 30px 40px;
+    padding: 0 40px 30px;
     border-left: 4px solid var(--red-color);
-    background: rgb(218 211 205 / 60%);
 }
 
 .accordion-card {
@@ -208,7 +208,7 @@
 }
 
 .experience-icon {
-    width: 280px;
+    min-width: 200px;
     height: 140px;
     fill: var(--light-purple-color);
     margin-top: 10px;
