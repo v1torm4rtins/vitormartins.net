@@ -351,15 +351,12 @@ h2.title-section:hover,
 
 
 
-
-
-
-
-
 /* --- SEÇÃO DE CTA UNIVERSAL (NO FOOTER) --- */
 .cta-backpack {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  gap: 40px;
 }
 
 .cta-l-column {
@@ -372,7 +369,21 @@ h2.title-section:hover,
   align-items: flex-start;
   flex-direction: column;
   gap: 30px;
+  padding: 60px;
+  background: var(--white-color);
+  border: 4px solid var(--black-color);
+  box-shadow: 34px 34px 0 0 var(--black-color);
 }
+
+.cta-img-notebook {
+  height: 550px;
+}
+
+.cta-img-notebook:hover {
+  transform: scale(1.02);
+}
+
+
 
 
 

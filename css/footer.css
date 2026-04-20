@@ -11,6 +11,8 @@ main {
   flex: 1;
 }
 
+.cta-footer {}
+
 .main-footer {
   width: 100%;
   background: var(--black-color);
@@ -26,4 +28,19 @@ main {
   align-items: center;
   padding-top: 40px;
   padding-bottom: 40px;
+}
+
+.left-footer-column {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+}
+
+.footer-logo-img {
+  height: 40px;
+}
+
+.footer-logo-img:hover {
+  transform: scale(1.08);
 }
