@@ -1,0 +1,226 @@
+.accordion-group {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    width: 100%;
+}
+
+.accordion-col {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+@media (max-width: 992px) {
+    .accordion-group {
+        flex-direction: column;
+    }
+}
+
+.accordion-item {
+    background: var(--white-color);
+    border: 4px solid var(--black-color);
+    box-shadow: 34px 34px 0 0 var(--black-color);
+    display: flex;
+    flex-direction: column;
+}
+
+.accordion-item:hover {
+    border: 4px solid var(--red-color);
+    transform: translate(-4px, -4px);
+    box-shadow: 38px 38px 0 0 var(--black-color);
+}
+
+.accordion-header {
+    padding: 40px;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    user-select: none;
+}
+
+.skill-info {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.skill-icon {
+    width: 80px;
+    height: 80px;
+}
+
+.accordion-arrow {
+    transform: rotate(-90deg);
+    width: 14px;
+    height: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s cubic-bezier(0, 1, 0.5, 1);
+}
+
+/* Estado da Seta quando Aberto */
+.accordion-item.active .accordion-arrow {
+    transform: rotate(90deg);
+}
+
+.software-skill-bar {
+    width: calc(100% - 80px);
+    height: 14px;
+    background-color: var(--white-color);
+    margin: 0 auto 40px auto;
+    border: 4px solid var(--black-color);
+    overflow: hidden;
+}
+
+.software-skill-level {
+    height: 100%;
+    width: 0;
+    background-color: var(--light-purple-color);
+    transition: width 1.5s cubic-bezier(0.1, 0.5, 0.5, 1);
+}
+
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0s cubic-bezier(0, 1, 0.5, 1);
+}
+
+.accordion-item.active .accordion-content,
+.accordion-simple-item.active .accordion-content {
+    max-height: 600px;
+}
+
+.content-inner {
+    padding: 30px 40px;
+    background: #00000010;
+    margin: 0 40px 40px;
+}
+
+.content-inner p {
+    margin-bottom: 24px;
+}
+
+.btn-certificado {
+    color: var(--black-color);
+    display: inline-block;
+    padding: 10px 20px;
+    border: 4px solid var(--black-color);
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--black-color);
+}
+
+.btn-certificado:hover {
+    color: var(--white-color);
+    background: var(--grey-color);
+}
+
+
+
+
+
+/* --- EXPERIÊNCIA PROFISSIONAL E FORMAÇÃO ACADÊMICA --- */
+.experience-wrap {
+    background: var(--white-color);
+    padding: 40px;
+    border: 4px solid var(--dark-purple-color);
+    box-shadow: 34px 34px 0 0 var(--dark-purple-color);
+    margin-top: 10px;
+}
+
+.group-horizontal {
+    display: flex;
+    gap: 40px;
+}
+
+.accordion-group-vertical {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.experience-date {
+    font-family: var(--font-medium);
+    color: var(--light-purple-color);
+    font-size: var(--text-font-size);
+}
+
+.experience-details {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.accordion-plus {
+    font-size: 2em;
+    font-weight: 600;
+    transition: transform 0.1s ease;
+}
+
+.accordion-simple-item.active .accordion-plus {
+    transform: rotate(45deg);
+    color: var(--red-color);
+}
+
+.section-subtitle {
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+}
+
+.accordion-simple-item {
+    background: #00000010;
+    display: flex;
+    flex-direction: column;
+}
+
+.accordion-simple-item.active .accordion-card {
+    border-left: 4px solid var(--red-color);
+}
+
+.content-simple-inner {
+    padding: 0 40px 30px;
+    border-left: 4px solid var(--red-color);
+}
+
+.accordion-card {
+    padding: 30px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    user-select: none;
+    border-left: 4px solid #00000000;
+}
+
+.accordion-card:hover {
+    border-left: 4px solid var(--red-color);
+}
+
+.accordion-card.active {
+    border-left: 4px solid var(--red-color);
+}
+
+.experience-icon {
+    min-width: 200px;
+    height: 140px;
+    fill: var(--light-purple-color);
+    margin-top: 10px;
+}
+
+.experience-icon:hover {
+    fill: var(--red-color);
+    transform: translate(0, -4px);
+}
+
+@media (max-width: 768px) {
+    .accordion-group {
+        grid-template-columns: 1fr;
+    }
+}
