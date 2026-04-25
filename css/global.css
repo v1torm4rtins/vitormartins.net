@@ -92,27 +92,141 @@ video {
   box-sizing: border-box;
 }
 
+
+
+
+/* === VARIÁVEIS GLOBAIS === */
 :root {
+
+  /* color */
   --white-color: #DAD3CD;
   --black-color: #1E1C2F;
   --light-purple-color: #501A5E;
   --dark-purple-color: #2D1E36;
   --red-color: #C83232;
-  --grey-color: #5B5B68;
+  --gray-color: #5B5B68;
 
-  --title-weight: 700;
-  --text-weight: 500;
-
+  /* H titles sizes */
   --h1-font-size: clamp(1.5rem, 1rem + 3vw, 3rem);
   --h2-font-size: clamp(1.6rem, 1.3rem + 2.5vw, 2.4rem);
   --h3-font-size: clamp(1.4rem, 1.1rem + 2vw, 1.8rem);
   --h4-font-size: clamp(1.2rem, 1rem + 1.5vw, 1.4rem);
 
+  /* texts size */
   --text-font-size: clamp(1.1rem, 1rem + 0.5vw, 1.25rem);
-  --button-font-size: clamp(1rem, 0.9rem + 0.4vw, 1.1rem);
+
+  /* weight type */
+  --title-weight: 700;
+  --text-weight: 500;
 }
 
 
+
+
+/* === CLASSES GATILHOS === */
+
+/* Section color */
+.dark-section {
+  background: var(--black-color);
+}
+
+.light-section {
+  background: var(--white-color);
+}
+
+.gray-section {
+  background: var(--gray-color);
+}
+
+.light-purple-section {
+  background: var(--light-purple-color)
+}
+
+/* Space */
+.large-bottom-margin {
+  margin-bottom: 70px
+}
+
+.medium-bottom-margin {
+  margin-bottom: 50px
+}
+
+.small-bottom-margin {
+  margin-bottom: 30px
+}
+
+/* Text color & centralize */
+.black-text {
+  color: var(--black-color);
+}
+
+.white-text {
+  color: var(--white-color);
+}
+
+.gray-text {
+  color: var(--gray-color);
+}
+
+.light-purple-text {
+  color: var(--light-purple-color);
+}
+
+.center-content {
+  text-align: center;
+}
+
+/* Red line spacer (border-top) */
+/* <div class="red-line-spacing"></div> */
+.red-line-spacing {
+  border: 0;
+  width: 16%;
+  border-top: 6px solid var(--red-color);
+  margin: 40px auto;
+}
+
+/* <div class="left-red-line-spacing-1-2"></div> */
+.left-red-line-spacing-1-2 {
+  border: 0;
+  width: 32%;
+  border-top: 6px solid var(--red-color);
+  margin: 20px 0;
+}
+
+/* <div class="left-red-line-spacing-1-1"></div> */
+.left-red-line-spacing-1-1 {
+  border: 0;
+  width: 16%;
+  border-top: 6px solid var(--red-color);
+  margin: 20px 0;
+}
+
+.red-line-lateral {
+  padding-left: 24px;
+  border-left: 6px solid var(--red-color)
+}
+
+
+
+
+/* Configuração da Fonte/Tipografia */
+@font-face {
+  font-family: 'Zalando Sans Expanded';
+  src: url('/fonts/ZalandoSansExpanded-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Zalando Sans Expanded';
+  src: url('/fonts/ZalandoSansExpanded-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Espaçamento top para o menu */
 main {
   padding-top: 130px;
   background-color: var(--dark-purple-color);
@@ -136,22 +250,7 @@ section {
   border-color: var(--black-color);
 }
 
-.dark-section {
-  background: var(--black-color);
-}
-
-.light-section {
-  background: var(--white-color);
-}
-
-.gray-section {
-  background: var(--grey-color);
-}
-
-.light-purple-section {
-  background: var(--light-purple-color)
-}
-
+/* Automação para os titles e texts */
 h1 {
   font-size: var(--h1-font-size);
 }
@@ -178,7 +277,7 @@ h4 {
 }
 
 p {
-  color: var(--grey-color);
+  color: var(--gray-color);
   font-size: var(--text-font-size);
   font-weight: var(--text-weight);
   line-height: 1.6;
@@ -186,7 +285,7 @@ p {
 
 a {
   text-decoration: none;
-  color: var(--grey-color);
+  color: var(--gray-color);
   font-size: var(--text-font-size);
   font-weight: var(--text-weight);
   line-height: 1.6;
@@ -195,14 +294,6 @@ a {
 
 a:hover {
   color: var(--red-color)
-}
-
-button,
-input,
-select,
-textarea {
-  font-family: inherit;
-  /* Use a mesma fonte do pai */
 }
 
 body {
@@ -219,62 +310,25 @@ body {
   transition: opacity 0s ease-in;
 }
 
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  /* Use a mesma fonte do pai */
+}
+
 body.loaded {
   opacity: 1;
 }
 
-.black-text {
-  color: var(--black-color);
-}
-
-.white-text {
-  color: var(--white-color);
-}
-
 .page-title {
-  padding: 160px 0;
+  padding: 120px 0;
   background: var(--black-color);
-}
-
-.center-content {
-  text-align: center;
 }
 
 .horizontal-padding {
   padding: 0 10%;
-}
-
-
-/* --- ESPAÇAMENTOS PARA ITENS --- */
-.large-bottom-margin {
-  margin-bottom: 70px
-}
-
-.medium-bottom-margin {
-  margin-bottom: 50px
-}
-
-.small-bottom-margin {
-  margin-bottom: 30px
-}
-
-.red-line-spacing {
-  border: 0;
-  width: 16%;
-  border-top: 6px solid var(--red-color);
-  margin: 60px auto;
-}
-
-.left-red-line-spacing {
-  border: 0;
-  width: 32%;
-  border-top: 6px solid var(--red-color);
-  margin: 20px 0;
-}
-
-.red-line-lateral {
-  padding-left: 24px;
-  border-left: 6px solid var(--red-color)
 }
 
 .cta-button,
@@ -291,7 +345,6 @@ button {
 }
 
 .cta-button:hover {
-
   background: var(--red-color);
   color: var(--white-color);
   transform: translate(-4px, -4px);
@@ -323,7 +376,9 @@ h2.title-section:hover,
 }
 
 
-/* --- CONFIGURAÇÃO DOS PATTERN --- */
+
+
+/* --- VM PATTERN (LOGO) --- */
 .vm-pattern {
   position: relative;
   overflow: hidden;
@@ -379,13 +434,19 @@ h2.title-section:hover,
 
 
 
+/* --- MAZE TEXTURE (LABIRINTO) --- */
 
-/* --- TEXTURA DE FUNDO (LABIRINTO) --- */
-
-/* VERMELHO */
+/* red */
 .red-maze-bg {
   position: relative;
   overflow: hidden;
+}
+
+/* light purlpe */
+.light-purple-maze-bg {
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
 }
 
 .red-maze-bg:before {
@@ -402,19 +463,6 @@ h2.title-section:hover,
   -webkit-mask-repeat: no-repeat;
   background-color: var(--red-color);
   opacity: 0.4;
-}
-
-.red-maze-bg>* {
-  position: relative;
-  z-index: 1;
-}
-
-
-/* ROXO CLARO */
-.light-purple-maze-bg {
-  position: relative;
-  overflow: hidden;
-  z-index: 0;
 }
 
 .light-purple-maze-bg:before {
@@ -434,10 +482,16 @@ h2.title-section:hover,
   opacity: 0.6;
 }
 
+.red-maze-bg>* {
+  position: relative;
+  z-index: 1;
+}
+
 .light-purple-maze-bg>* {
   position: relative;
   z-index: 1;
 }
+
 
 
 
@@ -454,7 +508,7 @@ h2.title-section:hover,
   }
 
   section {
-    padding: 160px 0;
+    padding: 120px 0;
   }
 
   .container {
