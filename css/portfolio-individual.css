@@ -35,7 +35,7 @@
     min-height: 500px;
     border: 6px solid var(--black-color);
     background: var(--white-color);
-    box-shadow: 30px 30px 0 0 var(--black-color);
+    box-shadow: 34px 34px 0 0 var(--black-color);
     margin: 60px auto;
     overflow: hidden;
 }
@@ -68,21 +68,24 @@
 
 .acoes-projeto {
     padding: 40px 0 16px;
+    display: flex;
+    justify-content: flex-start;
 }
 
-.btn-cta {
-    display: inline-block;
+.button-open-site {
+    display: flex;
+    align-items: center;
+    gap: 20px;
     padding: 20px 30px;
     background: var(--light-purple-color);
     color: var(--white-color);
     border: 6px solid var(--black-color);
     box-shadow: 16px 16px 0 0 var(--black-color);
-    font-weight: 800;
+    font-weight: 700;
     text-decoration: none;
-    transition: 0s;
 }
 
-.btn-cta:hover {
+.button-open-site:hover {
     transform: translate(-4px, -4px);
     box-shadow: 20px 20px 0 0 var(--black-color);
     color: var(--white-color);
@@ -155,7 +158,7 @@
 }
 
 .nav-carrossel img {
-    width: 20px;
+    height: 30px;
     filter: invert(96%) sepia(5%) saturate(225%) hue-rotate(323deg) brightness(91%) contrast(89%);
 }
 
@@ -174,6 +177,63 @@
 }
 
 
+/* --- AJUSTE SETAS CARROSSEL (ESTILO HOME) --- */
+.nav-carrossel {
+    width: 66px;
+    height: 66px;
+    padding: 10px 20px;
+    box-shadow: 10px 10px 0 0 var(--black-color);
+}
+
+.nav-carrossel:hover {
+    transform: translateY(-52%) translate(-2px, -2px);
+    box-shadow: 12px 12px 0 0 var(--black-color);
+    background: var(--red-color);
+}
+
+.nav-carrossel img {
+    height: 24px;
+    filter: brightness(0) invert(1);
+    /* Seta branca pura */
+}
+
+.icon-open-arrow {
+    height: 26px;
+    fill: currentColor;
+    /* Faz o ícone herdar a cor 'white' do texto */
+}
+
+
+
+
+
+/* --- PROJETOS RELACIONADOS --- */
+.projetos-relacionados {
+    padding-bottom: 140px;
+}
+
+.grid-relacionados {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.thumb-wrapper {
+    padding: 0 0 30px 0;
+}
+
+.thumb-wrapper img {
+    border: 0;
+}
+
+
+
+
+
+
+
+
+
 @media (max-width: 768px) {
     .grid-galeria {
         grid-template-columns: 1fr;
@@ -182,5 +242,34 @@
     .moldura-pc {
         height: 50vh;
         box-shadow: 15px 15px 0 0 var(--black-color);
+    }
+
+    .grid-relacionados {
+        grid-template-columns: 1fr;
+    }
+
+    .nav-carrossel.prev {
+        left: 10px;
+    }
+
+    .nav-carrossel.next {
+        right: 10px;
+    }
+}
+
+
+
+
+@media (max-width: 1024px) {
+    .grid-relacionados {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .nav-carrossel.prev {
+        left: -30px;
+    }
+
+    .nav-carrossel.next {
+        right: -30px;
     }
 }
