@@ -18,5 +18,10 @@ const initSite = async () => {
     }
 };
 
+window.addEventListener('scroll', function() {
+    const header = document.querySelector('header');
+    header.classList.toggle('header-compact', window.scrollY > 50);
+});
+
 // Dispara quando o HTML básico estiver pronto
 document.addEventListener('DOMContentLoaded', initSite);

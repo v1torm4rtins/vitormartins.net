@@ -40,8 +40,7 @@ nav {
 
 .logo {
   display: inline-block;
-  width: 63px;
-  height: 63px;
+  height: 50px;
 }
 
 .img-mobile {
@@ -115,16 +114,58 @@ input[type="checkbox"]:checked~nav {
   background: var(--red-color);
 }
 
+.logo-hover:hover {
+  transform: translate(-2px, -2px);
+}
+
+
+
+
+/* --- STICKY HEADER (SÓ DESKTOP) --- */
+@media screen and (min-width: 1024px) {
+
+  .main-header>.container {
+    transition: padding 0.1s ease;
+  }
+
+  /* Redução do Padding no Scroll */
+  .main-header.header-compact>.container {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    align-items: center;
+  }
+
+  /* Troca da Logo no Scroll - Esconde a logo branca com texto*/
+  .main-header.header-compact .img-desktop {
+    display: none;
+  }
+
+  /* Força a logo vermelha (img-mobile) a aparecer no desktop no scroll */
+  .main-header.header-compact .logo .img-mobile {
+    display: block;
+    height: 40px;
+  }
+
+  /* Ajusta o Botão de Contato no Scroll */
+  .header-compact .botao-contato {
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+}
+
+
+
+
 
 @media screen and (min-width:768px) {
   .main-header>.container {
-    align-items: stretch;
+    align-items: center;
   }
 
   .burger {
     margin-top: 0;
     width: auto;
-    height: 24px;
+    height: 58px;
   }
 
   .burger label {
@@ -165,7 +206,7 @@ input[type="checkbox"]:checked~nav {
 
   .img-desktop {
     display: block;
-    height: 63px;
+    height: 50px;
   }
 
   .img-mobile {
@@ -185,7 +226,7 @@ input[type="checkbox"]:checked~nav {
 
   .img-desktop {
     display: block;
-    height: 63px;
+    height: 50px;
   }
 
   .img-mobile {

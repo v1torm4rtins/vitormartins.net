@@ -228,7 +228,7 @@ video {
 
 /* Espaçamento top para o menu */
 main {
-  padding-top: 130px;
+  padding-top: 120px;
   background-color: var(--dark-purple-color);
 }
 
@@ -370,6 +370,7 @@ button {
   box-shadow: 14px 14px 0 0 var(--dark-purple-color);
 }
 
+h1.title-section:hover,
 h2.title-section:hover,
 .red-line-lateral:hover {
   transform: translate(0, -4px);
