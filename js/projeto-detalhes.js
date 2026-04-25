@@ -37,7 +37,7 @@ async function carregarProjeto() {
     }
 }
 
-// Lógica simples de navegação do carrossel
+// Lógica de navegação do carrossel
 function iniciarControlesCarrossel() {
     const container = document.getElementById('container-carrossel');
     const prevBtn = document.getElementById('prev-btn');

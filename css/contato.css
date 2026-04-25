@@ -1,0 +1,235 @@
+/* Ocultar a seção de CTA */
+section.cta {
+    display: none;
+}
+
+
+/* --- WHATSAPP CONTACT SECTION --- */
+.whatsapp-contact-section {
+    padding: 60px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url(/img/cta-circles-bg2.png) fixed;
+    background-color: var(--light-purple-color);
+}
+
+.whatsapp-contact-wrap {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+}
+
+.whatsapp-contact-left {
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    margin-bottom: 80px;
+}
+
+.whatsapp-contact-right {
+    width: 53%;
+}
+
+.whatsapp-contact-right:hover {
+    transform: scale(1.03);
+}
+
+.img.character-contato-img {
+    height: 800px;
+}
+
+.cta-button-contato {
+    display: inline-flex;
+    gap: 20px;
+    cursor: pointer;
+    border: 6px solid var(--black-color);
+    box-shadow: 20px 20px 0 0 var(--black-color);
+    padding: 20px 40px;
+    font-size: var(--h3-font-size);
+    font-weight: var(--title-weight);
+    color: var(--white-color);
+    background: var(--red-color);
+    line-height: 2rem;
+}
+
+.cta-button-contato:hover {
+    color: var(--white-color);
+    transform: translate(-6px, -6px);
+    box-shadow: 26px 26px 0 0 var(--black-color);
+}
+
+.link-card:hover {
+    border: 6px solid var(--red-color);
+}
+
+/* Icon style*/
+.icon-whatsapp {
+    width: 60px;
+    height: 60px;
+    fill: currentColor;
+    /* Faz o ícone herdar a cor 'white' do texto */
+}
+
+
+
+
+/* --- FORMULÁRIO DE CONTATO --- */
+.form-group-floating {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.form-row {
+    display: flex;
+    gap: 20px;
+}
+
+.form-row .form-group-floating {
+    flex: 1;
+    /* Faz cada campo ocupar metade da linha */
+}
+
+/* Estilo base dos Inputs e Textarea */
+.form-group-floating input,
+.form-group-floating textarea {
+    width: 100%;
+    padding: 20px;
+    border: 6px solid var(--black-color);
+    background-color: var(--white-color);
+    box-shadow: 34px 34px 0 0 var(--black-color);
+    font-size: 1.4rem;
+    font-weight: 700;
+    outline: none;
+    transition: all 0s ease;
+    display: block;
+}
+
+.form-group-floating textarea {
+    height: 300px;
+}
+
+/* Label style (Texto que vai subir) */
+.form-group-floating label {
+    position: absolute;
+    font-size: 1.4rem;
+    font-weight: 700;
+    left: 28px;
+    top: 26px;
+    color: var(--gray-color);
+    transition: all 0.1s ease;
+    pointer-events: none;
+    /* Deixa o clique passar para o input */
+}
+
+/* QUANDO O INPUT ESTÁ EM FOCO OU TEM TEXTO */
+/* O label sobe, muda de cor e diminui */
+.form-group-floating input:focus+label,
+.form-group-floating input:not(:placeholder-shown)+label,
+.form-group-floating textarea:focus+label,
+.form-group-floating textarea:not(:placeholder-shown)+label {
+    top: -12px;
+    left: 24px;
+    background-color: var(--red-color);
+    color: var(--white-color);
+    padding: 0 5px;
+}
+
+/* Ajuste do Foco igual ao seu botão */
+.form-group-floating input:focus,
+.form-group-floating textarea:focus {
+    border: 6px solid var(--red-color);
+}
+
+.cta-button {
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    padding: 20px;
+    font-size: 1.4rem;
+    box-shadow: 34px 34px 0 0 var(--black-color);
+}
+
+.cta-button:hover {
+    box-shadow: 34px 34px 0 0 var(--black-color);
+    transform: translate(0, 0);
+}
+
+
+
+
+/* --- SEÇÃO DE LINKS --- */
+.link-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.link-card {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 40px;
+    min-height: 200px;
+    background-color: var(--white-color);
+    border: 6px solid var(--black-color);
+    box-shadow: 34px 34px 0 0 var(--black-color);
+    text-decoration: none;
+    transition: all 0s ease;
+}
+
+.link-card:hover {
+    transform: translate(-6px, -6px);
+    box-shadow: 40px 40px 0 0 var(--black-color);
+}
+
+/* O Círculo do Ícone */
+.link-icon {
+    width: 60px;
+    height: 60px;
+    fill: var(--gray-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.link-icon:hover {
+    fill: var(--red-color);
+}
+
+/* Textos dentro do Card */
+.link-content {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+/* --- RESPONSIVO --- */
+@media (max-width: 768px) {
+    .link-grid {
+        grid-template-columns: 1fr;
+        /* 1 coluna no celular */
+        gap: 30px;
+        padding: 20px;
+    }
+
+    .link-card {
+        padding: 20px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .form-row {
+        flex-direction: column;
+        gap: 0;
+    }
+}

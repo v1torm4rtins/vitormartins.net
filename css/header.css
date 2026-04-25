@@ -15,7 +15,7 @@ div#header-placeholder {
 }
 
 .pg-contato .nav-contato {
-  border: 4px solid var(--red-color) !important;
+  border: 6px solid var(--red-color) !important;
 }
 
 .main-header {
@@ -69,13 +69,13 @@ input[type="checkbox"]:checked~nav {
   padding: 20px 40px 30px;
   display: block;
   position: absolute;
-  /* Joga o menu 4px para a esquerda para cobrir a borda do pai ou alinhar */
-  left: -4px;
-  /* Soma a largura total + as duas bordas de 4px (8px) */
-  width: calc(100% + 8px);
+  /* Joga o menu 6px para a esquerda para cobrir a borda do pai ou alinhar */
+  left: -6px;
+  /* Soma a largura total + as duas bordas de 6px (12px) */
+  width: calc(100% + 12px);
   top: 100%;
   background: var(--dark-purple-color);
-  border: 4px solid var(--black-color);
+  border: 6px solid var(--black-color);
   z-index: 999;
 }
 
@@ -94,7 +94,7 @@ input[type="checkbox"]:checked~nav {
 }
 
 .list-links li a.botao-contato {
-  border: 4px solid var(--black-color);
+  border: 6px solid var(--black-color);
   box-shadow: 10px 10px 0 0 var(--black-color);
   display: inline-block;
   font-weight: 700;
