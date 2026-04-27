@@ -75,7 +75,9 @@
 /* -- SEÇÃO CARREIRA --- */
 .career-card {
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
     background: var(--white-color);
     box-shadow: 34px 34px 0 0 var(--black-color);
     border: 6px solid var(--black-color);
@@ -89,35 +91,50 @@
 
 .career-age {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
+    gap: 10px;
 }
 
 .career-text {
     text-align: left;
-    margin-left: 40px;
-    padding-left: 40px;
-    border-left: 6px solid #00000020;
+    margin-left: 0;
+    padding-left: 0px;
+    padding-top: 20px;
+    border-left: 0;
+    border-top: 6px solid #00000020;
 }
 
 .age-number {
     color: var(--light-purple-color);
     font-weight: 700;
-    font-size: 50px;
+    font-size: var(--h1-font-size);
     margin-top: -10px;
 }
 
 .age-lable {
     color: var(--light-purple-color);
     font-weight: 700;
-    font-size: 20px;
+    font-size: var(--h3-font-size);
     margin-top: -10px;
 }
 
 
 
-/* ===== RESPONSIVO ===== */
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========== RESPONSIVO - TABLET 768+ ==========*/
 
 @media screen and (min-width:768px) {
 
@@ -157,8 +174,45 @@
 
     }
 
+
+
+
+
+    /* --- SEÇÃO CARREIRA --- */
+    .career-card {
+        flex-direction: row;
+        align-items: center;
+        gap: 0;
+    }
+
+    .career-age {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .career-text {
+        text-align: left;
+        margin-left: 40px;
+        padding: 0 0 0 40px;
+        border-left: 6px solid #00000020;
+        border-top: 0;
+    }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========== RESPONSIVO - LAPTOP 1024+ ==========*/
 
 @media screen and (min-width:1024px) {
 
@@ -212,5 +266,21 @@
     .software-cta {
         margin-top: 60px;
     }
-
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========== RESPONSIVO - DESKTOP 1440+ ==========*/
+
+@media screen and (min-width:1440px) {}

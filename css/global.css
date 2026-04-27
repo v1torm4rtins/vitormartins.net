@@ -95,6 +95,7 @@ video {
 
 
 
+
 /* === VARIÁVEIS GLOBAIS === */
 :root {
 
@@ -119,6 +120,7 @@ video {
   --title-weight: 700;
   --text-weight: 500;
 }
+
 
 
 
@@ -209,7 +211,8 @@ video {
 
 
 
-/* Configuração da Fonte/Tipografia */
+
+/* --- Configuração da Fonte/Tipografia --- */
 @font-face {
   font-family: 'Zalando Sans Expanded';
   src: url('/fonts/ZalandoSansExpanded-Medium.woff2') format('woff2');
@@ -243,7 +246,7 @@ main {
 /* Sections sempre 100% para aceitar fundos */
 section {
   width: 100%;
-  padding: 70px 0;
+  padding: 80px 0;
   border-right: 6px solid;
   border-left: 6px solid;
   border-bottom: 6px solid;
@@ -498,10 +501,25 @@ h2.title-section:hover,
 
 
 
-/* ===== RESPONSIVO ===== */
+/* ========== RESPONSIVO - TABLET 768+ ==========*/
 
 @media screen and (min-width:768px) {}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========== RESPONSIVO - LAPTOP 1024+ ==========*/
 
 @media screen and (min-width:1024px) {
   .red-line-lateral {
@@ -517,5 +535,20 @@ h2.title-section:hover,
   }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========== RESPONSIVO - DESKTOP 1440+ ==========*/
 
 @media screen and (min-width:1440px) {}

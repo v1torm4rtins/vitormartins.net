@@ -45,6 +45,7 @@ nav {
 
 .img-mobile {
   display: block;
+  height: 50px;
 }
 
 .img-desktop {
@@ -89,7 +90,6 @@ input[type="checkbox"]:checked~nav {
 .list-links li a {
   color: var(--white-color);
   text-decoration: none;
-  font-weight: var(--text-weight);
 }
 
 .list-links li a.botao-contato {
@@ -106,7 +106,6 @@ input[type="checkbox"]:checked~nav {
 
 .botao-contato {
   background: var(--light-purple-color);
-  padding: 10px 16px;
   color: var(--white-color) !important;
 }
 
@@ -118,44 +117,25 @@ input[type="checkbox"]:checked~nav {
   transform: translate(-2px, -2px);
 }
 
-
-
-
-/* --- STICKY HEADER (SÓ DESKTOP) --- */
-@media screen and (min-width: 1024px) {
-
-  .main-header>.container {
-    transition: padding 0.1s ease;
-  }
-
-  /* Redução do Padding no Scroll */
-  .main-header.header-compact>.container {
-    padding-top: 8px;
-    padding-bottom: 8px;
-    align-items: center;
-  }
-
-  /* Troca da Logo no Scroll - Esconde a logo branca com texto*/
-  .main-header.header-compact .img-desktop {
-    display: none;
-  }
-
-  /* Força a logo vermelha (img-mobile) a aparecer no desktop no scroll */
-  .main-header.header-compact .logo .img-mobile {
-    display: block;
-    height: 40px;
-  }
-
-  /* Ajusta o Botão de Contato no Scroll */
-  .header-compact .botao-contato {
-    padding-top: 6px;
-    padding-bottom: 6px;
-  }
+.burger ul {
+  margin-top: -5px
 }
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+/* ========== RESPONSIVO - TABLET 768+ ==========*/
 
 @media screen and (min-width:768px) {
   .main-header>.container {
@@ -184,21 +164,61 @@ input[type="checkbox"]:checked~nav {
   }
 
   .burger ul li {
-    margin: 0 14px;
+    margin: 0 10px;
   }
 
   .botao-contato {
-    border: 6px solid var(--light-purple-color);
-    box-shadow: 10px 10px 0 0 var(--black-color);
-    background: var(--light-purple-color);
-    padding: 10px 20px;
-    color: var(--white-color) !important;
-    font-weight: var(--title-weight);
+    padding: 10px 12px;
   }
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========== RESPONSIVO - LAPTOP 1024+ ==========*/
+
 @media screen and (min-width:1024px) {
+
+  /* --- STICYK HEADER --- */
+  .main-header>.container {
+    transition: padding 0.1s ease;
+  }
+
+  /* Redução do Padding no Scroll */
+  .main-header.header-compact>.container {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    align-items: center;
+  }
+
+  /* Troca da Logo no Scroll - Esconde a logo branca com texto*/
+  .main-header.header-compact .img-desktop {
+    display: none;
+  }
+
+  /* Força a logo vermelha (img-mobile) a aparecer no desktop no scroll */
+  .main-header.header-compact .logo .img-mobile {
+    display: block;
+    height: 40px;
+  }
+
+  /* Ajusta o Botão de Contato no Scroll */
+  .header-compact .botao-contato {
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+
   .logo {
     width: 260px;
     height: auto;
@@ -216,7 +236,27 @@ input[type="checkbox"]:checked~nav {
   input[type="checkbox"]:checked~nav {
     padding: 20px 60px 30px;
   }
+
+  .botao-contato {
+    padding: 10px 20px;
+  }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========== RESPONSIVO - DESKTOP 1440+ ==========*/
 
 @media screen and (min-width:1440px) {
   .logo {
@@ -231,5 +271,9 @@ input[type="checkbox"]:checked~nav {
 
   .img-mobile {
     display: none;
+  }
+
+  .burger ul li {
+    margin: 0 16px;
   }
 }
