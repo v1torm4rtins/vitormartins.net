@@ -114,7 +114,9 @@ video {
   --h4-font-size: clamp(1.2rem, 1rem + 1.5vw, 1.4rem);
 
   /* texts size */
-  --text-font-size: clamp(1.1rem, 1rem + 0.5vw, 1.25rem);
+  --text-font-size: clamp(1.1rem, 1rem + 0.4vw, 1.3rem);
+  --text-menu-size-mobile: clamp(1.4rem, 1.1rem + 2vw, 1.8rem);
+  --text-menu-size-desktop: clamp(1.2rem, 1rem + 0.4vw, 1.3rem);
 
   /* weight type */
   --title-weight: 700;
@@ -331,7 +333,7 @@ body.loaded {
 }
 
 .horizontal-padding {
-  padding: 0 10%;
+  padding: 0 4%;
 }
 
 .cta-button,
@@ -496,6 +498,17 @@ h2.title-section:hover,
   z-index: 1;
 }
 
+h1.title-section {
+  text-align: center;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -522,6 +535,10 @@ h2.title-section:hover,
 /* ========== RESPONSIVO - LAPTOP 1024+ ==========*/
 
 @media screen and (min-width:1024px) {
+  h1.title-section {
+    text-align: left;
+  }
+
   .red-line-lateral {
     padding-left: 40px;
   }
@@ -532,6 +549,10 @@ h2.title-section:hover,
 
   .container {
     padding: 0 60px;
+  }
+
+  .horizontal-padding {
+    padding: 0 12%;
   }
 }
 

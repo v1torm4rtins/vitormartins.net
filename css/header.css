@@ -84,12 +84,13 @@ input[type="checkbox"]:checked~nav {
 }
 
 .list-links li {
-  margin: 16px 0;
+  margin: 26px 0;
 }
 
 .list-links li a {
   color: var(--white-color);
   text-decoration: none;
+  font-size: var(--text-menu-size-mobile);
 }
 
 .list-links li a.botao-contato {
@@ -135,6 +136,10 @@ input[type="checkbox"]:checked~nav {
 /* ========== RESPONSIVO - TABLET 768+ ==========*/
 
 @media screen and (min-width:768px) {
+  .list-links li a {
+    font-size: var(--text-menu-size-desktop);
+  }
+
   .main-header>.container {
     align-items: center;
   }
