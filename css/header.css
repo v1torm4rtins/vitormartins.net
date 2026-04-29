@@ -9,13 +9,13 @@ div#header-placeholder {
 .pg-front-end .nav-front-end,
 .pg-design .nav-design,
 .pg-sobre-mim .nav-sobre-mim {
-  padding-top: 6px;
-  padding-bottom: 6px;
+  padding-top: 0;
+  padding-bottom: 3px;
   border-bottom: 6px solid var(--red-color);
 }
 
 .pg-contato .nav-contato {
-  border: 6px solid var(--red-color) !important;
+  background: var(--red-color) !important;
 }
 
 .main-header {
@@ -93,6 +93,7 @@ input[type="checkbox"]:checked~nav {
 }
 
 .list-links li a.botao-contato {
+  padding: 8px 16px;
   border: 6px solid var(--black-color);
   box-shadow: 10px 10px 0 0 var(--black-color);
   display: inline-block;
@@ -117,10 +118,6 @@ input[type="checkbox"]:checked~nav {
   transform: translate(-2px, -2px);
 }
 
-.burger ul {
-  margin-top: -5px
-}
-
 
 
 
@@ -143,6 +140,8 @@ input[type="checkbox"]:checked~nav {
   }
 
   .burger {
+    display: flex;
+    align-items: center;
     margin-top: 0;
     width: auto;
     height: 58px;
@@ -197,8 +196,8 @@ input[type="checkbox"]:checked~nav {
 
   /* Redução do Padding no Scroll */
   .main-header.header-compact>.container {
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding-top: 6px;
+    padding-bottom: 6px;
     align-items: center;
   }
 
@@ -238,7 +237,7 @@ input[type="checkbox"]:checked~nav {
   }
 
   .botao-contato {
-    padding: 10px 20px;
+    padding: 10px 30px;
   }
 }
 

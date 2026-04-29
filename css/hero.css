@@ -24,7 +24,8 @@ section.hero {
 .hero-text {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    text-align: center;
     gap: 20px;
 }
 
@@ -90,6 +91,11 @@ section.hero {
 
     .hero-character {
         height: 500px;
+    }
+
+    .hero-text {
+        align-items: flex-start;
+        text-align: left;
     }
 }
 
