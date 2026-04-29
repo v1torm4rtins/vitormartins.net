@@ -151,7 +151,7 @@ img.bio-character:hover {
 /* --- EXPERIÊNCIA PROFISSIONAL E FORMAÇÃO ACADÊMICA --- */
 .experience-wrap {
     background: var(--white-color);
-    padding: 40px;
+    padding: 30px;
     border: 4px solid var(--dark-purple-color);
     box-shadow: 34px 34px 0 0 var(--dark-purple-color);
     margin-top: 10px;
@@ -269,6 +269,11 @@ img.bio-character:hover {
     img.bio-character {
         height: 550px;
     }
+
+    .experience-wrap {
+        padding: 40px;
+    }
+
 }
 
 
