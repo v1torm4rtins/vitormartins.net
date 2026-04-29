@@ -4,6 +4,7 @@
     gap: 40px;
     align-items: center;
     justify-content: space-between;
+    flex-direction: column;
 }
 
 .bio-text {
@@ -13,7 +14,7 @@
 }
 
 img.bio-character {
-    height: 660px;
+    height: 500px;
 }
 
 img.bio-character:hover {
@@ -150,7 +151,7 @@ img.bio-character:hover {
 /* --- EXPERIÊNCIA PROFISSIONAL E FORMAÇÃO ACADÊMICA --- */
 .experience-wrap {
     background: var(--white-color);
-    padding: 40px;
+    padding: 30px;
     border: 4px solid var(--dark-purple-color);
     box-shadow: 34px 34px 0 0 var(--dark-purple-color);
     margin-top: 10px;
@@ -159,6 +160,8 @@ img.bio-character:hover {
 .group-horizontal {
     display: flex;
     gap: 40px;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .accordion-group-vertical {
@@ -242,8 +245,83 @@ img.bio-character:hover {
     transform: translate(0, -4px);
 }
 
-@media (max-width: 768px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========== RESPONSIVO - TABLET 768+ ==========*/
+
+@media screen and (min-width:768px) {
     .accordion-group {
         grid-template-columns: 1fr;
+    }
+
+    img.bio-character {
+        height: 550px;
+    }
+
+    .experience-wrap {
+        padding: 40px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========== RESPONSIVO - LAPTOP 1024+ ==========*/
+
+@media screen and (min-width:1024px) {
+    .bio-wrap {
+        flex-direction: row;
+    }
+
+    .group-horizontal {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========== RESPONSIVO - DESKTOP 1440+ ==========*/
+
+@media screen and (min-width:1440px) {
+
+    img.bio-character {
+        height: 660px;
     }
 }

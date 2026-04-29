@@ -10,7 +10,7 @@
 .wrapper-carrossel-home {
     position: relative;
     width: 100%;
-    margin: 60px 0 100px;
+    margin: 60px 0;
     display: flex;
     align-items: center;
 }
@@ -27,11 +27,12 @@
 }
 
 .card-projeto-home {
-    min-width: calc((100% - 40px) / 2);
-    max-width: calc((100% - 40px) / 2);
-    opacity: 0.2;
-    filter: blur(12px);
-    transition: 0s ease;
+    min-width: 100%;
+    /* Ocupa a largura total da tela no mobile */
+    max-width: 100%;
+    opacity: 0.6;
+    filter: blur(6px);
+    transition: all 0s ease;
 }
 
 .card-projeto-home.active {
@@ -55,14 +56,14 @@
     text-align: left;
 }
 
-/* Setas - Mesma lógica da página individual que deu certo */
+/* Setas */
 .nav-home {
     position: absolute;
     z-index: 100;
     background: var(--light-purple-color);
     border: 6px solid var(--black-color);
     width: 66px;
-    height: 66px;
+    height: 106px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -168,6 +169,21 @@
     visibility: hidden;
 }
 
+/* Correção do efeito de subir: mantemos o -50% e deslocamos em pixels */
+.nav-home.force-hover,
+.nav-carrossel.force-hover {
+    box-shadow: 12px 12px 0 0 var(--black-color) !important;
+    background: var(--red-color) !important;
+    transform: translate(-6px, -6px);
+}
+
+/* Garante que o card também receba o estilo correto sem conflito */
+.card-projeto-home.force-hover .card-content {
+    box-shadow: 42px 42px 0 0 var(--black-color) !important;
+    border: 6px solid var(--red-color) !important;
+    transform: translate(-6px, -6px);
+}
+
 
 
 
@@ -175,7 +191,7 @@
 /* --- PÁGINA PORTFÓLIO (FRONT-END E DESIGN) --- */
 .grid-portfolio {
     display: grid !important;
-    grid-template-columns: repeat(2, 1fr) !important;
+    grid-template-columns: 1fr;
     gap: 30px;
     padding: 30px 0;
     width: 100%;
@@ -184,6 +200,7 @@
 .filtros-container {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 button.btn-filtro {
@@ -225,7 +242,7 @@ button.btn-filtro:hover {
     width: 100%;
     aspect-ratio: 1 / 1 !important;
     overflow: hidden;
-    padding: 30px;
+    padding: 0;
     background-color: var(--white-color);
     display: flex;
     align-items: center;
@@ -238,13 +255,13 @@ button.btn-filtro:hover {
     height: 100%;
     object-fit: cover;
     display: block;
-    border: 6px solid var(--black-color);
+    border: 0;
     flex-shrink: 0;
     box-sizing: border-box;
 }
 
 .card-text {
-    padding: 0 30px 30px;
+    padding: 30px;
     background: var(--white-color);
 }
 
@@ -256,9 +273,82 @@ button.btn-filtro:hover {
 }
 
 
-@media (max-width: 768px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========== RESPONSIVO - TABLET 768+ ==========*/
+
+@media screen and (min-width:768px) {
+
+    /* --- CARROSSEL COM PORTFÓLIO DA HOME --- */
+    .card-projeto-home {
+        min-width: calc((100% - 40px) / 2);
+        max-width: calc((100% - 40px) / 2);
+    }
+
+    .nav-home {
+        height: 66px;
+    }
+
     .grid-portfolio {
-        grid-template-columns: 1fr !important;
+        grid-template-columns: repeat(2, 1fr);
         gap: 25px;
     }
+
+    .wrapper-carrossel-home {
+        margin: 60px 0 100px;
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========== RESPONSIVO - LAPTOP 1024+ ==========*/
+
+@media screen and (min-width:1024px) {
+    .thumb-wrapper {
+        padding: 30px 30px 0;
+    }
+
+    .thumb-wrapper img {
+        border: 6px solid var(--black-color);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========== RESPONSIVO - DESKTOP 1440+ ==========*/
+
+@media screen and (min-width:1440px) {}

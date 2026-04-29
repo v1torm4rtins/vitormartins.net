@@ -9,13 +9,13 @@ div#header-placeholder {
 .pg-front-end .nav-front-end,
 .pg-design .nav-design,
 .pg-sobre-mim .nav-sobre-mim {
-  padding-top: 6px;
-  padding-bottom: 6px;
+  padding-top: 0;
+  padding-bottom: 3px;
   border-bottom: 6px solid var(--red-color);
 }
 
 .pg-contato .nav-contato {
-  border: 6px solid var(--red-color) !important;
+  background: var(--red-color) !important;
 }
 
 .main-header {
@@ -45,6 +45,7 @@ nav {
 
 .img-mobile {
   display: block;
+  height: 50px;
 }
 
 .img-desktop {
@@ -83,16 +84,17 @@ input[type="checkbox"]:checked~nav {
 }
 
 .list-links li {
-  margin: 16px 0;
+  margin: 26px 0;
 }
 
 .list-links li a {
   color: var(--white-color);
   text-decoration: none;
-  font-weight: var(--text-weight);
+  font-size: var(--text-menu-size-mobile);
 }
 
 .list-links li a.botao-contato {
+  padding: 8px 16px;
   border: 6px solid var(--black-color);
   box-shadow: 10px 10px 0 0 var(--black-color);
   display: inline-block;
@@ -106,7 +108,6 @@ input[type="checkbox"]:checked~nav {
 
 .botao-contato {
   background: var(--light-purple-color);
-  padding: 10px 16px;
   color: var(--white-color) !important;
 }
 
@@ -121,48 +122,31 @@ input[type="checkbox"]:checked~nav {
 
 
 
-/* --- STICKY HEADER (SÓ DESKTOP) --- */
-@media screen and (min-width: 1024px) {
-
-  .main-header>.container {
-    transition: padding 0.1s ease;
-  }
-
-  /* Redução do Padding no Scroll */
-  .main-header.header-compact>.container {
-    padding-top: 8px;
-    padding-bottom: 8px;
-    align-items: center;
-  }
-
-  /* Troca da Logo no Scroll - Esconde a logo branca com texto*/
-  .main-header.header-compact .img-desktop {
-    display: none;
-  }
-
-  /* Força a logo vermelha (img-mobile) a aparecer no desktop no scroll */
-  .main-header.header-compact .logo .img-mobile {
-    display: block;
-    height: 40px;
-  }
-
-  /* Ajusta o Botão de Contato no Scroll */
-  .header-compact .botao-contato {
-    padding-top: 6px;
-    padding-bottom: 6px;
-  }
-}
 
 
 
 
+
+
+
+
+
+
+
+/* ========== RESPONSIVO - TABLET 768+ ==========*/
 
 @media screen and (min-width:768px) {
+  .list-links li a {
+    font-size: var(--text-menu-size-desktop);
+  }
+
   .main-header>.container {
     align-items: center;
   }
 
   .burger {
+    display: flex;
+    align-items: center;
     margin-top: 0;
     width: auto;
     height: 58px;
@@ -184,21 +168,61 @@ input[type="checkbox"]:checked~nav {
   }
 
   .burger ul li {
-    margin: 0 14px;
+    margin: 0 10px;
   }
 
   .botao-contato {
-    border: 6px solid var(--light-purple-color);
-    box-shadow: 10px 10px 0 0 var(--black-color);
-    background: var(--light-purple-color);
-    padding: 10px 20px;
-    color: var(--white-color) !important;
-    font-weight: var(--title-weight);
+    padding: 10px 12px;
   }
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========== RESPONSIVO - LAPTOP 1024+ ==========*/
+
 @media screen and (min-width:1024px) {
+
+  /* --- STICYK HEADER --- */
+  .main-header>.container {
+    transition: padding 0.1s ease;
+  }
+
+  /* Redução do Padding no Scroll */
+  .main-header.header-compact>.container {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    align-items: center;
+  }
+
+  /* Troca da Logo no Scroll - Esconde a logo branca com texto*/
+  .main-header.header-compact .img-desktop {
+    display: none;
+  }
+
+  /* Força a logo vermelha (img-mobile) a aparecer no desktop no scroll */
+  .main-header.header-compact .logo .img-mobile {
+    display: block;
+    height: 40px;
+  }
+
+  /* Ajusta o Botão de Contato no Scroll */
+  .header-compact .botao-contato {
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+
   .logo {
     width: 260px;
     height: auto;
@@ -216,7 +240,27 @@ input[type="checkbox"]:checked~nav {
   input[type="checkbox"]:checked~nav {
     padding: 20px 60px 30px;
   }
+
+  .botao-contato {
+    padding: 10px 30px;
+  }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========== RESPONSIVO - DESKTOP 1440+ ==========*/
 
 @media screen and (min-width:1440px) {
   .logo {
@@ -231,5 +275,9 @@ input[type="checkbox"]:checked~nav {
 
   .img-mobile {
     display: none;
+  }
+
+  .burger ul li {
+    margin: 0 16px;
   }
 }

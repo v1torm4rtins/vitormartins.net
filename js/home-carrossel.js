@@ -5,8 +5,11 @@ const carrosselStates = {
 
 let isDragging = false;
 let startX = 0;
+let startY = 0;
 let currentTrackId = null;
 let foiArrastado = false;
+
+window.moveCarrossel = moveCarrossel;
 
 async function carregarCarrosseis() {
     try {
@@ -18,6 +21,10 @@ async function carregarCarrosseis() {
 
         configurarDrag('carrossel-fe');
         configurarDrag('carrossel-dg');
+        
+        // Ativa a sincronização de hover
+        configurarHoverSincronizado('carrossel-fe');
+        configurarHoverSincronizado('carrossel-dg');
     } catch (e) {
         console.error("Erro ao carregar os projetos:", e);
     }
@@ -26,9 +33,7 @@ async function carregarCarrosseis() {
 function renderizarCards(dados, categoria, elementId) {
     const container = document.getElementById(elementId);
     if (!container) return;
-
     const filtrados = dados.filter(p => p.tipo === categoria);
-
     container.innerHTML = filtrados.map((p, index) => `
         <div class="card-projeto-home" data-index="${index}">
             <a href="projeto-${p.tipo}.html?id=${p.id}" class="card-content" draggable="false">
@@ -41,163 +46,189 @@ function renderizarCards(dados, categoria, elementId) {
             </a>
         </div>
     `).join('');
-
-    atualizarFoco(elementId);
-    configurarInteracaoCards(elementId);
-}
-
-function configurarInteracaoCards(id) {
-    const track = document.getElementById(id);
-    const wrapper = track.closest('.wrapper-carrossel-home');
-    const btnPrev = wrapper.querySelector('.nav-home.prev');
-    const btnNext = wrapper.querySelector('.nav-home.next');
-    const cards = track.querySelectorAll('.card-projeto-home');
-
-    cards.forEach((card, index) => {
-        card.addEventListener('mouseenter', () => {
-            if (card.classList.contains('active')) return;
-            const indexAtivo = carrosselStates[id];
-            if (index < indexAtivo) btnPrev.classList.add('highlight-red');
-            else if (index > indexAtivo + 1) btnNext.classList.add('highlight-red');
-        });
-
-        card.addEventListener('mouseleave', () => {
-            btnPrev.classList.remove('highlight-red');
-            btnNext.classList.remove('highlight-red');
-        });
-
-        card.addEventListener('click', (e) => {
-            if (foiArrastado) {
-                e.preventDefault();
-                return;
-            }
-
-            if (!card.classList.contains('active')) {
-                e.preventDefault();
-                const indexAtivo = carrosselStates[id];
-                if (index < indexAtivo) moveCarrossel(id, -1);
-                else if (index > indexAtivo + 1) moveCarrossel(id, 1);
-            }
-        });
-    });
+    atualizarEstadoVisual(elementId);
 }
 
 function moveCarrossel(id, direcao) {
     const track = document.getElementById(id);
-    const cards = track.querySelectorAll('.card-projeto-home');
-    if (cards.length === 0) return;
-
+    const isMobile = window.innerWidth < 768;
+    const cardsPorVez = isMobile ? 1 : 2;
     carrosselStates[id] += direcao;
+    const totalCards = track.querySelectorAll('.card-projeto-home').length;
+    const maxIndex = totalCards - cardsPorVez;
 
     if (carrosselStates[id] < 0) carrosselStates[id] = 0;
-    if (carrosselStates[id] > cards.length - 2) carrosselStates[id] = cards.length - 2;
+    if (carrosselStates[id] > maxIndex) carrosselStates[id] = maxIndex;
 
-    const moveAmount = 560 * carrosselStates[id];
-    track.style.transition = 'transform 0.6s cubic-bezier(0.2, 1, 0.3, 1)';
-    track.style.transform = `translateX(-${moveAmount}px)`;
-    atualizarFoco(id);
+    const card = track.querySelector('.card-projeto-home');
+    if (card) {
+        const cardWidth = card.offsetWidth;
+        const gap = 30;
+        const moveX = carrosselStates[id] * (cardWidth + gap);
+        track.style.transform = `translateX(${-moveX}px)`;
+    }
+    atualizarEstadoVisual(id);
 }
 
-function atualizarFoco(id) {
+function atualizarEstadoVisual(id) {
     const track = document.getElementById(id);
     if (!track) return;
     const cards = track.querySelectorAll('.card-projeto-home');
-    const index = carrosselStates[id];
+    const isMobile = window.innerWidth < 768;
+    const qtdAtiva = isMobile ? 1 : 2;
+    const maxIndex = cards.length - qtdAtiva;
+    const currentIndex = carrosselStates[id];
 
     cards.forEach((card, i) => {
         card.classList.remove('active');
-        if (i === index || i === index + 1) {
+        card.classList.remove('force-hover'); // Limpa hover forçado ao mover
+        if (i >= currentIndex && i < currentIndex + qtdAtiva) {
             card.classList.add('active');
         }
     });
 
-    const wrapper = track.closest('.wrapper-carrossel-home');
-    if (wrapper) {
-        const btnPrev = wrapper.querySelector('.nav-home.prev');
-        const btnNext = wrapper.querySelector('.nav-home.next');
-        if (index === 0) btnPrev.classList.add('disabled');
-        else btnPrev.classList.remove('disabled');
-        if (index >= cards.length - 2) btnNext.classList.add('disabled');
-        else btnNext.classList.remove('disabled');
+    const prevBtn = document.querySelector(`.nav-home.prev[onclick*="${id}"]`);
+    const nextBtn = document.querySelector(`.nav-home.next[onclick*="${id}"]`);
+    if (prevBtn) prevBtn.style.display = currentIndex <= 0 ? 'none' : 'flex';
+    if (nextBtn) nextBtn.style.display = currentIndex >= maxIndex ? 'none' : 'flex';
+}
+
+// --- NOVA FUNÇÃO DE SINCRONIZAÇÃO DE HOVER ---
+function configurarHoverSincronizado(id) {
+    const track = document.getElementById(id);
+    const prevBtn = document.querySelector(`.nav-home.prev[onclick*="${id}"]`);
+    const nextBtn = document.querySelector(`.nav-home.next[onclick*="${id}"]`);
+
+    const toggleHover = (btn, direcao, state) => {
+        if (!btn) return;
+        const isMobile = window.innerWidth < 768;
+        const targetIndex = direcao === 'next' 
+            ? carrosselStates[id] + (isMobile ? 1 : 2) 
+            : carrosselStates[id] - 1;
+
+        const targetCard = track.querySelector(`.card-projeto-home[data-index="${targetIndex}"]`);
+        
+        if (state === 'on') {
+            btn.classList.add('force-hover');
+            if (targetCard) targetCard.classList.add('force-hover');
+        } else {
+            btn.classList.remove('force-hover');
+            if (targetCard) targetCard.classList.remove('force-hover');
+        }
+    };
+
+    // Hover nas Setas -> Afeta os Cards
+    if (nextBtn) {
+        nextBtn.addEventListener('mouseenter', () => toggleHover(nextBtn, 'next', 'on'));
+        nextBtn.addEventListener('mouseleave', () => toggleHover(nextBtn, 'next', 'off'));
     }
+    if (prevBtn) {
+        prevBtn.addEventListener('mouseenter', () => toggleHover(prevBtn, 'prev', 'on'));
+        prevBtn.addEventListener('mouseleave', () => toggleHover(prevBtn, 'prev', 'off'));
+    }
+
+    // Hover nos Cards com Blur -> Afeta as Setas
+    track.addEventListener('mouseover', (e) => {
+        const card = e.target.closest('.card-projeto-home');
+        if (card && !card.classList.contains('active')) {
+            const index = parseInt(card.getAttribute('data-index'));
+            if (index > carrosselStates[id]) {
+                toggleHover(nextBtn, 'next', 'on');
+            } else {
+                toggleHover(prevBtn, 'prev', 'on');
+            }
+        }
+    });
+
+    track.addEventListener('mouseout', (e) => {
+        const card = e.target.closest('.card-projeto-home');
+        if (card) {
+            toggleHover(nextBtn, 'next', 'off');
+            toggleHover(prevBtn, 'prev', 'off');
+        }
+    });
 }
 
 function configurarDrag(id) {
     const track = document.getElementById(id);
-    const mask = track.closest('.track-mask');
-    if (!track || !mask) return;
+    const mask = track.parentElement;
 
-    mask.addEventListener('mousedown', (e) => {
+    const iniciarArrasto = (e) => {
         isDragging = true;
-        foiArrastado = false;
         currentTrackId = id;
-        startX = e.pageX;
-        mask.classList.add('is-dragging');
+        startX = e.type.includes('mouse') ? e.pageX : e.touches[0].clientX;
+        startY = e.type.includes('mouse') ? e.pageY : e.touches[0].clientY;
         track.style.transition = 'none';
-    });
+        foiArrastado = false;
+        mask.classList.add('is-dragging');
+    };
 
-    window.addEventListener('mousemove', (e) => {
+    const duranteArrasto = (e) => {
         if (!isDragging || currentTrackId !== id) return;
+        const x = e.type.includes('mouse') ? e.pageX : e.touches[0].clientX;
+        const y = e.type.includes('mouse') ? e.pageY : e.touches[0].clientY;
+        const walkX = x - startX;
+        const walkY = y - startY;
 
-        const x = e.pageX;
-        const walk = (startX - x);
-        const cards = track.querySelectorAll('.card-projeto-home');
+        if (e.type.includes('touch') && Math.abs(walkY) > Math.abs(walkX)) {
+            isDragging = false;
+            return;
+        }
 
-        if (Math.abs(walk) > 10) foiArrastado = true;
-
-        if (foiArrastado) {
-            e.preventDefault();
-            const baseMove = 560 * carrosselStates[id];
-            let finalMove = baseMove + walk;
-            const maxLimit = 560 * (cards.length - 2);
-
-            // LOGICA CORRIGIDA DO CHICOTE
-            if (finalMove < 0) {
-                // Puxando para a direita no começo (finalMove fica negativo)
-                // Usamos 0.3 de resistência para permitir o movimento
-                finalMove = finalMove * 0.3;
-            } else if (finalMove > maxLimit) {
-                // Puxando para a esquerda no final
-                const excesso = finalMove - maxLimit;
-                finalMove = maxLimit + (excesso * 0.3);
-            }
+        if (Math.abs(walkX) > 5) {
+            if (e.cancelable) e.preventDefault(); 
+            foiArrastado = true;
+            const card = track.querySelector('.card-projeto-home');
+            const cardWidth = card.offsetWidth;
+            const gap = 30;
+            const currentMove = carrosselStates[id] * (cardWidth + gap);
+            let finalMove = currentMove - walkX;
+            const maxLimit = (track.querySelectorAll('.card-projeto-home').length - (window.innerWidth < 768 ? 1 : 2)) * (cardWidth + gap);
+            
+            if (finalMove < 0) finalMove = finalMove * 0.3;
+            else if (finalMove > maxLimit) finalMove = maxLimit + ((finalMove - maxLimit) * 0.3);
 
             track.style.transform = `translateX(${-finalMove}px)`;
         }
-    });
+    };
 
     const finalizarArrasto = (e) => {
         if (!isDragging || currentTrackId !== id) return;
-
         isDragging = false;
         mask.classList.remove('is-dragging');
         track.style.transition = 'transform 0.6s cubic-bezier(0.2, 1, 0.3, 1)';
-
         if (foiArrastado) {
-            const endX = e.pageX || startX;
+            const endX = e.type.includes('mouse') ? e.pageX : (e.changedTouches ? e.changedTouches[0].clientX : startX);
             const diff = startX - endX;
-
-            if (diff > 100) moveCarrossel(id, 1);
-            else if (diff < -100) moveCarrossel(id, -1);
+            if (diff > 50) moveCarrossel(id, 1);
+            else if (diff < -50) moveCarrossel(id, -1);
             else moveCarrossel(id, 0);
         }
-
-        setTimeout(() => {
-            foiArrastado = false;
-            currentTrackId = null;
-        }, 50);
+        setTimeout(() => { foiArrastado = false; currentTrackId = null; }, 50);
     };
 
+    mask.addEventListener('mousedown', iniciarArrasto);
+    window.addEventListener('mousemove', duranteArrasto);
     window.addEventListener('mouseup', finalizarArrasto);
-    window.addEventListener('mouseleave', finalizarArrasto);
+    mask.addEventListener('touchstart', iniciarArrasto, { passive: true });
+    window.addEventListener('touchmove', duranteArrasto, { passive: false });
+    window.addEventListener('touchend', finalizarArrasto);
 
     track.addEventListener('click', (e) => {
-        if (foiArrastado) {
-            e.preventDefault();
-            e.stopPropagation();
+        if (foiArrastado) { e.preventDefault(); return; }
+        const link = e.target.closest('a.card-content');
+        if (!link) return;
+        const card = link.closest('.card-projeto-home');
+        if (card && !card.classList.contains('active')) {
+            e.preventDefault(); 
+            const clickedIndex = parseInt(card.getAttribute('data-index'));
+            moveCarrossel(id, clickedIndex > carrosselStates[id] ? 1 : -1);
         }
-    }, true);
+    });
 }
 
 carregarCarrosseis();
-window.moveCarrossel = moveCarrossel;
+window.addEventListener('resize', () => {
+    moveCarrossel('carrossel-fe', 0);
+    moveCarrossel('carrossel-dg', 0);
+});
