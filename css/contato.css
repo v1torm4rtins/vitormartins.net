@@ -53,7 +53,7 @@ section.cta {
     gap: 15px;
     cursor: pointer;
     border: 6px solid var(--black-color);
-    box-shadow: 20px 20px 0 0 var(--black-color);
+    box-shadow: var(--medium-box-shadow);
     padding: 20px 30px;
     font-size: var(--h3-font-size);
     font-weight: var(--title-weight);
@@ -65,8 +65,8 @@ section.cta {
 
 .cta-button-contato:hover {
     color: var(--white-color);
-    transform: translate(-6px, -6px);
-    box-shadow: 26px 26px 0 0 var(--black-color);
+    transform: var(--medium-hover);
+    box-shadow: var(--medium-box-shadow-hover);
 }
 
 .link-card:hover {
@@ -112,7 +112,7 @@ img.whatsapp-contact-right {
     padding: 20px;
     border: 6px solid var(--black-color);
     background-color: var(--white-color);
-    box-shadow: 34px 34px 0 0 var(--black-color);
+    box-shadow: var(--small-box-shadow);
     font-size: 1.4rem;
     font-weight: 700;
     outline: none;
@@ -156,19 +156,6 @@ img.whatsapp-contact-right {
     border: 6px solid var(--red-color);
 }
 
-.cta-button {
-    position: relative;
-    z-index: 10;
-    width: 100%;
-    padding: 20px;
-    font-size: 1.4rem;
-    box-shadow: 34px 34px 0 0 var(--black-color);
-}
-
-.cta-button:hover {
-    box-shadow: 34px 34px 0 0 var(--black-color);
-    transform: translate(0, 0);
-}
 
 
 
@@ -179,32 +166,31 @@ img.whatsapp-contact-right {
     grid-template-columns: 1fr;
     /* 1 coluna no celular */
     gap: 30px;
-    padding: 20px;
     justify-content: center;
 }
 
 .link-card {
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
     gap: 30px;
     padding: 40px;
     min-height: 200px;
     background-color: var(--white-color);
     border: 6px solid var(--black-color);
-    box-shadow: 34px 34px 0 0 var(--black-color);
+    box-shadow: var(--large-box-shadow);
     text-decoration: none;
     transition: all 0s ease;
 }
 
 .link-card:hover {
-    transform: translate(-6px, -6px);
+    transform: var(--large-hover);
     box-shadow: 40px 40px 0 0 var(--black-color);
 }
 
 /* Ícone */
 .link-icon {
-    width: 70px;
-    height: 70px;
+    width: 60px;
     fill: var(--gray-color);
     display: flex;
     align-items: center;
@@ -248,19 +234,21 @@ img.whatsapp-contact-right {
         text-align: left;
         margin-bottom: 100px;
     }
+
     .form-row {
         display: flex;
         flex-direction: row;
         gap: 20px;
     }
 
-    .cta-button-contato {
-        padding: 20px 40px;
-    }
-
     img.whatsapp-contact-right {
         width: 700px;
         margin-left: -120px;
+    }
+
+    .form-group-floating input,
+    .form-group-floating textarea {
+        box-shadow: var(--medium-box-shadow);
     }
 }
 
@@ -288,12 +276,22 @@ img.whatsapp-contact-right {
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .link-card {
+        flex-direction: row;
+        align-items: center;
+    }
+
     .form-row {
         display: flex;
     }
 
     img.whatsapp-contact-right {
         margin-left: -90px;
+    }
+
+    .form-group-floating input,
+    .form-group-floating textarea {
+        box-shadow: var(--large-box-shadow);
     }
 }
 

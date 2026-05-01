@@ -84,7 +84,7 @@ input[type="checkbox"]:checked~nav {
 }
 
 .list-links li {
-  margin: 26px 0;
+  margin: 20px 0;
 }
 
 .list-links li a {
@@ -94,16 +94,17 @@ input[type="checkbox"]:checked~nav {
 }
 
 .list-links li a.botao-contato {
+  margin-top: 20px;
   padding: 8px 16px;
   border: 6px solid var(--black-color);
-  box-shadow: 10px 10px 0 0 var(--black-color);
+  box-shadow: var(--small-box-shadow);
   display: inline-block;
   font-weight: 700;
 }
 
 .list-links li a.botao-contato:hover {
-  transform: translate(-4px, -4px);
-  box-shadow: 14px 14px 0 0 var(--black-color);
+  transform: var(--small-hover);
+  box-shadow: var(--small-box-shadow-hover);
 }
 
 .botao-contato {
@@ -173,6 +174,10 @@ input[type="checkbox"]:checked~nav {
 
   .botao-contato {
     padding: 10px 12px;
+  }
+
+  .list-links li a.botao-contato {
+    margin-top: 0;
   }
 }
 
