@@ -79,7 +79,7 @@
     align-items: flex-start;
     gap: 20px;
     background: var(--white-color);
-    box-shadow: 34px 34px 0 0 var(--black-color);
+    box-shadow: var(--small-box-shadow);
     border: 6px solid var(--black-color);
     padding: 40px;
     margin-bottom: 20px;
@@ -183,6 +183,7 @@
         flex-direction: row;
         align-items: center;
         gap: 0;
+        box-shadow: var(--medium-box-shadow);
     }
 
     .career-age {
@@ -265,6 +266,10 @@
 
     .software-cta {
         margin-top: 60px;
+    }
+
+    .career-card {
+        box-shadow: var(--large-box-shadow);
     }
 }
 

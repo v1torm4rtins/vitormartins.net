@@ -31,11 +31,11 @@
 
 .moldura-pc {
     width: 100%;
-    height: 72vh;
+    height: 70vh;
     min-height: 500px;
     border: 6px solid var(--black-color);
     background: var(--white-color);
-    box-shadow: 34px 34px 0 0 var(--black-color);
+    box-shadow: var(--small-box-shadow);
     margin: 60px auto;
     overflow: hidden;
 }
@@ -63,11 +63,11 @@
 .grid-galeria img {
     width: 100%;
     border: 6px solid var(--black-color);
-    box-shadow: 20px 20px 0 0 var(--black-color);
+    box-shadow: var(--medium-box-shadow);
 }
 
 .acoes-projeto {
-    padding: 40px 0 16px;
+    padding-top: 10px;
     display: flex;
     justify-content: flex-start;
 }
@@ -80,14 +80,14 @@
     background: var(--light-purple-color);
     color: var(--white-color);
     border: 6px solid var(--black-color);
-    box-shadow: 16px 16px 0 0 var(--black-color);
+    box-shadow: var(--small-box-shadow);
     font-weight: 700;
     text-decoration: none;
 }
 
 .button-open-site:hover {
-    transform: translate(-4px, -4px);
-    box-shadow: 20px 20px 0 0 var(--black-color);
+    transform: var(--small-hover);
+    box-shadow: var(--small-box-shadow-hover);
     color: var(--white-color);
     background: var(--red-color);
 }
@@ -182,7 +182,7 @@
     width: 66px;
     height: 66px;
     padding: 10px 20px;
-    box-shadow: 10px 10px 0 0 var(--black-color);
+    box-shadow: var(--small-box-shadow);
 }
 
 .nav-carrossel:hover {
@@ -214,12 +214,12 @@
 
 .grid-relacionados {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr;
     gap: 30px;
 }
 
 .thumb-wrapper {
-    padding: 0 0 30px 0;
+    padding: 0;
 }
 
 .thumb-wrapper img {
@@ -234,18 +234,25 @@
 
 
 
-@media (max-width: 768px) {
+
+
+
+
+
+
+/* ========== RESPONSIVO - TABLET 768+ ==========*/
+
+@media screen and (min-width:768px) {
     .grid-galeria {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr, 1fr;
     }
 
     .moldura-pc {
-        height: 50vh;
-        box-shadow: 15px 15px 0 0 var(--black-color);
+        box-shadow: var(--medium-box-shadow);
     }
 
     .grid-relacionados {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .nav-carrossel.prev {
@@ -255,14 +262,36 @@
     .nav-carrossel.next {
         right: 10px;
     }
+
+    .button-open-site {
+        box-shadow: var(--medium-box-shadow);
+    }
+
+    .button-open-site:hover {
+        box-shadow: var(--medium-box-shadow-hover);
+        transform: var(--medium-hover);
+    }
 }
 
 
 
 
-@media (max-width: 1024px) {
+
+
+
+
+
+
+
+
+
+
+
+/* ========== RESPONSIVO - LAPTOP 1024+ ==========*/
+
+@media screen and (min-width:1024px) {
     .grid-relacionados {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: repeat(3, 1fr);
     }
 
     .nav-carrossel.prev {
@@ -272,4 +301,26 @@
     .nav-carrossel.next {
         right: -30px;
     }
+
+    .moldura-pc {
+        box-shadow: var(--large-box-shadow);
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========== RESPONSIVO - DESKTOP 1440+ ==========*/
+
+@media screen and (min-width:1440px) {}

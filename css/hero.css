@@ -6,6 +6,7 @@
 }
 
 section.hero {
+    padding: 60px 0;
     border-right: 4px solid;
     border-left: 4px solid;
     border-bottom: 4px solid;
@@ -27,10 +28,11 @@ section.hero {
     align-items: center;
     text-align: center;
     gap: 20px;
+    z-index: 10;
 }
 
 .hero-character {
-    height: 150px;
+    height: 320px;
 }
 
 .hero-character-img:hover {
@@ -41,6 +43,59 @@ section.hero {
     transform: translate(0, -4px);
 }
 
+.hero-buttons-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 28px;
+}
+
+.hero-second-buttons-group {
+    display: flex;
+    flex-direction: row;
+    gap: 28px;
+}
+
+a.second-button-hero {
+    border-bottom: 3px solid;
+    font-weight: var(--title-weight);
+}
+
+a.second-button-hero:hover {
+    color: var(--red-color);
+}
+
+.cta-button-contato {
+    display: flex;
+    gap: 10px;
+}
+
+svg.icon-whatsapp {
+    fill: var(--white-color);
+    width: 24px;
+}
+
+a.cta-button-hero {
+    display: flex;
+    cursor: pointer;
+    gap: 10px;
+    border: 6px solid var(--dark-purple-color);
+    box-shadow: var(--small-box-shadow-light);
+    padding: 14px 20px;
+    font-size: var(--text-font-size);
+    font-weight: var(--title-weight);
+    color: var(--white-color);
+    background: var(--light-purple-color);
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+a.cta-button-hero:hover {
+    transform: var(--small-hover);
+    box-shadow: var(--small-box-shadow-light-hover);
+    background-color: var(--red-color);
+}
 
 
 
@@ -59,7 +114,7 @@ section.hero {
 
 @media screen and (min-width:768px) {
     .hero-character {
-        height: 250px;
+        height: 280px;
     }
 }
 
@@ -81,7 +136,7 @@ section.hero {
 
 @media screen and (min-width:1024px) {
     .hero {
-        height: 700px;
+        height: 660px;
     }
 
     .hero-wrap {
@@ -94,11 +149,15 @@ section.hero {
     }
 
     .hero-text {
+        min-width: 50%;
         align-items: flex-start;
         text-align: left;
     }
-}
 
+    .hero-buttons-wrap {
+        align-items: flex-start;
+    }
+}
 
 
 
@@ -117,6 +176,6 @@ section.hero {
 
 @media screen and (min-width:1440px) {
     .hero {
-        height: 800px;
+        height: 720px;
     }
 }

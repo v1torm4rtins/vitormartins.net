@@ -92,6 +92,17 @@ video {
   box-sizing: border-box;
 }
 
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  /* Corta qualquer coisa que tente sair pela direita */
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
 
 
 
@@ -108,19 +119,39 @@ video {
   --gray-color: #5B5B68;
 
   /* H titles sizes */
-  --h1-font-size: clamp(1.5rem, 1rem + 3vw, 3rem);
-  --h2-font-size: clamp(1.6rem, 1.3rem + 2.5vw, 2.4rem);
-  --h3-font-size: clamp(1.4rem, 1.1rem + 2vw, 1.8rem);
+  --h1-font-size: clamp(2rem, 1.3rem + 3vw, 3rem);
+  --h2-font-size: clamp(1.6rem, 1.2rem + 2.5vw, 2.4rem);
+  --h3-font-size: clamp(1.4rem, 1.1rem + 1.6vw, 1.8rem);
   --h4-font-size: clamp(1.2rem, 1rem + 1.5vw, 1.4rem);
 
   /* texts size */
-  --text-font-size: clamp(1.1rem, 1rem + 0.4vw, 1.3rem);
-  --text-menu-size-mobile: clamp(1.4rem, 1.1rem + 1.8vw, 1.6rem);
+  --text-font-size: clamp(1.2rem, 1rem + 0.4vw, 1rem);
+  --text-menu-size-mobile: clamp(1.4rem, 1.1rem + 1.8vw, 1.4rem);
   --text-menu-size-desktop: clamp(1.2rem, 1rem + 0.4vw, 1.3rem);
 
   /* weight type */
   --title-weight: 700;
   --text-weight: 500;
+
+  /* shadows */
+  --large-box-shadow: 34px 34px 0 0 var(--black-color);
+  --medium-box-shadow: 25px 25px 0 0 var(--black-color);
+  --small-box-shadow: 10px 10px 0 0 var(--black-color);
+  --large-box-shadow-hover: 40px 40px 0 0 var(--black-color);
+  --medium-box-shadow-hover: 30px 30px 0 0 var(--black-color);
+  --small-box-shadow-hover: 14px 14px 0 0 var(--black-color);
+
+  --large-box-shadow-light: 34px 34px 0 0 var(--dark-purple-color);
+  --medium-box-shadow-light: 25px 25px 0 0 var(--dark-purple-color);
+  --small-box-shadow-light: 10px 10px 0 0 var(--dark-purple-color);
+  --large-box-shadow-light-hover: 40px 40px 0 0 var(--dark-purple-color);
+  --medium-box-shadow-light-hover: 30px 30px 0 0 var(--dark-purple-color);
+  --small-box-shadow-light-hover: 14px 14px 0 0 var(--dark-purple-color);
+
+  /* hover effect */
+  --large-hover: translate(-6px, -6px);
+  --medium-hover: translate(-5px, -5px);
+  --small-hover: translate(-4px, -4px);
 }
 
 
@@ -157,6 +188,10 @@ video {
 
 .small-bottom-margin {
   margin-bottom: 30px
+}
+
+.horizontal-padding {
+  padding: 0 4%;
 }
 
 /* Text color & centralize */
@@ -332,15 +367,12 @@ body.loaded {
   background: var(--black-color);
 }
 
-.horizontal-padding {
-  padding: 0 4%;
-}
-
 .cta-button,
 button {
+  z-index: 99;
   cursor: pointer;
   border: 6px solid var(--black-color);
-  box-shadow: 10px 10px 0 0 var(--black-color);
+  box-shadow: var(--small-box-shadow);
   display: inline-block;
   padding: 10px 20px;
   font-size: var(--text-font-size);
@@ -352,14 +384,14 @@ button {
 .cta-button:hover {
   background: var(--red-color);
   color: var(--white-color);
-  transform: translate(-4px, -4px);
-  box-shadow: 14px 14px 0 0 var(--black-color);
+  transform: var(--small-hover);
+  box-shadow: var(--small-box-shadow-hover);
 }
 
 .light-cta-button {
   cursor: pointer;
   border: 6px solid var(--dark-purple-color);
-  box-shadow: 10px 10px 0 0 var(--dark-purple-color);
+  box-shadow: var(--small-box-shadow-light);
   display: inline-block;
   padding: 10px 20px;
   font-size: var(--text-font-size);
@@ -371,8 +403,8 @@ button {
 .light-cta-button:hover {
   background: var(--red-color);
   color: var(--white-color);
-  transform: translate(-4px, -4px);
-  box-shadow: 14px 14px 0 0 var(--dark-purple-color);
+  transform: var(--small-hover);
+  box-shadow: var(--small-box-shadow-light-hover);
 }
 
 h1.title-section:hover,
