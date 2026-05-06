@@ -134,24 +134,24 @@ html {
   --text-weight: 500;
 
   /* shadows */
-  --large-box-shadow: 34px 34px 0 0 var(--black-color);
-  --medium-box-shadow: 25px 25px 0 0 var(--black-color);
+  --large-box-shadow: 20px 20px 0 0 var(--black-color);
+  --medium-box-shadow: 15px 15px 0 0 var(--black-color);
   --small-box-shadow: 10px 10px 0 0 var(--black-color);
-  --large-box-shadow-hover: 40px 40px 0 0 var(--black-color);
-  --medium-box-shadow-hover: 30px 30px 0 0 var(--black-color);
-  --small-box-shadow-hover: 14px 14px 0 0 var(--black-color);
+  --large-box-shadow-hover: 25px 25px 0 0 var(--black-color);
+  --medium-box-shadow-hover: 19px 19px 0 0 var(--black-color);
+  --small-box-shadow-hover: 13px 13px 0 0 var(--black-color);
 
-  --large-box-shadow-light: 34px 34px 0 0 var(--dark-purple-color);
-  --medium-box-shadow-light: 25px 25px 0 0 var(--dark-purple-color);
+  --large-box-shadow-light: 20px 20px 0 0 var(--dark-purple-color);
+  --medium-box-shadow-light: 15px 15px 0 0 var(--dark-purple-color);
   --small-box-shadow-light: 10px 10px 0 0 var(--dark-purple-color);
-  --large-box-shadow-light-hover: 40px 40px 0 0 var(--dark-purple-color);
-  --medium-box-shadow-light-hover: 30px 30px 0 0 var(--dark-purple-color);
-  --small-box-shadow-light-hover: 14px 14px 0 0 var(--dark-purple-color);
+  --large-box-shadow-light-hover: 25px 25px 0 0 var(--dark-purple-color);
+  --medium-box-shadow-light-hover: 19px 19px 0 0 var(--dark-purple-color);
+  --small-box-shadow-light-hover: 13px 13px 0 0 var(--dark-purple-color);
 
   /* hover effect */
-  --large-hover: translate(-6px, -6px);
-  --medium-hover: translate(-5px, -5px);
-  --small-hover: translate(-4px, -4px);
+  --large-hover: translate(-5px, -5px);
+  --medium-hover: translate(-4px, -4px);
+  --small-hover: translate(-3px, -3px);
 }
 
 

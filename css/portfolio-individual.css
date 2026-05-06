@@ -31,7 +31,7 @@
 
 .moldura-pc {
     width: 100%;
-    height: 70vh;
+    height: 50vh;
     min-height: 500px;
     border: 6px solid var(--black-color);
     background: var(--white-color);
@@ -69,7 +69,7 @@
 .acoes-projeto {
     padding-top: 10px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
 }
 
 .button-open-site {
@@ -94,9 +94,10 @@
 
 .info-projeto-topo {
     display: flex;
-    align-items: center;
     border-bottom: 6px solid #dad3cd1a;
-    justify-content: space-between;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .info-projeto-topo span {
@@ -304,6 +305,19 @@
 
     .moldura-pc {
         box-shadow: var(--large-box-shadow);
+        height: 70vh;
+    }
+
+    .info-projeto-topo {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .acoes-projeto {
+        display: flex;
+        justify-content: flex-start;
     }
 }
 

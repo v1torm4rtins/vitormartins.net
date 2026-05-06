@@ -120,6 +120,10 @@ input[type="checkbox"]:checked~nav {
   transform: translate(-2px, -2px);
 }
 
+li.contato-li {
+  margin-right: 0 !important;
+}
+
 
 
 

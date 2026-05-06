@@ -1,52 +1,130 @@
 [
   {
-    "id": "fe-site-teste-um",
+    "id": "crlab",
     "tipo": "front-end",
-    "categoria": ["sites", "portfolios"],
-    "titulo": "Site Teste Um",
+    "categoria": ["sites", "onepages"],
+    "titulo": "CRLab | Clínica de Estética Capilar",
     "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
-    "tecnologias": ["html5", "css3", "javascript"],
-    "thumb": "img/portfolio/front-end/thumb-frontend-model.png",
-    "imagemFull": "img/portfolio/front-end/site-full-model.png",
-    "linkOnline": "https://vitormartins.net",
+    "tecnologias": ["wordpress", "html5", "css3"],
+    "thumb": "img/portfolio/front-end/thumb-crlab.webp",
+    "imagemFull": "img/portfolio/front-end/home-page-crlab.webp",
+    "linkOnline": "https://site.vitormartins.net/crlab/",
     "formato": "scroll"
   },
+
   {
-    "id": "fe-site-teste-dois",
+    "id": "campossanches",
     "tipo": "front-end",
-    "categoria": ["onepages", "blogs"],
-    "titulo": "Site Teste Dois",
+    "categoria": ["sites"],
+    "titulo": "Campos Sanches | Segurança Patrimonial",
     "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
-    "tecnologias": ["html5", "css3", "javascript"],
-    "thumb": "img/portfolio/front-end/thumb-frontend-model.png",
-    "imagemFull": "img/portfolio/front-end/site-full-model.png",
-    "linkOnline": "https://vitormartins.net",
+    "tecnologias": ["wordpress", "html5", "css3"],
+    "thumb": "img/portfolio/front-end/thumb-campossanches.webp",
+    "imagemFull": "img/portfolio/front-end/home-page-campossanches.webp",
+    "linkOnline": "https://site.vitormartins.net/campossanches/",
     "formato": "scroll"
   },
+
   {
-    "id": "fe-site-teste-tres",
+    "id": "dkservice",
+    "tipo": "front-end",
+    "categoria": ["onepages"],
+    "titulo": "DK Service - Manutenção Elétrica",
+    "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
+    "tecnologias": ["wordpress", "html5", "css3"],
+    "thumb": "img/portfolio/front-end/thumb-dkservice.webp",
+    "imagemFull": "img/portfolio/front-end/home-page-dkservice.webp",
+    "linkOnline": "https://site.vitormartins.net/dkservice/",
+    "formato": "scroll"
+  },
+
+{
+    "id": "agape",
+    "tipo": "front-end",
+    "categoria": ["onepages"],
+    "titulo": "Ágape - Programa social de saúde e bem-estar",
+    "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
+    "tecnologias": ["wordpress", "html5", "css3"],
+    "thumb": "img/portfolio/front-end/thumb-agape.webp",
+    "imagemFull": "img/portfolio/front-end/home-page-agape.webp",
+    "linkOnline": "https://site.vitormartins.net/agape/",
+    "formato": "scroll"
+  },
+
+  {
+    "id": "aria",
+    "tipo": "front-end",
+    "categoria": ["onepages"],
+    "titulo": "Aria - Distribuidora Médica Hospitalar",
+    "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
+    "tecnologias": ["wordpress", "html5", "css3"],
+    "thumb": "img/portfolio/front-end/thumb-aria.webp",
+    "imagemFull": "img/portfolio/front-end/home-page-aria.webp",
+    "linkOnline": "https://site.vitormartins.net/aria/",
+    "formato": "scroll"
+  },
+
+{
+    "id": "blummo",
+    "tipo": "front-end",
+    "categoria": ["onepages"],
+    "titulo": "Blumo - Mecânica Automotiva",
+    "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
+    "tecnologias": ["wordpress", "html5", "css3"],
+    "thumb": "img/portfolio/front-end/thumb-blumo.webp",
+    "imagemFull": "img/portfolio/front-end/home-page-blumo.webp",
+    "linkOnline": "https://site.vitormartins.net/blumo/",
+    "formato": "scroll"
+  },
+
+  {
+    "id": "rezervo",
     "tipo": "front-end",
     "categoria": ["sites", "blogs"],
-    "titulo": "Site Teste Três",
+    "titulo": "Rezervo - Locação por Temporada",
     "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
-    "tecnologias": ["html5", "css3", "javascript"],
-    "thumb": "img/portfolio/front-end/thumb-frontend-model.png",
-    "imagemFull": "img/portfolio/front-end/site-full-model.png",
-    "linkOnline": "https://vitormartins.net",
+    "tecnologias": ["wordpress", "html5", "css3"],
+    "thumb": "img/portfolio/front-end/thumb-rezervo.webp",
+    "imagemFull": "img/portfolio/front-end/home-page-rezervo.webp",
+    "linkOnline": "https://site.vitormartins.net/rezervo/",
     "formato": "scroll"
   },
+
   {
-    "id": "fe-site-teste-quatro",
+    "id": "brennder",
     "tipo": "front-end",
-    "categoria": ["onepages", "portfolios"],
-    "titulo": "Site Teste Quatro",
+    "categoria": ["onepages"],
+    "titulo": "Brennder Sandals - Conforto para seus pés",
     "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
-    "tecnologias": ["html5", "css3", "javascript"],
-    "thumb": "img/portfolio/front-end/thumb-frontend-model.png",
-    "imagemFull": "img/portfolio/front-end/site-full-model.png",
-    "linkOnline": "https://vitormartins.net",
+    "tecnologias": ["wordpress", "html5", "css3"],
+    "thumb": "img/portfolio/front-end/thumb-brennder.webp",
+    "imagemFull": "img/portfolio/front-end/home-page-brennder.webp",
+    "linkOnline": "https://site.vitormartins.net/brennder/",
     "formato": "scroll"
   },
+
+  {
+    "id": "engeplan",
+    "tipo": "front-end",
+    "categoria": ["onepages"],
+    "titulo": "Engeplan Solar - Painéis Solares",
+    "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
+    "tecnologias": ["wordpress", "html5", "css3"],
+    "thumb": "img/portfolio/front-end/thumb-engeplan.webp",
+    "imagemFull": "img/portfolio/front-end/home-page-engeplan.webp",
+    "linkOnline": "https://site.vitormartins.net/engeplan/",
+    "formato": "scroll"
+  },
+
+
+
+
+
+
+
+
+
+
 
 
 
