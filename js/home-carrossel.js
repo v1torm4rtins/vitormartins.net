@@ -32,8 +32,15 @@ async function carregarCarrosseis() {
 function renderizarCards(dados, categoria, elementId) {
     const container = document.getElementById(elementId);
     if (!container) return;
+
+    // 1. Filtra pela categoria (front-end ou design)
     const filtrados = dados.filter(p => p.tipo === categoria);
-    container.innerHTML = filtrados.map((p, index) => `
+
+    // 2. Limita a no máximo 10 itens mantendo a ordem original do JSON
+    const limitados = filtrados.slice(0, 10);
+
+    // 3. Renderiza apenas os 10 selecionados
+    container.innerHTML = limitados.map((p, index) => `
         <div class="card-projeto-home" data-index="${index}">
             <a href="projeto-${p.tipo}.html?id=${p.id}" class="card-content" draggable="false">
                 <div class="thumb-wrapper">
@@ -113,7 +120,6 @@ function configurarHoverSincronizado(id) {
     const toggle = (direcao, ligar) => {
         const isMobile = window.innerWidth < 768;
         const index = carrosselStates[id];
-        // Se for NEXT, o card alvo é o primeiro logo após os ativos (index + qtdAtiva)
         const targetIdx = (direcao === 'next') ? index + (isMobile ? 1 : 2) : index - 1;
         const card = track.querySelector(`.card-projeto-home[data-index="${targetIdx}"]`);
         const btn = (direcao === 'next') ? nextBtn : prevBtn;
@@ -216,6 +222,7 @@ function configurarDrag(id) {
 }
 
 carregarCarrosseis();
+
 window.addEventListener('resize', () => {
     moveCarrossel('carrossel-fe', 0);
     moveCarrossel('carrossel-dg', 0);
