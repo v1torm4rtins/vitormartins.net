@@ -18,18 +18,18 @@
     transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);
 }
 
+
 .card-projeto-home {
     min-width: 100%;
-    /* Ocupa a largura total da tela no mobile */
     max-width: 100%;
     opacity: 0.3;
     filter: blur(6px);
-    transition: all 0s ease;
+    transition: opacity 0.3s ease, filter 0.3s ease;
 }
 
 .card-projeto-home.active {
-    opacity: 1;
-    filter: blur(0);
+    opacity: 1 !important;
+    filter: blur(0) !important;
 }
 
 .card-projeto-home img {
@@ -52,16 +52,22 @@
 .nav-home {
     position: absolute;
     z-index: 100;
+    top: 0;
+    /* NOVO: Gruda no topo */
+    bottom: 0;
+    /* NOVO: Gruda no fundo */
+    margin: auto;
+    /* NOVO: Centraliza sem usar transform(-50%)! */
     background: var(--light-purple-color);
     border: 6px solid var(--black-color);
-    width: 60px;
-    height: 80px;
-    padding: 15px;
+    width: 55px;
+    height: 70px;
+    padding: 13px;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    box-shadow: 10px 10px 0 0 var(--black-color);
+    box-shadow: var(--small-box-shadow);
 }
 
 .nav-home:hover {
@@ -96,7 +102,6 @@
 /* Força o navegador a não criar aquele 'ghost image' */
 .track-carrossel img,
 .track-carrossel a {
-    user-drag: none;
     -webkit-user-drag: none;
     pointer-events: auto;
 }
@@ -149,12 +154,20 @@
     visibility: hidden;
 }
 
-/* Correção do efeito de subir: mantemos o -50% e deslocamos em pixels */
+/* Seta: Hover nativo e via JS ficam idênticos ao Portfólio */
+.nav-home:hover,
 .nav-home.force-hover,
 .nav-carrossel.force-hover {
-    box-shadow: var(--small-box-shadow-hover) !important;
     background: var(--red-color) !important;
+    box-shadow: var(--small-box-shadow-hover) !important;
     transform: var(--small-hover);
+}
+
+/* ...e aplica o mesmo hover do portfólio no miolo de dentro! */
+.card-projeto-home.force-hover .card-content {
+    transform: var(--small-hover);
+    box-shadow: var(--small-box-shadow-hover);
+    border: 6px solid var(--red-color);
 }
 
 
@@ -307,7 +320,7 @@ button.btn-filtro:hover {
 
 @media screen and (min-width:1024px) {
     .thumb-wrapper {
-        padding: 30px 30px 0;
+        padding: 20px 20px 0;
     }
 
     .thumb-wrapper img {
@@ -334,6 +347,7 @@ button.btn-filtro:hover {
         transform: var(--large-hover);
         box-shadow: var(--large-box-shadow-hover);
     }
+
 }
 
 

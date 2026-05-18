@@ -21,8 +21,7 @@ async function carregarCarrosseis() {
 
         configurarDrag('carrossel-fe');
         configurarDrag('carrossel-dg');
-        
-        // Ativa a sincronização de hover
+
         configurarHoverSincronizado('carrossel-fe');
         configurarHoverSincronizado('carrossel-dg');
     } catch (e) {
@@ -33,8 +32,15 @@ async function carregarCarrosseis() {
 function renderizarCards(dados, categoria, elementId) {
     const container = document.getElementById(elementId);
     if (!container) return;
+
+    // 1. Filtra pela categoria (front-end ou design)
     const filtrados = dados.filter(p => p.tipo === categoria);
-    container.innerHTML = filtrados.map((p, index) => `
+
+    // 2. Limita a no máximo 10 itens mantendo a ordem original do JSON
+    const limitados = filtrados.slice(0, 10);
+
+    // 3. Renderiza apenas os 10 selecionados
+    container.innerHTML = limitados.map((p, index) => `
         <div class="card-projeto-home" data-index="${index}">
             <a href="projeto-${p.tipo}.html?id=${p.id}" class="card-content" draggable="false">
                 <div class="thumb-wrapper">
@@ -46,11 +52,18 @@ function renderizarCards(dados, categoria, elementId) {
             </a>
         </div>
     `).join('');
-    atualizarEstadoVisual(elementId);
+
+    setTimeout(() => {
+        atualizarEstadoVisual(elementId);
+    }, 50);
 }
 
 function moveCarrossel(id, direcao) {
     const track = document.getElementById(id);
+    if (!track) return;
+
+    track.style.transition = 'transform 0.6s cubic-bezier(0.25, 1, 0.5, 1)';
+
     const isMobile = window.innerWidth < 768;
     const cardsPorVez = isMobile ? 1 : 2;
     carrosselStates[id] += direcao;
@@ -76,12 +89,10 @@ function atualizarEstadoVisual(id) {
     const cards = track.querySelectorAll('.card-projeto-home');
     const isMobile = window.innerWidth < 768;
     const qtdAtiva = isMobile ? 1 : 2;
-    const maxIndex = cards.length - qtdAtiva;
     const currentIndex = carrosselStates[id];
 
     cards.forEach((card, i) => {
-        card.classList.remove('active');
-        card.classList.remove('force-hover'); // Limpa hover forçado ao mover
+        card.classList.remove('active', 'force-hover');
         if (i >= currentIndex && i < currentIndex + qtdAtiva) {
             card.classList.add('active');
         }
@@ -89,63 +100,60 @@ function atualizarEstadoVisual(id) {
 
     const prevBtn = document.querySelector(`.nav-home.prev[onclick*="${id}"]`);
     const nextBtn = document.querySelector(`.nav-home.next[onclick*="${id}"]`);
-    if (prevBtn) prevBtn.style.display = currentIndex <= 0 ? 'none' : 'flex';
-    if (nextBtn) nextBtn.style.display = currentIndex >= maxIndex ? 'none' : 'flex';
+
+    if (prevBtn) {
+        prevBtn.style.display = currentIndex <= 0 ? 'none' : 'flex';
+        prevBtn.classList.remove('force-hover');
+    }
+    if (nextBtn) {
+        const maxIndex = cards.length - qtdAtiva;
+        nextBtn.style.display = currentIndex >= maxIndex ? 'none' : 'flex';
+        nextBtn.classList.remove('force-hover');
+    }
 }
 
-// --- NOVA FUNÇÃO DE SINCRONIZAÇÃO DE HOVER ---
 function configurarHoverSincronizado(id) {
     const track = document.getElementById(id);
     const prevBtn = document.querySelector(`.nav-home.prev[onclick*="${id}"]`);
     const nextBtn = document.querySelector(`.nav-home.next[onclick*="${id}"]`);
 
-    const toggleHover = (btn, direcao, state) => {
-        if (!btn) return;
+    const toggle = (direcao, ligar) => {
         const isMobile = window.innerWidth < 768;
-        const targetIndex = direcao === 'next' 
-            ? carrosselStates[id] + (isMobile ? 1 : 2) 
-            : carrosselStates[id] - 1;
+        const index = carrosselStates[id];
+        const targetIdx = (direcao === 'next') ? index + (isMobile ? 1 : 2) : index - 1;
+        const card = track.querySelector(`.card-projeto-home[data-index="${targetIdx}"]`);
+        const btn = (direcao === 'next') ? nextBtn : prevBtn;
 
-        const targetCard = track.querySelector(`.card-projeto-home[data-index="${targetIndex}"]`);
-        
-        if (state === 'on') {
-            btn.classList.add('force-hover');
-            if (targetCard) targetCard.classList.add('force-hover');
+        if (ligar) {
+            if (btn) btn.classList.add('force-hover');
+            if (card) card.classList.add('force-hover');
         } else {
-            btn.classList.remove('force-hover');
-            if (targetCard) targetCard.classList.remove('force-hover');
+            if (btn) btn.classList.remove('force-hover');
+            if (card) card.classList.remove('force-hover');
         }
     };
 
-    // Hover nas Setas -> Afeta os Cards
     if (nextBtn) {
-        nextBtn.addEventListener('mouseenter', () => toggleHover(nextBtn, 'next', 'on'));
-        nextBtn.addEventListener('mouseleave', () => toggleHover(nextBtn, 'next', 'off'));
+        nextBtn.addEventListener('mouseenter', () => toggle('next', true));
+        nextBtn.addEventListener('mouseleave', () => toggle('next', false));
     }
     if (prevBtn) {
-        prevBtn.addEventListener('mouseenter', () => toggleHover(prevBtn, 'prev', 'on'));
-        prevBtn.addEventListener('mouseleave', () => toggleHover(prevBtn, 'prev', 'off'));
+        prevBtn.addEventListener('mouseenter', () => toggle('prev', true));
+        prevBtn.addEventListener('mouseleave', () => toggle('prev', false));
     }
 
-    // Hover nos Cards com Blur -> Afeta as Setas
     track.addEventListener('mouseover', (e) => {
         const card = e.target.closest('.card-projeto-home');
         if (card && !card.classList.contains('active')) {
-            const index = parseInt(card.getAttribute('data-index'));
-            if (index > carrosselStates[id]) {
-                toggleHover(nextBtn, 'next', 'on');
-            } else {
-                toggleHover(prevBtn, 'prev', 'on');
-            }
+            const idx = parseInt(card.getAttribute('data-index'));
+            toggle(idx > carrosselStates[id] ? 'next' : 'prev', true);
         }
     });
 
-    track.addEventListener('mouseout', (e) => {
-        const card = e.target.closest('.card-projeto-home');
-        if (card) {
-            toggleHover(nextBtn, 'next', 'off');
-            toggleHover(prevBtn, 'prev', 'off');
-        }
+    track.addEventListener('mouseout', () => {
+        if (nextBtn) nextBtn.classList.remove('force-hover');
+        if (prevBtn) prevBtn.classList.remove('force-hover');
+        track.querySelectorAll('.card-projeto-home').forEach(c => c.classList.remove('force-hover'));
     });
 }
 
@@ -154,6 +162,7 @@ function configurarDrag(id) {
     const mask = track.parentElement;
 
     const iniciarArrasto = (e) => {
+        if (e.target.closest('.nav-home')) return;
         isDragging = true;
         currentTrackId = id;
         startX = e.type.includes('mouse') ? e.pageX : e.touches[0].clientX;
@@ -166,28 +175,15 @@ function configurarDrag(id) {
     const duranteArrasto = (e) => {
         if (!isDragging || currentTrackId !== id) return;
         const x = e.type.includes('mouse') ? e.pageX : e.touches[0].clientX;
-        const y = e.type.includes('mouse') ? e.pageY : e.touches[0].clientY;
         const walkX = x - startX;
-        const walkY = y - startY;
-
-        if (e.type.includes('touch') && Math.abs(walkY) > Math.abs(walkX)) {
-            isDragging = false;
-            return;
-        }
 
         if (Math.abs(walkX) > 5) {
-            if (e.cancelable) e.preventDefault(); 
+            if (e.cancelable) e.preventDefault();
             foiArrastado = true;
-            const card = track.querySelector('.card-projeto-home');
-            const cardWidth = card.offsetWidth;
+            const cardWidth = track.querySelector('.card-projeto-home').offsetWidth;
             const gap = 30;
             const currentMove = carrosselStates[id] * (cardWidth + gap);
             let finalMove = currentMove - walkX;
-            const maxLimit = (track.querySelectorAll('.card-projeto-home').length - (window.innerWidth < 768 ? 1 : 2)) * (cardWidth + gap);
-            
-            if (finalMove < 0) finalMove = finalMove * 0.3;
-            else if (finalMove > maxLimit) finalMove = maxLimit + ((finalMove - maxLimit) * 0.3);
-
             track.style.transform = `translateX(${-finalMove}px)`;
         }
     };
@@ -196,7 +192,7 @@ function configurarDrag(id) {
         if (!isDragging || currentTrackId !== id) return;
         isDragging = false;
         mask.classList.remove('is-dragging');
-        track.style.transition = 'transform 0.6s cubic-bezier(0.2, 1, 0.3, 1)';
+        track.style.transition = 'transform 0.6s cubic-bezier(0.25, 1, 0.5, 1)';
         if (foiArrastado) {
             const endX = e.type.includes('mouse') ? e.pageX : (e.changedTouches ? e.changedTouches[0].clientX : startX);
             const diff = startX - endX;
@@ -216,11 +212,9 @@ function configurarDrag(id) {
 
     track.addEventListener('click', (e) => {
         if (foiArrastado) { e.preventDefault(); return; }
-        const link = e.target.closest('a.card-content');
-        if (!link) return;
-        const card = link.closest('.card-projeto-home');
+        const card = e.target.closest('.card-projeto-home');
         if (card && !card.classList.contains('active')) {
-            e.preventDefault(); 
+            e.preventDefault();
             const clickedIndex = parseInt(card.getAttribute('data-index'));
             moveCarrossel(id, clickedIndex > carrosselStates[id] ? 1 : -1);
         }
@@ -228,6 +222,7 @@ function configurarDrag(id) {
 }
 
 carregarCarrosseis();
+
 window.addEventListener('resize', () => {
     moveCarrossel('carrossel-fe', 0);
     moveCarrossel('carrossel-dg', 0);

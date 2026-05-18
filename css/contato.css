@@ -185,7 +185,7 @@ img.whatsapp-contact-right {
 
 .link-card:hover {
     transform: var(--large-hover);
-    box-shadow: 40px 40px 0 0 var(--black-color);
+    box-shadow: var(--large-box-shadow-hover);
 }
 
 /* Ícone */
