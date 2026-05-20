@@ -1,3 +1,5 @@
+/* --- PORTFOLIO SITE SCROLL (FRONT-END) --- */
+
 .topo-detalhe {
     padding: 80px 0 40px;
 }
@@ -114,95 +116,158 @@
     width: auto;
 }
 
-/* Container que segura os botões e a moldura */
-.wrapper-carrossel {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    /* Importante para o absolute funcionar */
-    width: 100%;
-}
-
-/* Ajuste da moldura para não ter scroll e sim carrossel */
-.moldura-pc.carrossel {
-    overflow: hidden;
-}
-
-.carrossel-interno {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-    height: 100%;
-}
-
-.carrossel-interno img {
-    min-width: 100%;
-    object-fit: cover;
-    /* Garante que a arte do design apareça inteira */
-    height: 100%;
-}
-
-.nav-carrossel {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: var(--light-purple-color);
-    border: 6px solid var(--black-color);
-    padding: 16px 22px 16px 18px;
-    width: 60px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: 0s;
-    z-index: 10;
-}
-
-.nav-carrossel img {
-    height: 30px;
-    filter: invert(96%) sepia(5%) saturate(225%) hue-rotate(323deg) brightness(91%) contrast(89%);
-}
-
-.nav-carrossel:hover {
-    background: var(--red-color);
-    transform: translateY(-50%) scale(1);
-    border: 6px solid var(--black-color);
-}
-
-.nav-carrossel.prev {
-    left: -70px;
-}
-
-.nav-carrossel.next {
-    right: -70px;
-}
-
-
-/* --- AJUSTE SETAS CARROSSEL (ESTILO HOME) --- */
-.nav-carrossel {
-    width: 66px;
-    height: 66px;
-    padding: 10px 20px;
-    box-shadow: var(--small-box-shadow);
-}
-
-.nav-carrossel:hover {
-    transform: translateY(-52%) translate(-2px, -2px);
-    box-shadow: 12px 12px 0 0 var(--black-color);
-    background: var(--red-color);
-}
-
-.nav-carrossel img {
-    height: 24px;
-    filter: brightness(0) invert(1);
-    /* Seta branca pura */
-}
-
 .icon-open-arrow {
     height: 26px;
     fill: currentColor;
     /* Faz o ícone herdar a cor 'white' do texto */
 }
+
+
+
+
+
+/* --- PORTFOLIO (DESIGN) --- */
+
+/* --- Galeria em Mosaico --- */
+.mosaico-pdf-grid {
+    margin-top: 60px;
+    gap: 20px;
+}
+
+.img-mosaico-pdf {
+    box-shadow: var(--small-box-shadow);
+    border: 6px solid var(--black-color);
+}
+
+.img-mosaico-pdf:hover {
+    box-shadow: var(--small-box-shadow-hover);
+    transform: var(--small-hover);
+    border: 6px solid var(--red-color);
+}
+
+
+
+/* --- Lightbox Modal --- */
+.lightbox-modal {
+    display: none;
+    position: fixed;
+    z-index: 99999;
+    padding-top: 30px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: hsl(246deg 25% 15% / 80%);
+    backdrop-filter: blur(12px);
+}
+
+.lightbox-content {
+    position: relative;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 85vh;
+}
+
+#lightbox-img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    border: 6px solid var(--black-color);
+    box-shadow: var(--large-box-shadow);
+}
+
+.lightbox-close {
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    color: var(--white-color);
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.lightbox-prev,
+.lightbox-next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 7px 16px 7px 14px;
+    color: var(--white-color);
+    font-weight: bold;
+    font-size: 30px;
+    user-select: none;
+    background: var(--light-purple-color);
+    border: 6px solid var(--black-color);
+    box-shadow: var(--small-box-shadow);
+    color: var(--white-color) !important;
+}
+
+.lightbox-prev:hover,
+.lightbox-next:hover {
+    background: var(--red-color);
+    box-shadow: var(--small-box-shadow-hover);
+}
+
+.lightbox-prev {
+    left: 10px;
+}
+
+.lightbox-next {
+    right: 10px;
+}
+
+
+
+
+
+
+/* --- Vídeo Youtube --- */
+.video-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 40px auto;
+}
+
+.video-interno {
+    width: 100%;
+    max-width: 900px;
+    aspect-ratio: 16 / 9;
+}
+
+.video-container.is-short .video-interno {
+    max-width: 420px;
+    aspect-ratio: 9 / 16;
+}
+
+/* Correção do layout do vídeo */
+.container-video-especial {
+    max-width: 500px;
+    /* Tamanho ideal para Shorts */
+    margin: 40px auto;
+    width: 100%;
+    display: block;
+    box-shadow: var(--medium-box-shadow);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.container-video-especial iframe {
+    width: 100%;
+    aspect-ratio: 9 / 16;
+    /* Mantém proporção de Short/Vertical */
+    display: block;
+    border: none;
+}
+
+
+
+
+
 
 
 
@@ -256,19 +321,37 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .nav-carrossel.prev {
-        left: 10px;
-    }
-
-    .nav-carrossel.next {
-        right: 10px;
-    }
-
     .button-open-site {
         box-shadow: var(--medium-box-shadow);
     }
 
     .button-open-site:hover {
+        box-shadow: var(--medium-box-shadow-hover);
+        transform: var(--medium-hover);
+    }
+
+    /* Configura o grid para 2 colunas nos tablets */
+    .mosaico-pdf-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Peças largas ocupam a tela toda, peças quadradas/verticais dividem espaço */
+    .page-horizontal {
+        grid-column: span 2;
+    }
+
+    .page-vertical-quadrada {
+        grid-column: span 1;
+    }
+
+
+    /* --- Galeria em Mosaico --- */
+
+    .img-mosaico-pdf {
+        box-shadow: var(--medium-box-shadow);
+    }
+
+    .img-mosaico-pdf:hover {
         box-shadow: var(--medium-box-shadow-hover);
         transform: var(--medium-hover);
     }
@@ -319,6 +402,24 @@
         display: flex;
         justify-content: flex-start;
     }
+
+    /* Aumenta um pouco o respiro do mosaico em telas maiores */
+    .mosaico-pdf-grid {
+        gap: 40px;
+    }
+
+
+    /* --- Galeria em Mosaico --- */
+
+    .img-mosaico-pdf {
+        box-shadow: var(--large-box-shadow);
+    }
+
+    .img-mosaico-pdf:hover {
+        box-shadow: var(--large-box-shadow-hover);
+        transform: var(--large-hover);
+        border: 6px solid var(--red-color);
+    }
 }
 
 
@@ -337,4 +438,10 @@
 
 /* ========== RESPONSIVO - DESKTOP 1440+ ==========*/
 
-@media screen and (min-width:1440px) {}
+@media screen and (min-width:1440px) {
+
+    /* Garante que o vídeo não fique gigante e perca resolução na TV/Monitor Ultrawide */
+    .video-interno {
+        max-width: 1000px;
+    }
+}

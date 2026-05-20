@@ -2,7 +2,7 @@
   {
     "id": "luidecor",
     "tipo": "front-end",
-    "categoria": ["sites", "portfolios"],
+    "categoria": ["site", "portfolio"],
     "titulo": "Lui Decor | Móveis personalizados",
     "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
     "tecnologias": ["wordpress", "html5", "css3"],
@@ -15,7 +15,7 @@
   {
     "id": "dkservice",
     "tipo": "front-end",
-    "categoria": ["onepages"],
+    "categoria": ["onepage"],
     "titulo": "DK Service | Manutenção Elétrica",
     "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
     "tecnologias": ["wordpress", "html5", "css3"],
@@ -28,7 +28,7 @@
   {
     "id": "ecofresh",
     "tipo": "front-end",
-    "categoria": ["sites", "portfolios"],
+    "categoria": ["site", "portfolio"],
     "titulo": "Eco Fresh | Refresque seus melhores momentos",
     "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
     "tecnologias": ["wordpress", "html5", "css3"],
@@ -41,7 +41,7 @@
   {
     "id": "crlab",
     "tipo": "front-end",
-    "categoria": ["onepages"],
+    "categoria": ["onepage"],
     "titulo": "CRLab | Clínica de Estética Capilar",
     "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
     "tecnologias": ["wordpress", "html5", "css3"],
@@ -54,7 +54,7 @@
   {
     "id": "campossanches",
     "tipo": "front-end",
-    "categoria": ["sites"],
+    "categoria": ["site"],
     "titulo": "Campos Sanches | Segurança Patrimonial",
     "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
     "tecnologias": ["wordpress", "html5", "css3"],
@@ -67,7 +67,7 @@
   {
     "id": "blummo",
     "tipo": "front-end",
-    "categoria": ["onepages"],
+    "categoria": ["onepage"],
     "titulo": "Blumo | Mecânica Automotiva",
     "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
     "tecnologias": ["wordpress", "html5", "css3"],
@@ -80,7 +80,7 @@
   {
     "id": "scrap",
     "tipo": "front-end",
-    "categoria": ["sites", "blogs"],
+    "categoria": ["site", "blog"],
     "titulo": "SCRAP | Resíduos e Aparas",
     "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
     "tecnologias": ["wordpress", "html5", "css3"],
@@ -93,7 +93,7 @@
   {
     "id": "engeplan",
     "tipo": "front-end",
-    "categoria": ["onepages"],
+    "categoria": ["onepage"],
     "titulo": "Engeplan Solar | Painéis Solares",
     "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
     "tecnologias": ["wordpress", "html5", "css3"],
@@ -106,7 +106,7 @@
   {
     "id": "aria",
     "tipo": "front-end",
-    "categoria": ["onepages"],
+    "categoria": ["onepage"],
     "titulo": "Aria | Distribuidora Médica Hospitalar",
     "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
     "tecnologias": ["wordpress", "html5", "css3"],
@@ -119,7 +119,7 @@
   {
     "id": "brennder",
     "tipo": "front-end",
-    "categoria": ["onepages"],
+    "categoria": ["onepage"],
     "titulo": "Brennder Sandals | Conforto para seus pés",
     "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
     "tecnologias": ["wordpress", "html5", "css3"],
@@ -132,7 +132,7 @@
   {
     "id": "rezervo",
     "tipo": "front-end",
-    "categoria": ["sites", "blogs"],
+    "categoria": ["site", "blog"],
     "titulo": "Rezervo | Locação por Temporada",
     "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
     "tecnologias": ["wordpress", "html5", "css3"],
@@ -145,7 +145,7 @@
   {
     "id": "agape",
     "tipo": "front-end",
-    "categoria": ["onepages"],
+    "categoria": ["onepage"],
     "titulo": "Ágape | Programa social de saúde e bem-estar",
     "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
     "tecnologias": ["wordpress", "html5", "css3"],
@@ -158,7 +158,7 @@
   {
     "id": "grupoama",
     "tipo": "front-end",
-    "categoria": ["sites", "portfolios", "blogs"],
+    "categoria": ["site", "portfolio", "blog"],
     "titulo": "Grupo Ama | Serviços Personalizados",
     "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
     "tecnologias": ["wordpress", "html5", "css3"],
@@ -171,7 +171,7 @@
   {
     "id": "rico",
     "tipo": "front-end",
-    "categoria": ["onepages", "portfolios"],
+    "categoria": ["onepage", "portfolio"],
     "titulo": "Rico | Linhas Aéreas na Amazônia",
     "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
     "tecnologias": ["wordpress", "html5", "css3"],
@@ -184,7 +184,7 @@
   {
     "id": "milleventi",
     "tipo": "front-end",
-    "categoria": ["onepages"],
+    "categoria": ["onepage"],
     "titulo": "Milleventi | Trading e Comércio Exterior",
     "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
     "tecnologias": ["wordpress", "html5", "css3"],
@@ -197,7 +197,7 @@
   {
     "id": "sigmax",
     "tipo": "front-end",
-    "categoria": ["onepages"],
+    "categoria": ["onepage"],
     "titulo": "Sigmax | Soluções em Comércio Exterior",
     "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
     "tecnologias": ["wordpress", "html5", "css3"],
@@ -210,7 +210,7 @@
   {
     "id": "tuafarma",
     "tipo": "front-end",
-    "categoria": ["onepages"],
+    "categoria": ["onepage"],
     "titulo": "tuaFARMA | Farmácia em Piedade",
     "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
     "tecnologias": ["wordpress", "html5", "css3"],
@@ -242,59 +242,32 @@
 
 
   {
-    "id": "dg-arte-teste-um",
+    "id": "motion-poli-plataforma",
     "tipo": "design",
-    "categoria": ["videos", "estaticos"],
-    "titulo": "Arte Teste Um",
-    "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
-    "tecnologias": ["illustrator", "photoshop"],
-    "thumb": "img/portfolio/design/thumb-design-model.png",
-    "imagensGaleria": [
-      "img/portfolio/design/arte-carrossel-model.png",
-      "img/portfolio/design/arte-carrossel-model.png"
-    ],
-    "formato": "carrossel"
-  },
-  {
-    "id": "dg-arte-teste-dois",
-    "tipo": "design",
-    "categoria": ["logotipos", "papelarias"],
-    "titulo": "Arte Teste Dois",
-    "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
+    "categoria": ["motion", "anuncio"],
+    "titulo": "Motion Poli Digital - Plataforma",
+    "descricao": "Vídeo em formato story para anúncios.",
     "tecnologias": ["premiere", "after-effects"],
-    "thumb": "img/portfolio/design/thumb-design-model.png",
-    "imagensGaleria": [
-      "img/portfolio/design/arte-carrossel-model.png",
-      "img/portfolio/design/arte-carrossel-model.png"
-    ],
-    "formato": "carrossel"
+    "thumb": "img/portfolio/design/thumb-motion-poli.png",
+    "videoUrl": "https://youtube.com/shorts/bgEbSisNfrQ",
+    "formato": "video"
   },
+
   {
-    "id": "id-arte-teste-tres",
+    "id": "carrossel-whatsapp-ideal",
     "tipo": "design",
-    "categoria": ["ebooks", "videos"],
-    "titulo": "Arte Teste Três",
-    "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
-    "tecnologias": ["illustrator", "photoshop"],
-    "thumb": "img/portfolio/design/thumb-design-model.png",
-    "imagensGaleria": [
-      "img/portfolio/design/arte-carrossel-model.png",
-      "img/portfolio/design/arte-carrossel-model.png"
-    ],
-    "formato": "carrossel"
-  },
-  {
-    "id": "id-arte-teste-quatro",
-    "tipo": "design",
-    "categoria": ["estaticos", "logotipos"],
-    "titulo": "Arte Teste Quatro",
-    "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
-    "tecnologias": ["premiere", "after-effects"],
-    "thumb": "img/portfolio/design/thumb-design-model.png",
-    "imagensGaleria": [
-      "img/portfolio/design/arte-carrossel-model.png",
-      "img/portfolio/design/arte-carrossel-model.png"
-    ],
-    "formato": "carrossel"
+    "categoria": ["ebook"],
+    "titulo": "WhatsApp ideal para o seu negócio",
+    "descricao": "Carrossel completo - Qual WhatsApp é o idel para o seu negócio?",
+    "tecnologias": ["illustrator"],
+    "thumb": "img/portfolio/design/thumb-ebook-whatsapp.png",
+    "formato": "galeria",
+    "imagens": [
+      "img/portfolio/design/carrossel-whatsapp-ideal/carrossel-whatsapp-ideal-1.webp",
+      "img/portfolio/design/carrossel-whatsapp-ideal/carrossel-whatsapp-ideal-2.webp",
+      "img/portfolio/design/carrossel-whatsapp-ideal/carrossel-whatsapp-ideal-3.webp",
+      "img/portfolio/design/carrossel-whatsapp-ideal/carrossel-whatsapp-ideal-4.webp",
+      "img/portfolio/design/carrossel-whatsapp-ideal/carrossel-whatsapp-ideal-5.webp"
+    ]
   }
 ]
