@@ -30,11 +30,15 @@ function configurarFiltros() {
     const botoes = document.querySelectorAll('.btn-filtro');
     botoes.forEach(btn => {
         btn.addEventListener('click', () => {
-            botoes.forEach(b => b.classList.remove('active'));
+            // Remove active apenas do grupo de botões atual
+            const pai = btn.parentElement;
+            pai.querySelectorAll('.btn-filtro').forEach(b => b.classList.remove('active'));
             btn.classList.add('active');
 
             const filtro = btn.getAttribute('data-filter');
-            const cards = document.querySelectorAll('.card-projeto');
+            // Seleciona os cards pertencentes à seção desse grupo de filtros
+            const secao = btn.closest('section');
+            const cards = secao.querySelectorAll('.card-projeto');
 
             cards.forEach(card => {
                 const categoriasDoCard = JSON.parse(card.getAttribute('data-categoria'));
@@ -54,5 +58,5 @@ carregarProjetos().then(projetos => {
     renderizarCards(projetos, 'lista-projetos-design', 'design');
     configurarFiltros();
 }).catch(erro => {
-    console.error("Erro ao carregar o JSON. Verifique vírgulas ou aspas faltando:", erro);
+    console.error("Erro ao inicializar portfólio:", erro);
 });

@@ -21,6 +21,8 @@
     <link rel="stylesheet" href="css/footer.css" />
 
     <link rel="icon" href="img/favicon-red-vitor-martins.png" type="image/png">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
 </head>
 
 <body class="pg-projeto-detalhe">
@@ -40,19 +42,25 @@
                     <div id="projeto-tecs" class="icones-tecnologias"></div>
                 </div>
 
-                <div class="wrapper-carrossel">
-                    <div class="nav-carrossel prev" id="prev-btn">
-                        <img src="svg/arrow-left.svg" alt="Anterior">
+                <div id="dynamic-content-container">
+
+                    <div id="wrapper-scroll" class="moldura-pc" style="display: none;">
+                        <div id="container-imagem-scroll" class="scroll-interno"></div>
                     </div>
 
-                    <div class="moldura-pc carrossel">
-                        <div id="container-carrossel" class="carrossel-interno">
+                    <div id="container-video" class="video-container" style="display: none;"></div>
+
+                    <div id="container-mosaico-pdf" class="mosaico-pdf-grid" style="display: none;"></div>
+
+                    <div id="lightbox-modal" class="lightbox-modal">
+                        <span class="lightbox-close" onclick="fecharLightbox()">&times;</span>
+                        <div class="lightbox-content">
+                            <a class="lightbox-prev" onclick="mudarImagemLightbox(-1)">&#10094;</a>
+                            <img id="lightbox-img" src="">
+                            <a class="lightbox-next" onclick="mudarImagemLightbox(1)">&#10095;</a>
                         </div>
                     </div>
 
-                    <div class="nav-carrossel next" id="next-btn">
-                        <img src="svg/arrow-right.svg" alt="Próximo">
-                    </div>
                 </div>
 
             </div>
