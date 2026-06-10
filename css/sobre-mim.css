@@ -38,10 +38,28 @@ img.bio-character:hover {
     gap: 10px;
 }
 
-@media (max-width: 992px) {
-    .accordion-group {
-        flex-direction: column;
-    }
+ol.skill-accordeon-text {
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+ul.skill-accordeon-text {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+::marker {
+    font-weight: 700;
+}
+
+li {
+    border-bottom: 2px solid #00000010;
+    margin-bottom: 0px;
+    padding-bottom: 15px;
 }
 
 .accordion-item {
@@ -127,10 +145,6 @@ img.bio-character:hover {
     margin: 0 20px 20px;
 }
 
-.content-inner p {
-    margin-bottom: 24px;
-}
-
 .btn-certificado {
     color: var(--black-color);
     display: inline-block;
@@ -151,6 +165,10 @@ img.bio-character:hover {
 
 
 /* --- EXPERIÊNCIA PROFISSIONAL E FORMAÇÃO ACADÊMICA --- */
+.accordion-group {
+    flex-direction: column;
+}
+
 .experience-wrap {
     background: var(--white-color);
     padding: 30px;
@@ -190,6 +208,10 @@ img.bio-character:hover {
     font-size: 2em;
     font-weight: 600;
     transition: transform 0.1s ease;
+}
+
+.accordion-plus:hover {
+    color: var(--red-color);
 }
 
 .accordion-simple-item.active .accordion-plus {
@@ -265,12 +287,12 @@ img.bio-character:hover {
 
 
 
-
 /* ========== RESPONSIVO - TABLET 768+ ==========*/
 
 @media screen and (min-width:768px) {
     .accordion-group {
         grid-template-columns: 1fr;
+        flex-direction: row;
     }
 
     img.bio-character {

@@ -111,11 +111,11 @@ html {
 :root {
 
   /* color */
-  --white-color: #DAD3CD;
-  --black-color: #1E1C2F;
-  --light-purple-color: #501A5E;
-  --dark-purple-color: #2D1E36;
-  --red-color: #C83232;
+  --white-color: #e5cfcf;
+  --black-color: #160023;
+  --light-purple-color: #54009e;
+  --dark-purple-color: #2c0042;
+  --red-color: #bf0000;
   --gray-color: #5B5B68;
 
   /* H titles sizes */
@@ -320,7 +320,7 @@ p {
   color: var(--gray-color);
   font-size: var(--text-font-size);
   font-weight: var(--text-weight);
-  line-height: 1.6;
+  line-height: 1.4;
 }
 
 a {
@@ -328,12 +328,19 @@ a {
   color: var(--gray-color);
   font-size: var(--text-font-size);
   font-weight: var(--text-weight);
-  line-height: 1.6;
+  line-height: 1.4;
 
 }
 
 a:hover {
   color: var(--red-color)
+}
+
+li {
+  color: var(--gray-color);
+  font-size: var(--text-font-size);
+  font-weight: var(--text-weight);
+  line-height: 1.4;
 }
 
 body {
