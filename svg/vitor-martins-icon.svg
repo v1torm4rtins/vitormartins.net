@@ -1,10 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 59.48 59.48">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 62 62">
   <defs>
     <style>
       .cls-1 {
-        fill: #c83232;
+        fill: #bf0000;
       }
     </style>
   </defs>
-    <path class="cls-1" d="M38.63,5.83l-8.89,17.78L20.85,5.83h17.78M48.07,0h0,0ZM48.07,0H11.42l18.33,36.65L48.07,0h0ZM53.65,24.7v28.95h-14.48l14.48-28.95M59.48,0l-29.74,59.48h29.74V0h0ZM5.83,24.7l14.48,28.95H5.83v-28.95M0,0v59.48h29.74L0,0h0Z"/>
+  <g id="Camada_1" data-name="Camada 1">
+    <g>
+      <path class="cls-1" d="M40.27,6.08l-9.27,18.53L21.73,6.08h18.53M50.1,0h0,0ZM50.1,0H11.9l19.1,38.2L50.1,0h0Z"/>
+      <path class="cls-1" d="M55.92,25.75v30.18h-15.09l15.09-30.18M62,0l-31,62h31V0h0Z"/>
+      <path class="cls-1" d="M6.08,25.75l15.09,30.18H6.08v-30.18M0,0v62h31L0,0h0Z"/>
+    </g>
+  </g>
 </svg>

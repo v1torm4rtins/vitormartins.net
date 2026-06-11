@@ -63,8 +63,9 @@ main {
 
 .main-footer .container {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
+  gap: 20px;
   padding-top: 40px;
   padding-bottom: 40px;
 }
@@ -84,7 +85,36 @@ main {
   transform: scale(1.08);
 }
 
+.right-footer-column {
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  align-items: center;
+}
 
+.right-footer-column a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a.footer-github-link {
+  fill: var(--light-purple-color);
+  gap: 10px;
+}
+
+a.footer-github-link:hover {
+  fill: var(--red-color);
+  color: var(--white-color) !important;
+}
+
+span.footer-github-label:hover {
+  color: var(--white-color) !important;
+}
+
+svg.footer-github-icon {
+  height: 28px;
+}
 
 
 
@@ -101,6 +131,12 @@ main {
 /* ========== RESPONSIVO - TABLET 768+ ==========*/
 
 @media screen and (min-width:768px) {
+  .main-footer .container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
   .cta-wrap {
     flex-direction: row;
   }
