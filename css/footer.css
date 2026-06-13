@@ -87,7 +87,7 @@ main {
 
 .right-footer-column {
   display: flex;
-  gap: 10px;
+  gap: 20px;
   flex-direction: row;
   align-items: center;
 }
@@ -98,22 +98,34 @@ main {
   justify-content: center;
 }
 
-a.footer-github-link {
-  fill: var(--light-purple-color);
-  gap: 10px;
+.link-social-wrapper {
+  position: relative;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
 }
 
-a.footer-github-link:hover {
-  fill: var(--red-color);
-  color: var(--white-color) !important;
+/* Força as duas imagens a ficarem no mesmo espaço */
+.link-social-wrapper img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
-span.footer-github-label:hover {
-  color: var(--white-color) !important;
+/* Esconde a vermelha por padrão */
+.link-social-wrapper .img-hover {
+  opacity: 0;
 }
 
-svg.footer-github-icon {
-  height: 28px;
+/* Quando passa o mouse: esconde a roxa e mostra a vermelha */
+.link-social-wrapper:hover .img-default {
+  opacity: 0;
+}
+
+.link-social-wrapper:hover .img-hover {
+  opacity: 1;
 }
 
 
