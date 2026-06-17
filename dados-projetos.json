@@ -251,72 +251,6 @@
 
 
 
-
-  {
-    "id": "motion-tudo-sobre-a-poli",
-    "tipo": "design",
-    "categoria": ["motion"],
-    "titulo": "Motion Poli | Plataforma de Vendas no WhatsApp",
-    "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
-    "tecnologias": ["illustrator"],
-    "thumb": "img/portfolio/design/thumb-motion-tudo-sobre-a-poli.webp",
-    "videoUrl": "https://www.youtube.com/watch?v=WAvJKtGvZOM",
-    "formato": "video"
-  },
-
-  {
-    "id": "carrossel-whatsapp-ideal",
-    "tipo": "design",
-    "categoria": ["carrossel"],
-    "titulo": "Carrossel WhatsApp ideal para seu negócio",
-    "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
-    "tecnologias": ["illustrator"],
-    "thumb": "img/portfolio/design/carrossel-whatsapp-ideal/thumb-carrossel-whatsapp-ideal.webp",
-    "formato": "galeria",
-    "imagens": [
-      "img/portfolio/design/carrossel-whatsapp-ideal/carrossel-whatsapp-ideal-1.webp",
-      "img/portfolio/design/carrossel-whatsapp-ideal/carrossel-whatsapp-ideal-2.webp",
-      "img/portfolio/design/carrossel-whatsapp-ideal/carrossel-whatsapp-ideal-3.webp",
-      "img/portfolio/design/carrossel-whatsapp-ideal/carrossel-whatsapp-ideal-4.webp",
-      "img/portfolio/design/carrossel-whatsapp-ideal/carrossel-whatsapp-ideal-5.webp"
-    ]
-  },
-
-  {
-    "id": "anuncio-campos-sanches-cada-segundo",
-    "tipo": "design",
-    "categoria": ["anuncio"],
-    "titulo": "Cada segundo conta | Segurança Privada",
-    "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
-    "tecnologias": ["premiere", "after-effects"],
-    "thumb": "img/portfolio/design/thumb-anuncio-campos-sanches-cada-segundo-conta.webp",
-    "videoUrl": "https://youtube.com/shorts/yUG9emXqBbM",
-    "formato": "video"
-  },
-
-  {
-    "id": "logo-siet",
-    "tipo": "design",
-    "categoria": ["logo"],
-    "titulo": "Siet | Soluções Inteligentes",
-    "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
-    "tecnologias": ["illustrator"],
-    "thumb": "img/portfolio/design/logo-siet/thumb-logo-siet.webp",
-    "formato": "galeria",
-    "imagens": [
-      "img/portfolio/design/logo-siet/logo-siet1.webp",
-      "img/portfolio/design/logo-siet/logo-siet2.webp",
-      "img/portfolio/design/logo-siet/logo-siet3.webp",
-      "img/portfolio/design/logo-siet/logo-siet4.webp",
-      "img/portfolio/design/logo-siet/logo-siet5.webp",
-      "img/portfolio/design/logo-siet/logo-siet6.webp",
-      "img/portfolio/design/logo-siet/logo-siet7.webp",
-      "img/portfolio/design/logo-siet/logo-siet8.webp",
-      "img/portfolio/design/logo-siet/logo-siet9.webp",
-      "img/portfolio/design/logo-siet/logo-siet10.webp"
-    ]
-  },
-
   {
     "id": "ebook-whatsapp-vendas-avancado",
     "tipo": "design",
@@ -353,23 +287,6 @@
   },
 
   {
-    "id": "endomarketing-sistema-de-ligacoes",
-    "tipo": "design",
-    "categoria": ["endomarketing"],
-    "titulo": "Endomarketing Sistema de Ligações",
-    "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
-    "tecnologias": ["illustrator"],
-    "thumb": "img/portfolio/design/endomarketing-sistema-de-ligacoes/thumb-endomarketing-sistema-de-ligacoes.webp",
-    "formato": "galeria",
-    "imagens": [
-      "img/portfolio/design/endomarketing-sistema-de-ligacoes/endomarketing-sistema-de-ligacoes1.webp",
-      "img/portfolio/design/endomarketing-sistema-de-ligacoes/endomarketing-sistema-de-ligacoes2.webp",
-      "img/portfolio/design/endomarketing-sistema-de-ligacoes/endomarketing-sistema-de-ligacoes3.webp",
-      "img/portfolio/design/endomarketing-sistema-de-ligacoes/endomarketing-sistema-de-ligacoes4.webp"
-    ]
-  },
-
-  {
     "id": "carrossel-seguranca-em-acao",
     "tipo": "design",
     "categoria": ["carrossel"],
@@ -384,6 +301,88 @@
       "img/portfolio/design/carrossel-seguranca-em-acao/carrossel-seguranca-em-acao3.webp",
       "img/portfolio/design/carrossel-seguranca-em-acao/carrossel-seguranca-em-acao4.webp",
       "img/portfolio/design/carrossel-seguranca-em-acao/carrossel-seguranca-em-acao5.webp"
+    ]
+  },
+
+  {
+    "id": "carrossel-whatsapp-ideal",
+    "tipo": "design",
+    "categoria": ["carrossel"],
+    "titulo": "Carrossel WhatsApp ideal para seu negócio",
+    "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
+    "tecnologias": ["illustrator"],
+    "thumb": "img/portfolio/design/carrossel-whatsapp-ideal/thumb-carrossel-whatsapp-ideal.webp",
+    "formato": "galeria",
+    "imagens": [
+      "img/portfolio/design/carrossel-whatsapp-ideal/carrossel-whatsapp-ideal-1.webp",
+      "img/portfolio/design/carrossel-whatsapp-ideal/carrossel-whatsapp-ideal-2.webp",
+      "img/portfolio/design/carrossel-whatsapp-ideal/carrossel-whatsapp-ideal-3.webp",
+      "img/portfolio/design/carrossel-whatsapp-ideal/carrossel-whatsapp-ideal-4.webp",
+      "img/portfolio/design/carrossel-whatsapp-ideal/carrossel-whatsapp-ideal-5.webp"
+    ]
+  },
+
+  {
+    "id": "logo-siet",
+    "tipo": "design",
+    "categoria": ["logo"],
+    "titulo": "Siet | Soluções Inteligentes",
+    "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
+    "tecnologias": ["illustrator"],
+    "thumb": "img/portfolio/design/logo-siet/thumb-logo-siet.webp",
+    "formato": "galeria",
+    "imagens": [
+      "img/portfolio/design/logo-siet/logo-siet1.webp",
+      "img/portfolio/design/logo-siet/logo-siet2.webp",
+      "img/portfolio/design/logo-siet/logo-siet3.webp",
+      "img/portfolio/design/logo-siet/logo-siet4.webp",
+      "img/portfolio/design/logo-siet/logo-siet5.webp",
+      "img/portfolio/design/logo-siet/logo-siet6.webp",
+      "img/portfolio/design/logo-siet/logo-siet7.webp",
+      "img/portfolio/design/logo-siet/logo-siet8.webp",
+      "img/portfolio/design/logo-siet/logo-siet9.webp",
+      "img/portfolio/design/logo-siet/logo-siet10.webp"
+    ]
+  },
+
+  {
+    "id": "anuncio-campos-sanches-cada-segundo",
+    "tipo": "design",
+    "categoria": ["anuncio"],
+    "titulo": "Cada segundo conta | Segurança Privada",
+    "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
+    "tecnologias": ["premiere", "after-effects"],
+    "thumb": "img/portfolio/design/thumb-anuncio-campos-sanches-cada-segundo-conta.webp",
+    "videoUrl": "https://youtube.com/shorts/yUG9emXqBbM",
+    "formato": "video"
+  },
+
+  {
+    "id": "motion-tudo-sobre-a-poli",
+    "tipo": "design",
+    "categoria": ["motion"],
+    "titulo": "Motion Poli | Plataforma de Vendas no WhatsApp",
+    "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
+    "tecnologias": ["illustrator"],
+    "thumb": "img/portfolio/design/thumb-motion-tudo-sobre-a-poli.webp",
+    "videoUrl": "https://www.youtube.com/watch?v=WAvJKtGvZOM",
+    "formato": "video"
+  },
+
+  {
+    "id": "endomarketing-sistema-de-ligacoes",
+    "tipo": "design",
+    "categoria": ["endomarketing"],
+    "titulo": "Endomarketing Sistema de Ligações",
+    "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
+    "tecnologias": ["illustrator"],
+    "thumb": "img/portfolio/design/endomarketing-sistema-de-ligacoes/thumb-endomarketing-sistema-de-ligacoes.webp",
+    "formato": "galeria",
+    "imagens": [
+      "img/portfolio/design/endomarketing-sistema-de-ligacoes/endomarketing-sistema-de-ligacoes1.webp",
+      "img/portfolio/design/endomarketing-sistema-de-ligacoes/endomarketing-sistema-de-ligacoes2.webp",
+      "img/portfolio/design/endomarketing-sistema-de-ligacoes/endomarketing-sistema-de-ligacoes3.webp",
+      "img/portfolio/design/endomarketing-sistema-de-ligacoes/endomarketing-sistema-de-ligacoes4.webp"
     ]
   },
 
@@ -538,7 +537,7 @@
     "categoria": ["logo"],
     "titulo": "Grupo Ama | Serviços Personalizados",
     "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
-    "tecnologias": ["corel-draw"],
+    "tecnologias": ["coreldraw"],
     "thumb": "img/portfolio/design/logo-grupo-ama/thumb-logo-grupo-ama.webp",
     "formato": "galeria",
     "imagens": [

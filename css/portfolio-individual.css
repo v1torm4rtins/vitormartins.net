@@ -1,3 +1,19 @@
+/* temporario  */
+section.descricao-detalhada {
+    display: none;
+}
+
+.card-content {
+    box-shadow: var(--small-box-shadow-light);
+}
+
+.card-content:hover {
+    box-shadow: var(--small-box-shadow-light-hover);
+}
+
+
+
+
 /* --- PORTFOLIO SITE SCROLL (FRONT-END) --- */
 
 .topo-detalhe {
@@ -214,12 +230,12 @@
 
 .lightbox-prev {
     left: 30px;
-    top: 100%;
+    top: 90%;
 }
 
 .lightbox-next {
     right: 30px;
-    top: 100%;
+    top: 90%;
 }
 
 
@@ -273,6 +289,16 @@
 /* ========== RESPONSIVO - TABLET 768+ ==========*/
 
 @media screen and (min-width:768px) {
+
+    /* temporario */
+    .card-content {
+        box-shadow: var(--medium-box-shadow-light);
+    }
+
+    .card-content:hover {
+        box-shadow: var(--medium-box-shadow-light-hover);
+    }
+
     .grid-galeria {
         grid-template-columns: 1fr, 1fr;
     }
@@ -338,6 +364,16 @@
 /* ========== RESPONSIVO - LAPTOP 1024+ ==========*/
 
 @media screen and (min-width:1024px) {
+
+    /* temporario */
+    .card-content {
+        box-shadow: var(--large-box-shadow-light);
+    }
+
+    .card-content:hover {
+        box-shadow: var(--large-box-shadow-light-hover);
+    }
+
     .grid-relacionados {
         grid-template-columns: repeat(3, 1fr);
     }
