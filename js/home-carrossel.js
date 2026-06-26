@@ -16,8 +16,8 @@ async function carregarCarrosseis() {
         const response = await fetch('./dados-projetos.json');
         const projetos = await response.json();
 
-        renderizarCards(projetos, 'front-end', 'carrossel-fe');
-        renderizarCards(projetos, 'design', 'carrossel-dg');
+        renderizarCards(projetos, 'websites', 'carrossel-fe');
+        renderizarCards(projetos, 'designs', 'carrossel-dg');
 
         configurarDrag('carrossel-fe');
         configurarDrag('carrossel-dg');
@@ -33,7 +33,7 @@ function renderizarCards(dados, categoria, elementId) {
     const container = document.getElementById(elementId);
     if (!container) return;
 
-    // 1. Filtra pela categoria (front-end ou design)
+    // 1. Filtra pela categoria (websites ou designs)
     const filtrados = dados.filter(p => p.tipo === categoria);
 
     // 2. Limita a no máximo 10 itens mantendo a ordem original do JSON

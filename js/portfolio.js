@@ -54,8 +54,8 @@ function configurarFiltros() {
 }
 
 carregarProjetos().then(projetos => {
-    renderizarCards(projetos, 'lista-projetos-front', 'front-end');
-    renderizarCards(projetos, 'lista-projetos-design', 'design');
+    renderizarCards(projetos, 'lista-projetos-websites', 'websites');
+    renderizarCards(projetos, 'lista-projetos-designs', 'designs');
     configurarFiltros();
 }).catch(erro => {
     console.error("Erro ao inicializar portfólio:", erro);

@@ -1,234 +1,234 @@
 [
   {
     "id": "luidecor",
-    "tipo": "front-end",
+    "tipo": "websites",
     "categoria": ["site", "portfolio"],
     "titulo": "Lui Decor | Móveis personalizados",
     "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
     "tecnologias": ["wordpress", "html5", "css3"],
-    "thumb": "img/portfolio/front-end/thumb-luidecor.webp",
-    "imagemFull": "img/portfolio/front-end/home-page-luidecor.webp",
+    "thumb": "img/portfolio/websites/thumb-luidecor.webp",
+    "imagemFull": "img/portfolio/websites/home-page-luidecor.webp",
     "linkOnline": "https://site.vitormartins.net/luidecor/",
     "formato": "scroll"
   },
   
   {
     "id": "dkservice",
-    "tipo": "front-end",
+    "tipo": "websites",
     "categoria": ["onepage"],
     "titulo": "DK Service | Manutenção Elétrica",
     "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
     "tecnologias": ["wordpress", "html5", "css3"],
-    "thumb": "img/portfolio/front-end/thumb-dkservice.webp",
-    "imagemFull": "img/portfolio/front-end/home-page-dkservice.webp",
+    "thumb": "img/portfolio/websites/thumb-dkservice.webp",
+    "imagemFull": "img/portfolio/websites/home-page-dkservice.webp",
     "linkOnline": "https://site.vitormartins.net/dkservice/",
     "formato": "scroll"
   },
 
   {
     "id": "ecofresh",
-    "tipo": "front-end",
+    "tipo": "websites",
     "categoria": ["site", "portfolio"],
     "titulo": "Eco Fresh | Refresque seus momentos",
     "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
     "tecnologias": ["wordpress", "html5", "css3"],
-    "thumb": "img/portfolio/front-end/thumb-ecofresh.webp",
-    "imagemFull": "img/portfolio/front-end/home-page-ecofresh.webp",
+    "thumb": "img/portfolio/websites/thumb-ecofresh.webp",
+    "imagemFull": "img/portfolio/websites/home-page-ecofresh.webp",
     "linkOnline": "https://site.vitormartins.net/ecofresh/",
     "formato": "scroll"
   },
 
   {
     "id": "crlab",
-    "tipo": "front-end",
+    "tipo": "websites",
     "categoria": ["onepage"],
     "titulo": "CRLab | Clínica de Estética Capilar",
     "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
     "tecnologias": ["wordpress", "html5", "css3"],
-    "thumb": "img/portfolio/front-end/thumb-crlab.webp",
-    "imagemFull": "img/portfolio/front-end/home-page-crlab.webp",
+    "thumb": "img/portfolio/websites/thumb-crlab.webp",
+    "imagemFull": "img/portfolio/websites/home-page-crlab.webp",
     "linkOnline": "https://site.vitormartins.net/crlab/",
     "formato": "scroll"
   },
 
   {
     "id": "campossanches",
-    "tipo": "front-end",
+    "tipo": "websites",
     "categoria": ["site"],
     "titulo": "Campos Sanches | Segurança Patrimonial",
     "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
     "tecnologias": ["wordpress", "html5", "css3"],
-    "thumb": "img/portfolio/front-end/thumb-campossanches.webp",
-    "imagemFull": "img/portfolio/front-end/home-page-campossanches.webp",
+    "thumb": "img/portfolio/websites/thumb-campossanches.webp",
+    "imagemFull": "img/portfolio/websites/home-page-campossanches.webp",
     "linkOnline": "https://site.vitormartins.net/campossanches/",
     "formato": "scroll"
   },
 
   {
     "id": "blummo",
-    "tipo": "front-end",
+    "tipo": "websites",
     "categoria": ["onepage"],
     "titulo": "Blumo | Mecânica Automotiva",
     "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
     "tecnologias": ["wordpress", "html5", "css3"],
-    "thumb": "img/portfolio/front-end/thumb-blumo.webp",
-    "imagemFull": "img/portfolio/front-end/home-page-blumo.webp",
+    "thumb": "img/portfolio/websites/thumb-blumo.webp",
+    "imagemFull": "img/portfolio/websites/home-page-blumo.webp",
     "linkOnline": "https://site.vitormartins.net/blumo/",
     "formato": "scroll"
   },
 
   {
     "id": "scrap",
-    "tipo": "front-end",
+    "tipo": "websites",
     "categoria": ["site", "blog"],
     "titulo": "SCRAP | Resíduos e Aparas",
     "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
     "tecnologias": ["wordpress", "html5", "css3"],
-    "thumb": "img/portfolio/front-end/thumb-scrap.webp",
-    "imagemFull": "img/portfolio/front-end/home-page-scrap.webp",
+    "thumb": "img/portfolio/websites/thumb-scrap.webp",
+    "imagemFull": "img/portfolio/websites/home-page-scrap.webp",
     "linkOnline": "https://site.vitormartins.net/scrap/",
     "formato": "scroll"
   },
 
   {
     "id": "engeplan",
-    "tipo": "front-end",
+    "tipo": "websites",
     "categoria": ["onepage"],
     "titulo": "Engeplan Solar | Painéis Solares",
     "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
     "tecnologias": ["wordpress", "html5", "css3"],
-    "thumb": "img/portfolio/front-end/thumb-engeplan.webp",
-    "imagemFull": "img/portfolio/front-end/home-page-engeplan.webp",
+    "thumb": "img/portfolio/websites/thumb-engeplan.webp",
+    "imagemFull": "img/portfolio/websites/home-page-engeplan.webp",
     "linkOnline": "https://site.vitormartins.net/engeplan/",
     "formato": "scroll"
   },
 
   {
     "id": "aria",
-    "tipo": "front-end",
+    "tipo": "websites",
     "categoria": ["onepage"],
     "titulo": "Aria | Distribuidora Médica Hospitalar",
     "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
     "tecnologias": ["wordpress", "html5", "css3"],
-    "thumb": "img/portfolio/front-end/thumb-aria.webp",
-    "imagemFull": "img/portfolio/front-end/home-page-aria.webp",
+    "thumb": "img/portfolio/websites/thumb-aria.webp",
+    "imagemFull": "img/portfolio/websites/home-page-aria.webp",
     "linkOnline": "https://site.vitormartins.net/aria/",
     "formato": "scroll"
   },
 
   {
     "id": "brennder",
-    "tipo": "front-end",
+    "tipo": "websites",
     "categoria": ["onepage"],
     "titulo": "Brennder Sandals | Conforto para seus pés",
     "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
     "tecnologias": ["wordpress", "html5", "css3"],
-    "thumb": "img/portfolio/front-end/thumb-brennder.webp",
-    "imagemFull": "img/portfolio/front-end/home-page-brennder.webp",
+    "thumb": "img/portfolio/websites/thumb-brennder.webp",
+    "imagemFull": "img/portfolio/websites/home-page-brennder.webp",
     "linkOnline": "https://site.vitormartins.net/brennder/",
     "formato": "scroll"
   },
 
   {
     "id": "rezervo",
-    "tipo": "front-end",
+    "tipo": "websites",
     "categoria": ["site", "blog"],
     "titulo": "Rezervo | Locação por Temporada",
     "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
     "tecnologias": ["wordpress", "html5", "css3"],
-    "thumb": "img/portfolio/front-end/thumb-rezervo.webp",
-    "imagemFull": "img/portfolio/front-end/home-page-rezervo.webp",
+    "thumb": "img/portfolio/websites/thumb-rezervo.webp",
+    "imagemFull": "img/portfolio/websites/home-page-rezervo.webp",
     "linkOnline": "https://site.vitormartins.net/rezervo/",
     "formato": "scroll"
   },
 
   {
     "id": "poli-digital",
-    "tipo": "front-end",
+    "tipo": "websites",
     "categoria": ["site", "blog"],
     "titulo": "Poli Digital | Plataforma de Atendimento e vendas",
     "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
     "tecnologias": ["wordpress", "html5", "css3"],
-    "thumb": "img/portfolio/front-end/thumb-poli-digital.webp",
-    "imagemFull": "img/portfolio/front-end/home-page-poli-digital.webp",
+    "thumb": "img/portfolio/websites/thumb-poli-digital.webp",
+    "imagemFull": "img/portfolio/websites/home-page-poli-digital.webp",
     "linkOnline": "https://poli.digital/",
     "formato": "scroll"
   },
 
   {
     "id": "agape",
-    "tipo": "front-end",
+    "tipo": "websites",
     "categoria": ["onepage"],
     "titulo": "Ágape | Programa social de saúde e bem-estar",
     "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
     "tecnologias": ["wordpress", "html5", "css3"],
-    "thumb": "img/portfolio/front-end/thumb-agape.webp",
-    "imagemFull": "img/portfolio/front-end/home-page-agape.webp",
+    "thumb": "img/portfolio/websites/thumb-agape.webp",
+    "imagemFull": "img/portfolio/websites/home-page-agape.webp",
     "linkOnline": "https://site.vitormartins.net/agape/",
     "formato": "scroll"
   },
 
   {
     "id": "grupoama",
-    "tipo": "front-end",
+    "tipo": "websites",
     "categoria": ["site", "portfolio", "blog"],
     "titulo": "Grupo Ama | Serviços Personalizados",
     "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
     "tecnologias": ["wordpress", "html5", "css3"],
-    "thumb": "img/portfolio/front-end/thumb-grupoama.webp",
-    "imagemFull": "img/portfolio/front-end/home-page-grupoama.webp",
+    "thumb": "img/portfolio/websites/thumb-grupoama.webp",
+    "imagemFull": "img/portfolio/websites/home-page-grupoama.webp",
     "linkOnline": "https://site.vitormartins.net/grupoama/",
     "formato": "scroll"
   },
 
   {
     "id": "rico",
-    "tipo": "front-end",
+    "tipo": "websites",
     "categoria": ["onepage", "portfolio"],
     "titulo": "Rico | Linhas Aéreas na Amazônia",
     "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
     "tecnologias": ["wordpress", "html5", "css3"],
-    "thumb": "img/portfolio/front-end/thumb-rico.webp",
-    "imagemFull": "img/portfolio/front-end/home-page-rico.webp",
+    "thumb": "img/portfolio/websites/thumb-rico.webp",
+    "imagemFull": "img/portfolio/websites/home-page-rico.webp",
     "linkOnline": "https://voerico.com.br/",
     "formato": "scroll"
   },
 
   {
     "id": "milleventi",
-    "tipo": "front-end",
+    "tipo": "websites",
     "categoria": ["onepage"],
     "titulo": "Milleventi | Trading e Comércio Exterior",
     "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
     "tecnologias": ["wordpress", "html5", "css3"],
-    "thumb": "img/portfolio/front-end/thumb-milleventi.webp",
-    "imagemFull": "img/portfolio/front-end/home-page-milleventi.webp",
+    "thumb": "img/portfolio/websites/thumb-milleventi.webp",
+    "imagemFull": "img/portfolio/websites/home-page-milleventi.webp",
     "linkOnline": "https://site.vitormartins.net/milleventi/",
     "formato": "scroll"
   },
   
   {
     "id": "sigmax",
-    "tipo": "front-end",
+    "tipo": "websites",
     "categoria": ["onepage"],
     "titulo": "Sigmax | Soluções em Comércio Exterior",
     "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
     "tecnologias": ["wordpress", "html5", "css3"],
-    "thumb": "img/portfolio/front-end/thumb-sigmax.webp",
-    "imagemFull": "img/portfolio/front-end/home-page-sigmax.webp",
+    "thumb": "img/portfolio/websites/thumb-sigmax.webp",
+    "imagemFull": "img/portfolio/websites/home-page-sigmax.webp",
     "linkOnline": "https://site.vitormartins.net/sigmax/",
     "formato": "scroll"
   },
 
   {
     "id": "tuafarma",
-    "tipo": "front-end",
+    "tipo": "websites",
     "categoria": ["onepage"],
     "titulo": "tuaFARMA | Farmácia em Piedade",
     "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
     "tecnologias": ["wordpress", "html5", "css3"],
-    "thumb": "img/portfolio/front-end/thumb-tuafarma.webp",
-    "imagemFull": "img/portfolio/front-end/home-page-tuafarma.webp",
+    "thumb": "img/portfolio/websites/thumb-tuafarma.webp",
+    "imagemFull": "img/portfolio/websites/home-page-tuafarma.webp",
     "linkOnline": "https://site.vitormartins.net/tuafarma/",
     "formato": "scroll"
   },
@@ -253,364 +253,364 @@
 
   {
     "id": "ebook-whatsapp-vendas-avancado",
-    "tipo": "design",
+    "tipo": "designs",
     "categoria": ["ebook"],
     "titulo": "Ebook WhatsApp para Vendas Avançado",
     "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
     "tecnologias": ["illustrator"],
-    "thumb": "img/portfolio/design/ebook-whatsapp-vendas-avancado/thumb-ebook-whatsapp-vendas-avancado.webp",
+    "thumb": "img/portfolio/designs/ebook-whatsapp-vendas-avancado/thumb-ebook-whatsapp-vendas-avancado.webp",
     "formato": "galeria",
     "imagens": [
-      "img/portfolio/design/ebook-whatsapp-vendas-avancado/ebook-whatsapp-para-vendas-avançado1.webp",
-      "img/portfolio/design/ebook-whatsapp-vendas-avancado/ebook-whatsapp-para-vendas-avançado2.webp",
-      "img/portfolio/design/ebook-whatsapp-vendas-avancado/ebook-whatsapp-para-vendas-avançado3.webp",
-      "img/portfolio/design/ebook-whatsapp-vendas-avancado/ebook-whatsapp-para-vendas-avançado4.webp",
-      "img/portfolio/design/ebook-whatsapp-vendas-avancado/ebook-whatsapp-para-vendas-avançado5.webp",
-      "img/portfolio/design/ebook-whatsapp-vendas-avancado/ebook-whatsapp-para-vendas-avançado6.webp",
-      "img/portfolio/design/ebook-whatsapp-vendas-avancado/ebook-whatsapp-para-vendas-avançado7.webp",
-      "img/portfolio/design/ebook-whatsapp-vendas-avancado/ebook-whatsapp-para-vendas-avançado8.webp",
-      "img/portfolio/design/ebook-whatsapp-vendas-avancado/ebook-whatsapp-para-vendas-avançado9.webp",
-      "img/portfolio/design/ebook-whatsapp-vendas-avancado/ebook-whatsapp-para-vendas-avançado10.webp",
-      "img/portfolio/design/ebook-whatsapp-vendas-avancado/ebook-whatsapp-para-vendas-avançado11.webp",
-      "img/portfolio/design/ebook-whatsapp-vendas-avancado/ebook-whatsapp-para-vendas-avançado12.webp",
-      "img/portfolio/design/ebook-whatsapp-vendas-avancado/ebook-whatsapp-para-vendas-avançado13.webp",
-      "img/portfolio/design/ebook-whatsapp-vendas-avancado/ebook-whatsapp-para-vendas-avançado14.webp",
-      "img/portfolio/design/ebook-whatsapp-vendas-avancado/ebook-whatsapp-para-vendas-avançado15.webp",
-      "img/portfolio/design/ebook-whatsapp-vendas-avancado/ebook-whatsapp-para-vendas-avançado16.webp",
-      "img/portfolio/design/ebook-whatsapp-vendas-avancado/ebook-whatsapp-para-vendas-avançado17.webp",
-      "img/portfolio/design/ebook-whatsapp-vendas-avancado/ebook-whatsapp-para-vendas-avançado18.webp",
-      "img/portfolio/design/ebook-whatsapp-vendas-avancado/ebook-whatsapp-para-vendas-avançado19.webp",
-      "img/portfolio/design/ebook-whatsapp-vendas-avancado/ebook-whatsapp-para-vendas-avançado20.webp",
-      "img/portfolio/design/ebook-whatsapp-vendas-avancado/ebook-whatsapp-para-vendas-avançado21.webp",
-      "img/portfolio/design/ebook-whatsapp-vendas-avancado/ebook-whatsapp-para-vendas-avançado22.webp"
+      "img/portfolio/designs/ebook-whatsapp-vendas-avancado/ebook-whatsapp-para-vendas-avançado1.webp",
+      "img/portfolio/designs/ebook-whatsapp-vendas-avancado/ebook-whatsapp-para-vendas-avançado2.webp",
+      "img/portfolio/designs/ebook-whatsapp-vendas-avancado/ebook-whatsapp-para-vendas-avançado3.webp",
+      "img/portfolio/designs/ebook-whatsapp-vendas-avancado/ebook-whatsapp-para-vendas-avançado4.webp",
+      "img/portfolio/designs/ebook-whatsapp-vendas-avancado/ebook-whatsapp-para-vendas-avançado5.webp",
+      "img/portfolio/designs/ebook-whatsapp-vendas-avancado/ebook-whatsapp-para-vendas-avançado6.webp",
+      "img/portfolio/designs/ebook-whatsapp-vendas-avancado/ebook-whatsapp-para-vendas-avançado7.webp",
+      "img/portfolio/designs/ebook-whatsapp-vendas-avancado/ebook-whatsapp-para-vendas-avançado8.webp",
+      "img/portfolio/designs/ebook-whatsapp-vendas-avancado/ebook-whatsapp-para-vendas-avançado9.webp",
+      "img/portfolio/designs/ebook-whatsapp-vendas-avancado/ebook-whatsapp-para-vendas-avançado10.webp",
+      "img/portfolio/designs/ebook-whatsapp-vendas-avancado/ebook-whatsapp-para-vendas-avançado11.webp",
+      "img/portfolio/designs/ebook-whatsapp-vendas-avancado/ebook-whatsapp-para-vendas-avançado12.webp",
+      "img/portfolio/designs/ebook-whatsapp-vendas-avancado/ebook-whatsapp-para-vendas-avançado13.webp",
+      "img/portfolio/designs/ebook-whatsapp-vendas-avancado/ebook-whatsapp-para-vendas-avançado14.webp",
+      "img/portfolio/designs/ebook-whatsapp-vendas-avancado/ebook-whatsapp-para-vendas-avançado15.webp",
+      "img/portfolio/designs/ebook-whatsapp-vendas-avancado/ebook-whatsapp-para-vendas-avançado16.webp",
+      "img/portfolio/designs/ebook-whatsapp-vendas-avancado/ebook-whatsapp-para-vendas-avançado17.webp",
+      "img/portfolio/designs/ebook-whatsapp-vendas-avancado/ebook-whatsapp-para-vendas-avançado18.webp",
+      "img/portfolio/designs/ebook-whatsapp-vendas-avancado/ebook-whatsapp-para-vendas-avançado19.webp",
+      "img/portfolio/designs/ebook-whatsapp-vendas-avancado/ebook-whatsapp-para-vendas-avançado20.webp",
+      "img/portfolio/designs/ebook-whatsapp-vendas-avancado/ebook-whatsapp-para-vendas-avançado21.webp",
+      "img/portfolio/designs/ebook-whatsapp-vendas-avancado/ebook-whatsapp-para-vendas-avançado22.webp"
     ]
   },
 
   {
-    "id": "carrossel-seguranca-em-acao",
-    "tipo": "design",
-    "categoria": ["carrossel"],
-    "titulo": "Carrossel Segurança em Ação | Portaria",
-    "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
-    "tecnologias": ["illustrator"],
-    "thumb": "img/portfolio/design/carrossel-seguranca-em-acao/thumb-seguranca-em-acao.webp",
-    "formato": "galeria",
-    "imagens": [
-      "img/portfolio/design/carrossel-seguranca-em-acao/carrossel-seguranca-em-acao1.webp",
-      "img/portfolio/design/carrossel-seguranca-em-acao/carrossel-seguranca-em-acao2.webp",
-      "img/portfolio/design/carrossel-seguranca-em-acao/carrossel-seguranca-em-acao3.webp",
-      "img/portfolio/design/carrossel-seguranca-em-acao/carrossel-seguranca-em-acao4.webp",
-      "img/portfolio/design/carrossel-seguranca-em-acao/carrossel-seguranca-em-acao5.webp"
-    ]
-  },
-
-  {
-    "id": "carrossel-whatsapp-ideal",
-    "tipo": "design",
-    "categoria": ["carrossel"],
-    "titulo": "Carrossel WhatsApp ideal para seu negócio",
-    "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
-    "tecnologias": ["illustrator"],
-    "thumb": "img/portfolio/design/carrossel-whatsapp-ideal/thumb-carrossel-whatsapp-ideal.webp",
-    "formato": "galeria",
-    "imagens": [
-      "img/portfolio/design/carrossel-whatsapp-ideal/carrossel-whatsapp-ideal-1.webp",
-      "img/portfolio/design/carrossel-whatsapp-ideal/carrossel-whatsapp-ideal-2.webp",
-      "img/portfolio/design/carrossel-whatsapp-ideal/carrossel-whatsapp-ideal-3.webp",
-      "img/portfolio/design/carrossel-whatsapp-ideal/carrossel-whatsapp-ideal-4.webp",
-      "img/portfolio/design/carrossel-whatsapp-ideal/carrossel-whatsapp-ideal-5.webp"
-    ]
-  },
-
-  {
-    "id": "logo-siet",
-    "tipo": "design",
+    "id": "logo-grupo-ama",
+    "tipo": "designs",
     "categoria": ["logo"],
-    "titulo": "Siet | Soluções Inteligentes",
+    "titulo": "Grupo Ama | Serviços Personalizados",
     "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
-    "tecnologias": ["illustrator"],
-    "thumb": "img/portfolio/design/logo-siet/thumb-logo-siet.webp",
+    "tecnologias": ["coreldraw"],
+    "thumb": "img/portfolio/designs/logo-grupo-ama/thumb-logo-grupo-ama.webp",
     "formato": "galeria",
     "imagens": [
-      "img/portfolio/design/logo-siet/logo-siet1.webp",
-      "img/portfolio/design/logo-siet/logo-siet2.webp",
-      "img/portfolio/design/logo-siet/logo-siet3.webp",
-      "img/portfolio/design/logo-siet/logo-siet4.webp",
-      "img/portfolio/design/logo-siet/logo-siet5.webp",
-      "img/portfolio/design/logo-siet/logo-siet6.webp",
-      "img/portfolio/design/logo-siet/logo-siet7.webp",
-      "img/portfolio/design/logo-siet/logo-siet8.webp",
-      "img/portfolio/design/logo-siet/logo-siet9.webp",
-      "img/portfolio/design/logo-siet/logo-siet10.webp"
+      "img/portfolio/designs/logo-grupo-ama/logo-grupo-ama1.webp",
+      "img/portfolio/designs/logo-grupo-ama/logo-grupo-ama2.webp",
+      "img/portfolio/designs/logo-grupo-ama/logo-grupo-ama3.webp",
+      "img/portfolio/designs/logo-grupo-ama/logo-grupo-ama4.webp",
+      "img/portfolio/designs/logo-grupo-ama/logo-grupo-ama5.webp",
+      "img/portfolio/designs/logo-grupo-ama/logo-grupo-ama6.webp",
+      "img/portfolio/designs/logo-grupo-ama/logo-grupo-ama7.webp",
+      "img/portfolio/designs/logo-grupo-ama/logo-grupo-ama8.webp",
+      "img/portfolio/designs/logo-grupo-ama/logo-grupo-ama9.webp",
+      "img/portfolio/designs/logo-grupo-ama/logo-grupo-ama10.webp",
+      "img/portfolio/designs/logo-grupo-ama/logo-grupo-ama11.webp",
+      "img/portfolio/designs/logo-grupo-ama/logo-grupo-ama12.webp",
+      "img/portfolio/designs/logo-grupo-ama/logo-grupo-ama13.webp",
+      "img/portfolio/designs/logo-grupo-ama/logo-grupo-ama14.webp",
+      "img/portfolio/designs/logo-grupo-ama/logo-grupo-ama15.webp",
+      "img/portfolio/designs/logo-grupo-ama/logo-grupo-ama16.webp",
+      "img/portfolio/designs/logo-grupo-ama/logo-grupo-ama17.webp",
+      "img/portfolio/designs/logo-grupo-ama/logo-grupo-ama18.webp"
     ]
-  },
-
-  {
-    "id": "anuncio-campos-sanches-cada-segundo",
-    "tipo": "design",
-    "categoria": ["anuncio"],
-    "titulo": "Cada segundo conta | Segurança Privada",
-    "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
-    "tecnologias": ["premiere", "after-effects"],
-    "thumb": "img/portfolio/design/thumb-anuncio-campos-sanches-cada-segundo-conta.webp",
-    "videoUrl": "https://youtube.com/shorts/yUG9emXqBbM",
-    "formato": "video"
   },
 
   {
     "id": "motion-tudo-sobre-a-poli",
-    "tipo": "design",
+    "tipo": "designs",
     "categoria": ["motion"],
     "titulo": "Motion Poli | Plataforma de Vendas no WhatsApp",
     "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
     "tecnologias": ["illustrator"],
-    "thumb": "img/portfolio/design/thumb-motion-tudo-sobre-a-poli.webp",
+    "thumb": "img/portfolio/designs/thumb-motion-tudo-sobre-a-poli.webp",
     "videoUrl": "https://www.youtube.com/watch?v=WAvJKtGvZOM",
     "formato": "video"
   },
 
   {
-    "id": "endomarketing-sistema-de-ligacoes",
-    "tipo": "design",
-    "categoria": ["endomarketing"],
-    "titulo": "Endomarketing Sistema de Ligações",
+    "id": "carrossel-whatsapp-ideal",
+    "tipo": "designs",
+    "categoria": ["carrossel"],
+    "titulo": "Carrossel WhatsApp ideal para seu negócio",
     "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
     "tecnologias": ["illustrator"],
-    "thumb": "img/portfolio/design/endomarketing-sistema-de-ligacoes/thumb-endomarketing-sistema-de-ligacoes.webp",
+    "thumb": "img/portfolio/designs/carrossel-whatsapp-ideal/thumb-carrossel-whatsapp-ideal.webp",
     "formato": "galeria",
     "imagens": [
-      "img/portfolio/design/endomarketing-sistema-de-ligacoes/endomarketing-sistema-de-ligacoes1.webp",
-      "img/portfolio/design/endomarketing-sistema-de-ligacoes/endomarketing-sistema-de-ligacoes2.webp",
-      "img/portfolio/design/endomarketing-sistema-de-ligacoes/endomarketing-sistema-de-ligacoes3.webp",
-      "img/portfolio/design/endomarketing-sistema-de-ligacoes/endomarketing-sistema-de-ligacoes4.webp"
+      "img/portfolio/designs/carrossel-whatsapp-ideal/carrossel-whatsapp-ideal-1.webp",
+      "img/portfolio/designs/carrossel-whatsapp-ideal/carrossel-whatsapp-ideal-2.webp",
+      "img/portfolio/designs/carrossel-whatsapp-ideal/carrossel-whatsapp-ideal-3.webp",
+      "img/portfolio/designs/carrossel-whatsapp-ideal/carrossel-whatsapp-ideal-4.webp",
+      "img/portfolio/designs/carrossel-whatsapp-ideal/carrossel-whatsapp-ideal-5.webp"
     ]
   },
 
   {
+    "id": "logo-siet",
+    "tipo": "designs",
+    "categoria": ["logo"],
+    "titulo": "Siet | Soluções Inteligentes",
+    "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
+    "tecnologias": ["illustrator"],
+    "thumb": "img/portfolio/designs/logo-siet/thumb-logo-siet.webp",
+    "formato": "galeria",
+    "imagens": [
+      "img/portfolio/designs/logo-siet/logo-siet1.webp",
+      "img/portfolio/designs/logo-siet/logo-siet2.webp",
+      "img/portfolio/designs/logo-siet/logo-siet3.webp",
+      "img/portfolio/designs/logo-siet/logo-siet4.webp",
+      "img/portfolio/designs/logo-siet/logo-siet5.webp",
+      "img/portfolio/designs/logo-siet/logo-siet6.webp",
+      "img/portfolio/designs/logo-siet/logo-siet7.webp",
+      "img/portfolio/designs/logo-siet/logo-siet8.webp",
+      "img/portfolio/designs/logo-siet/logo-siet9.webp",
+      "img/portfolio/designs/logo-siet/logo-siet10.webp"
+    ]
+  },
+
+  {
+    "id": "anuncio-campos-sanches-cada-segundo",
+    "tipo": "designs",
+    "categoria": ["anuncio"],
+    "titulo": "Cada segundo conta | Segurança Privada",
+    "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
+    "tecnologias": ["premiere", "after-effects"],
+    "thumb": "img/portfolio/designs/thumb-anuncio-campos-sanches-cada-segundo-conta.webp",
+    "videoUrl": "https://youtube.com/shorts/yUG9emXqBbM",
+    "formato": "video"
+  },
+
+  {
     "id": "logo-engeplan",
-    "tipo": "design",
+    "tipo": "designs",
     "categoria": ["logo"],
     "titulo": "Engeplan Solar | Painéis Solares",
     "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
     "tecnologias": ["illustrator"],
-    "thumb": "img/portfolio/design/logo-engeplan/thumb-logo-engeplan.webp",
+    "thumb": "img/portfolio/designs/logo-engeplan/thumb-logo-engeplan.webp",
     "formato": "galeria",
     "imagens": [
-      "img/portfolio/design/logo-engeplan/logo-engeplan1.webp",
-      "img/portfolio/design/logo-engeplan/logo-engeplan2.webp",
-      "img/portfolio/design/logo-engeplan/logo-engeplan3.webp",
-      "img/portfolio/design/logo-engeplan/logo-engeplan4.webp",
-      "img/portfolio/design/logo-engeplan/logo-engeplan5.webp",
-      "img/portfolio/design/logo-engeplan/logo-engeplan6.webp",
-      "img/portfolio/design/logo-engeplan/logo-engeplan7.webp",
-      "img/portfolio/design/logo-engeplan/logo-engeplan8.webp"
+      "img/portfolio/designs/logo-engeplan/logo-engeplan1.webp",
+      "img/portfolio/designs/logo-engeplan/logo-engeplan2.webp",
+      "img/portfolio/designs/logo-engeplan/logo-engeplan3.webp",
+      "img/portfolio/designs/logo-engeplan/logo-engeplan4.webp",
+      "img/portfolio/designs/logo-engeplan/logo-engeplan5.webp",
+      "img/portfolio/designs/logo-engeplan/logo-engeplan6.webp",
+      "img/portfolio/designs/logo-engeplan/logo-engeplan7.webp",
+      "img/portfolio/designs/logo-engeplan/logo-engeplan8.webp"
     ]
   },
 
   {
     "id": "endomarketing-facebook-messenger",
-    "tipo": "design",
+    "tipo": "designs",
     "categoria": ["endomarketing"],
     "titulo": "Endomarketing Facebook Messenger",
     "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
     "tecnologias": ["illustrator"],
-    "thumb": "img/portfolio/design/endomarketing-facebook-messenger/thumb-endomarketing-facebook-messenger.webp",
+    "thumb": "img/portfolio/designs/endomarketing-facebook-messenger/thumb-endomarketing-facebook-messenger.webp",
     "formato": "galeria",
     "imagens": [
-      "img/portfolio/design/endomarketing-facebook-messenger/endomarketing-facebook-messenger1.webp",
-      "img/portfolio/design/endomarketing-facebook-messenger/endomarketing-facebook-messenger2.webp",
-      "img/portfolio/design/endomarketing-facebook-messenger/endomarketing-facebook-messenger3.webp"
+      "img/portfolio/designs/endomarketing-facebook-messenger/endomarketing-facebook-messenger1.webp",
+      "img/portfolio/designs/endomarketing-facebook-messenger/endomarketing-facebook-messenger2.webp",
+      "img/portfolio/designs/endomarketing-facebook-messenger/endomarketing-facebook-messenger3.webp"
     ]
   },
 
   {
     "id": "anuncio-campos-sanches-grama-alta",
-    "tipo": "design",
+    "tipo": "designs",
     "categoria": ["anuncio"],
     "titulo": "Não é só grama alta | Jardinagem e Paisagismo",
     "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
     "tecnologias": ["premiere", "after-effects"],
-    "thumb": "img/portfolio/design/thumb-campos-sanches-grama-alta.webp",
+    "thumb": "img/portfolio/designs/thumb-campos-sanches-grama-alta.webp",
     "videoUrl": "https://youtube.com/shorts/QWvuxi26BFE",
     "formato": "video"
   },
 
   {
     "id": "logo-cellfe",
-    "tipo": "design",
+    "tipo": "designs",
     "categoria": ["logo"],
     "titulo": "Cellfe | Assistência Técnica",
     "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
     "tecnologias": ["illustrator"],
-    "thumb": "img/portfolio/design/logo-cellfe/thumb-logo-cellfe.webp",
+    "thumb": "img/portfolio/designs/logo-cellfe/thumb-logo-cellfe.webp",
     "formato": "galeria",
     "imagens": [
-      "img/portfolio/design/logo-cellfe/logo-cellfe1.webp",
-      "img/portfolio/design/logo-cellfe/logo-cellfe2.webp",
-      "img/portfolio/design/logo-cellfe/logo-cellfe3.webp",
-      "img/portfolio/design/logo-cellfe/logo-cellfe4.webp",
-      "img/portfolio/design/logo-cellfe/logo-cellfe5.webp",
-      "img/portfolio/design/logo-cellfe/logo-cellfe6.webp",
-      "img/portfolio/design/logo-cellfe/logo-cellfe7.webp",
-      "img/portfolio/design/logo-cellfe/logo-cellfe8.webp",
-      "img/portfolio/design/logo-cellfe/logo-cellfe9.webp",
-      "img/portfolio/design/logo-cellfe/logo-cellfe10.webp"
+      "img/portfolio/designs/logo-cellfe/logo-cellfe1.webp",
+      "img/portfolio/designs/logo-cellfe/logo-cellfe2.webp",
+      "img/portfolio/designs/logo-cellfe/logo-cellfe3.webp",
+      "img/portfolio/designs/logo-cellfe/logo-cellfe4.webp",
+      "img/portfolio/designs/logo-cellfe/logo-cellfe5.webp",
+      "img/portfolio/designs/logo-cellfe/logo-cellfe6.webp",
+      "img/portfolio/designs/logo-cellfe/logo-cellfe7.webp",
+      "img/portfolio/designs/logo-cellfe/logo-cellfe8.webp",
+      "img/portfolio/designs/logo-cellfe/logo-cellfe9.webp",
+      "img/portfolio/designs/logo-cellfe/logo-cellfe10.webp"
+    ]
+  },
+
+   {
+    "id": "endomarketing-sistema-de-ligacoes",
+    "tipo": "designs",
+    "categoria": ["endomarketing"],
+    "titulo": "Endomarketing Sistema de Ligações",
+    "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
+    "tecnologias": ["illustrator"],
+    "thumb": "img/portfolio/designs/endomarketing-sistema-de-ligacoes/thumb-endomarketing-sistema-de-ligacoes.webp",
+    "formato": "galeria",
+    "imagens": [
+      "img/portfolio/designs/endomarketing-sistema-de-ligacoes/endomarketing-sistema-de-ligacoes1.webp",
+      "img/portfolio/designs/endomarketing-sistema-de-ligacoes/endomarketing-sistema-de-ligacoes2.webp",
+      "img/portfolio/designs/endomarketing-sistema-de-ligacoes/endomarketing-sistema-de-ligacoes3.webp",
+      "img/portfolio/designs/endomarketing-sistema-de-ligacoes/endomarketing-sistema-de-ligacoes4.webp"
     ]
   },
 
   {
     "id": "endomarketing-recursos-com-ia",
-    "tipo": "design",
+    "tipo": "designs",
     "categoria": ["endomarketing"],
     "titulo": "Endomarketing Novos Recursos com IA",
     "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
     "tecnologias": ["illustrator"],
-    "thumb": "img/portfolio/design/endomarketing-recursos-com-ia/thumb-endomarketing-recursos-com-ia.webp",
+    "thumb": "img/portfolio/designs/endomarketing-recursos-com-ia/thumb-endomarketing-recursos-com-ia.webp",
     "formato": "galeria",
     "imagens": [
-      "img/portfolio/design/endomarketing-recursos-com-ia/endomarketing-recursos-com-ia1.webp",
-      "img/portfolio/design/endomarketing-recursos-com-ia/endomarketing-recursos-com-ia2.webp",
-      "img/portfolio/design/endomarketing-recursos-com-ia/endomarketing-recursos-com-ia3.webp",
-      "img/portfolio/design/endomarketing-recursos-com-ia/endomarketing-recursos-com-ia4.webp",
-      "img/portfolio/design/endomarketing-recursos-com-ia/endomarketing-recursos-com-ia5.webp"
+      "img/portfolio/designs/endomarketing-recursos-com-ia/endomarketing-recursos-com-ia1.webp",
+      "img/portfolio/designs/endomarketing-recursos-com-ia/endomarketing-recursos-com-ia2.webp",
+      "img/portfolio/designs/endomarketing-recursos-com-ia/endomarketing-recursos-com-ia3.webp",
+      "img/portfolio/designs/endomarketing-recursos-com-ia/endomarketing-recursos-com-ia4.webp",
+      "img/portfolio/designs/endomarketing-recursos-com-ia/endomarketing-recursos-com-ia5.webp"
     ]
   },
 
   {
     "id": "anuncio-poli-chatbot",
-    "tipo": "design",
+    "tipo": "designs",
     "categoria": ["motion", "anuncio"],
     "titulo": "Poli Digital | Plataforma com Chatbot",
     "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
     "tecnologias": ["premiere", "after-effects"],
-    "thumb": "img/portfolio/design/thumb-anuncio-poli-digital-plataforma.webp",
+    "thumb": "img/portfolio/designs/thumb-anuncio-poli-digital-plataforma.webp",
     "videoUrl": "https://youtube.com/shorts/bgEbSisNfrQ",
     "formato": "video"
   },
 
   {
+    "id": "carrossel-seguranca-em-acao",
+    "tipo": "designs",
+    "categoria": ["carrossel"],
+    "titulo": "Carrossel Segurança em Ação | Portaria",
+    "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
+    "tecnologias": ["illustrator"],
+    "thumb": "img/portfolio/designs/carrossel-seguranca-em-acao/thumb-seguranca-em-acao.webp",
+    "formato": "galeria",
+    "imagens": [
+      "img/portfolio/designs/carrossel-seguranca-em-acao/carrossel-seguranca-em-acao1.webp",
+      "img/portfolio/designs/carrossel-seguranca-em-acao/carrossel-seguranca-em-acao2.webp",
+      "img/portfolio/designs/carrossel-seguranca-em-acao/carrossel-seguranca-em-acao3.webp",
+      "img/portfolio/designs/carrossel-seguranca-em-acao/carrossel-seguranca-em-acao4.webp",
+      "img/portfolio/designs/carrossel-seguranca-em-acao/carrossel-seguranca-em-acao5.webp"
+    ]
+  },
+
+  {
     "id": "endomarketin-poli-flow-crm",
-    "tipo": "design",
+    "tipo": "designs",
     "categoria": ["endomarketing"],
     "titulo": "Endomarketing Poli Flow CRM",
     "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
     "tecnologias": ["illustrator"],
-    "thumb": "img/portfolio/design/endomarketing-flow-crm/thumb-endomarketing-flow-crm.webp",
+    "thumb": "img/portfolio/designs/endomarketing-flow-crm/thumb-endomarketing-flow-crm.webp",
     "formato": "galeria",
     "imagens": [
-      "img/portfolio/design/endomarketing-flow-crm/endomarketing-flow-crm1.webp",
-      "img/portfolio/design/endomarketing-flow-crm/endomarketing-flow-crm2.webp",
-      "img/portfolio/design/endomarketing-flow-crm/endomarketing-flow-crm3.webp",
-      "img/portfolio/design/endomarketing-flow-crm/endomarketing-flow-crm4.webp",
-      "img/portfolio/design/endomarketing-flow-crm/endomarketing-flow-crm5.webp",
-      "img/portfolio/design/endomarketing-flow-crm/endomarketing-flow-crm6.webp"
+      "img/portfolio/designs/endomarketing-flow-crm/endomarketing-flow-crm1.webp",
+      "img/portfolio/designs/endomarketing-flow-crm/endomarketing-flow-crm2.webp",
+      "img/portfolio/designs/endomarketing-flow-crm/endomarketing-flow-crm3.webp",
+      "img/portfolio/designs/endomarketing-flow-crm/endomarketing-flow-crm4.webp",
+      "img/portfolio/designs/endomarketing-flow-crm/endomarketing-flow-crm5.webp",
+      "img/portfolio/designs/endomarketing-flow-crm/endomarketing-flow-crm6.webp"
     ]
   },
 
   {
     "id": "anuncio-poli-plataforma",
-    "tipo": "design",
+    "tipo": "designs",
     "categoria": ["motion", "anuncio"],
     "titulo": "Poli Digital | Plataforma oficial do WhatsApp",
     "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
     "tecnologias": ["premiere", "after-effects"],
-    "thumb": "img/portfolio/design/thumb-anuncio-poli-digital-plataforma-oficial.webp",
+    "thumb": "img/portfolio/designs/thumb-anuncio-poli-digital-plataforma-oficial.webp",
     "videoUrl": "https://youtube.com/shorts/Z8Ssh3KUzu8",
     "formato": "video"
   },
 
   {
     "id": "anuncio-campos-sanches-faxina",
-    "tipo": "design",
+    "tipo": "designs",
     "categoria": ["anuncio"],
     "titulo": "Campos Sanches | Dia de faxina",
     "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
     "tecnologias": ["premiere", "after-effects"],
-    "thumb": "img/portfolio/design/thumb-campos-sanches-higienizacao.webp",
+    "thumb": "img/portfolio/designs/thumb-campos-sanches-higienizacao.webp",
     "videoUrl": "https://youtube.com/shorts/zip_KkazTDo",
     "formato": "video"
   },
 
   {
-    "id": "logo-grupo-ama",
-    "tipo": "design",
-    "categoria": ["logo"],
-    "titulo": "Grupo Ama | Serviços Personalizados",
-    "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
-    "tecnologias": ["coreldraw"],
-    "thumb": "img/portfolio/design/logo-grupo-ama/thumb-logo-grupo-ama.webp",
-    "formato": "galeria",
-    "imagens": [
-      "img/portfolio/design/logo-grupo-ama/logo-grupo-ama1.webp",
-      "img/portfolio/design/logo-grupo-ama/logo-grupo-ama2.webp",
-      "img/portfolio/design/logo-grupo-ama/logo-grupo-ama3.webp",
-      "img/portfolio/design/logo-grupo-ama/logo-grupo-ama4.webp",
-      "img/portfolio/design/logo-grupo-ama/logo-grupo-ama5.webp",
-      "img/portfolio/design/logo-grupo-ama/logo-grupo-ama6.webp",
-      "img/portfolio/design/logo-grupo-ama/logo-grupo-ama7.webp",
-      "img/portfolio/design/logo-grupo-ama/logo-grupo-ama8.webp",
-      "img/portfolio/design/logo-grupo-ama/logo-grupo-ama9.webp",
-      "img/portfolio/design/logo-grupo-ama/logo-grupo-ama10.webp",
-      "img/portfolio/design/logo-grupo-ama/logo-grupo-ama11.webp",
-      "img/portfolio/design/logo-grupo-ama/logo-grupo-ama12.webp",
-      "img/portfolio/design/logo-grupo-ama/logo-grupo-ama13.webp",
-      "img/portfolio/design/logo-grupo-ama/logo-grupo-ama14.webp",
-      "img/portfolio/design/logo-grupo-ama/logo-grupo-ama15.webp",
-      "img/portfolio/design/logo-grupo-ama/logo-grupo-ama16.webp",
-      "img/portfolio/design/logo-grupo-ama/logo-grupo-ama17.webp",
-      "img/portfolio/design/logo-grupo-ama/logo-grupo-ama18.webp"
-    ]
-  },
-
-  {
     "id": "ebook-guia-api-oficial-whatsapp",
-    "tipo": "design",
+    "tipo": "designs",
     "categoria": ["ebook"],
     "titulo": "Guia API Oficial do WhatsApp",
     "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
     "tecnologias": ["illustrator"],
-    "thumb": "img/portfolio/design/ebook-guia-api-oficial-whatsapp/thumb-ebook-guia-api-oficial-whatsapp.webp",
+    "thumb": "img/portfolio/designs/ebook-guia-api-oficial-whatsapp/thumb-ebook-guia-api-oficial-whatsapp.webp",
     "formato": "galeria",
     "imagens": [
-      "img/portfolio/design/ebook-guia-api-oficial-whatsapp/ebook-guia-api-oficial-whatsapp1.webp",
-      "img/portfolio/design/ebook-guia-api-oficial-whatsapp/ebook-guia-api-oficial-whatsapp2.webp",
-      "img/portfolio/design/ebook-guia-api-oficial-whatsapp/ebook-guia-api-oficial-whatsapp3.webp",
-      "img/portfolio/design/ebook-guia-api-oficial-whatsapp/ebook-guia-api-oficial-whatsapp4.webp",
-      "img/portfolio/design/ebook-guia-api-oficial-whatsapp/ebook-guia-api-oficial-whatsapp5.webp",
-      "img/portfolio/design/ebook-guia-api-oficial-whatsapp/ebook-guia-api-oficial-whatsapp6.webp",
-      "img/portfolio/design/ebook-guia-api-oficial-whatsapp/ebook-guia-api-oficial-whatsapp7.webp",
-      "img/portfolio/design/ebook-guia-api-oficial-whatsapp/ebook-guia-api-oficial-whatsapp8.webp",
-      "img/portfolio/design/ebook-guia-api-oficial-whatsapp/ebook-guia-api-oficial-whatsapp9.webp",
-      "img/portfolio/design/ebook-guia-api-oficial-whatsapp/ebook-guia-api-oficial-whatsapp10.webp",
-      "img/portfolio/design/ebook-guia-api-oficial-whatsapp/ebook-guia-api-oficial-whatsapp11.webp"
+      "img/portfolio/designs/ebook-guia-api-oficial-whatsapp/ebook-guia-api-oficial-whatsapp1.webp",
+      "img/portfolio/designs/ebook-guia-api-oficial-whatsapp/ebook-guia-api-oficial-whatsapp2.webp",
+      "img/portfolio/designs/ebook-guia-api-oficial-whatsapp/ebook-guia-api-oficial-whatsapp3.webp",
+      "img/portfolio/designs/ebook-guia-api-oficial-whatsapp/ebook-guia-api-oficial-whatsapp4.webp",
+      "img/portfolio/designs/ebook-guia-api-oficial-whatsapp/ebook-guia-api-oficial-whatsapp5.webp",
+      "img/portfolio/designs/ebook-guia-api-oficial-whatsapp/ebook-guia-api-oficial-whatsapp6.webp",
+      "img/portfolio/designs/ebook-guia-api-oficial-whatsapp/ebook-guia-api-oficial-whatsapp7.webp",
+      "img/portfolio/designs/ebook-guia-api-oficial-whatsapp/ebook-guia-api-oficial-whatsapp8.webp",
+      "img/portfolio/designs/ebook-guia-api-oficial-whatsapp/ebook-guia-api-oficial-whatsapp9.webp",
+      "img/portfolio/designs/ebook-guia-api-oficial-whatsapp/ebook-guia-api-oficial-whatsapp10.webp",
+      "img/portfolio/designs/ebook-guia-api-oficial-whatsapp/ebook-guia-api-oficial-whatsapp11.webp"
     ]
   },
 
   {
     "id": "anuncio-campos-sanches-uniforme",
-    "tipo": "design",
+    "tipo": "designs",
     "categoria": ["anuncio"],
     "titulo": "Campos Sanches | Não é só um uniforme",
     "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
     "tecnologias": ["premiere", "after-effects"],
-    "thumb": "img/portfolio/design/thumb-campos-sanches-uniforme.webp",
+    "thumb": "img/portfolio/designs/thumb-campos-sanches-uniforme.webp",
     "videoUrl": "https://youtube.com/shorts/757pQDMqpJo",
     "formato": "video"
   },
 
   {
     "id": "endomarketing-gagendamento-de-mensagens",
-    "tipo": "design",
+    "tipo": "designs",
     "categoria": ["endomarketing"],
     "titulo": "Endomarketing Agende Mensagens",
     "descricao": "Suspendisse dignissim lorem non nulla commodo vulputate. Ut at justo sed enim placerat congue. Nam et rhoncus nisi, in dapibus purus. Proin ut quam efficitur, varius purus vel, rutrum massa. In ac mi quis nibh luctus dapibus sed ut arcu. Nulla condimentum aliquam ornare. Ut mollis in augue ullamcorper aliquam. Quisque consectetur dolor ipsum. Sed eget tincidunt eros. Cras at metus sit amet metus consectetur commodo. Vestibulum egestas augue magna, vel varius ipsum pellentesque eget. Pellentesque vel suscipit ex. Nam et euismod ex. Nullam semper nisl ut ante pulvinar, vitae placerat enim porta. Quisque tempus rutrum feugiat.",
     "tecnologias": ["illustrator"],
-    "thumb": "img/portfolio/design/endomarkerting-agendamento-de-mensagens/thumb-endomarkerting-agendamento-de-mensagens.webp",
+    "thumb": "img/portfolio/designs/endomarkerting-agendamento-de-mensagens/thumb-endomarkerting-agendamento-de-mensagens.webp",
     "formato": "galeria",
     "imagens": [
-      "img/portfolio/design/endomarkerting-agendamento-de-mensagens/endomarkerting-agendamento-de-mensagens1.webp",
-      "img/portfolio/design/endomarkerting-agendamento-de-mensagens/endomarkerting-agendamento-de-mensagens2.webp",
-      "img/portfolio/design/endomarkerting-agendamento-de-mensagens/endomarkerting-agendamento-de-mensagens3.webp"
+      "img/portfolio/designs/endomarkerting-agendamento-de-mensagens/endomarkerting-agendamento-de-mensagens1.webp",
+      "img/portfolio/designs/endomarkerting-agendamento-de-mensagens/endomarkerting-agendamento-de-mensagens2.webp",
+      "img/portfolio/designs/endomarkerting-agendamento-de-mensagens/endomarkerting-agendamento-de-mensagens3.webp"
     ]
   }
 ]
