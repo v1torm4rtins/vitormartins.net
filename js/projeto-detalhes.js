@@ -246,7 +246,7 @@ function renderizarRelacionados(todosProjetos, projetoAtual) {
     const container = document.getElementById('lista-relacionados');
     if (!container) return;
 
-    // Filtra pelo mesmo tipo (front-end, design, etc), removendo o próprio projeto aberto
+    // Filtra pelo mesmo tipo (websites, designs, etc), removendo o próprio projeto aberto
     let filtrados = todosProjetos.filter(p => p.tipo === projetoAtual.tipo && p.id !== projetoAtual.id);
 
     // Embaralha aleatoriamente (Algoritmo Fisher-Yates)
